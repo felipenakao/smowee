@@ -75,6 +75,7 @@
                 Cotidiano
               </div>
             </div>
+            
             <div class="news-caption">
                 <h4>Título da Postagem</h4>
             </div>
