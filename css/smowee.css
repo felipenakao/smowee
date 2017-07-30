@@ -346,14 +346,12 @@ padding: 30px;
 color: #f8f4f3;
 }
 
-
 .service-heading {
   margin: 15px 0;
   text-transform: none;
 }
 
 #clube-de-beneficios{
-
     color: #f8f4f3;
 }
 
@@ -394,14 +392,33 @@ color: #f8f4f3;
 font-size: 10pt;
 font-family: 'Helvetica';
 color: white;
-
 }
 
 
-.blog-wrapper{
+.clube-de-beneficios-single{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-
-
+.clube-de-beneficios-single-img{
+  width: 500px;
+  height: 340px;
+  background: red;
+}
+.clube-de-beneficios-single-img img{
+  object-fit: cover;
+}
+.clube-de-beneficios-single-desc{
+  padding: 25px;
+  width: 650px;
+  height: auto;
+  background: rgba(34,34,34,0.8);
+  display: flex;
+  flex-direction: column;
+}
+.clube-de-beneficios-single-desc p{
+  font-family: 'Helvetica';
 }
 
 .blog-content{
