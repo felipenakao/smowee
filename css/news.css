@@ -1,0 +1,150 @@
+#news{
+  padding: 50px 0px 30px 0px;
+}
+
+.news-flex{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.news-recents{
+  background: #058a36;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: auto;
+  margin: 5px;
+}
+
+.news-grid-middle{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-grid-bottom{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-caption{
+  background: rgba(34, 34, 34, 1);
+  flex-grow: 1;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 3px black solid;
+  box-shadow: inset 0 0 10px #1d1d1d;
+}
+
+.news-caption h4{
+  color: white;
+  font-weight: 300;
+}
+
+.news-caption p{
+  color: #f2f2f2;
+  font-size: 10pt;
+  font-family: 'Helvetica';
+}
+
+.news-grid-middle .news-img{
+  height: 265px;
+}
+
+.news-grid-bottom .news-img{
+  height: 164px;
+}
+
+.news-cat{
+  padding: 5px 15px;
+  margin: 15px;
+  position: absolute;
+  color: #ecf0f1;
+  border-radius: 5px;
+}
+
+.news-flex .news-img{
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+#news-cat-1{
+  background: #0dcdc0;
+}
+
+#news-cat-2{
+  background: #d13f4a;
+}
+
+#news-cat-3{
+  background: #3598db;
+}
+
+#news-cat-4{
+  background: #e3a711;
+}
+
+@media (max-width: 768px){
+
+  .news-grid-middle,.news-grid-bottom{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .news-grid-middle .news-recents {
+    width: 90%;
+  }
+
+  .news-grid-bottom .news-recents {
+    width: 44%;
+  }
+
+}
+
+@media (min-width: 768px){
+
+  .news-grid-middle .news-recents {
+    width: 365px;
+  }
+
+  .news-grid-bottom .news-recents {
+    width: 177px;
+  }
+
+}
+
+@media (min-width: 992px){
+
+  .news-grid-middle .news-recents {
+    width: 475px;
+  }
+
+  .news-grid-middle .news-img{
+    height: 265px;
+  }
+
+  .news-grid-bottom .news-recents {
+    width: 232px;
+  }
+
+}
+
+@media (min-width: 1200px){
+
+  .news-item{
+    background: blue;
+  }
+
+  .news-grid-middle .news-recents {
+    width: 575px;
+  }
+
+  .news-grid-bottom .news-recents {
+    width: 282px;
+  }
+
+
+}
