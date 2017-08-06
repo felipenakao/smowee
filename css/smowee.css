@@ -49,6 +49,14 @@ h6 {
   font-weight: 300;
 }
 
+b{
+  font-weight: bold;
+}
+
+.yellow{
+  color: #e3a711;
+}
+
 .inner-shadow {
    -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
@@ -339,11 +347,16 @@ section h3.section-subheading {
 }
 
 .about-caption{
-width: 330px;
+width: 520px;
 height: 100%;
 background: rgba(34, 34, 34, 1);
 padding: 30px;
 color: #f8f4f3;
+}
+
+.about-caption p{
+  font-family: 'Helvetica';
+  font-size: 9pt;
 }
 
 .service-heading {
@@ -636,8 +649,8 @@ height: 50px;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 #home-buttons .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
@@ -673,25 +686,32 @@ align-items: center;
 #home-buttons .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 16px;
-  margin: 0;
+  font-size: 10pt;
+  margin: 15px 0;
 }
 #home-buttons * {
   z-index: 2;
 }
 
 .home-buttons-top{
-
   background-image: url('../img/home-buttons/top.jpg');
   width: auto;
   height: 400px;
   background-position: center;
   background-size: cover;
   margin: 5px;
-
 }
 
-
+.contato-label p{
+  font-size: 12pt;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  color: white;
+  margin: 0px 60px 30px 60px;
+  text-align: center;
+}
 
 @media (min-width: 767px) {
   #home-buttons .portfolio-item {
