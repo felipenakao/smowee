@@ -1291,6 +1291,35 @@ img::-moz-selection {
 
 @media (min-width: 1200px) {
 
+  .crawler_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 790px;
+    margin: auto ;
+  }
+
+  .crawler_produto{
+      width: 200px;
+      height: 275px;
+  }
+
+  .crawler_produto:hover{
+  opacity: 0.8;
+
+  }
+  .crawler_produto_title{
+  text-align: center;
+  margin: 15px;
+
+  }
+
+  .crawler_produto_img{
+width: 200px;
+height: 200px;
+border: 1px solid #c6c6c6;
+  }
+
   .blog-content .news-img {
     height: 224px;
   }
