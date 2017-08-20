@@ -7,13 +7,13 @@
             </a>
         </li>
         <li>
-            <a href="#"><i class="fa fa-fw fa-archive"></i> Blog</a>
+            <a href="/admin/blog"><i class="fa fa-fw fa-archive"></i> Blog</a>
         </li>
         <li>
-            <a href="#"><i class="fa fa-fw fa-users"></i> Clube de benefícios</a>
+            <a href="/admin/cdb"><i class="fa fa-fw fa-users"></i> Clube de benefícios</a>
         </li>
         <li>
-            <a href="#"><i class="fa fa-fw fa-search"></i> Farofino</a>
+            <a href="/admin/farofino"><i class="fa fa-fw fa-search"></i> Farofino</a>
         </li>
         <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-plus"></i> Dropdown <span class="caret"></span></a>
