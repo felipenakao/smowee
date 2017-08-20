@@ -64,9 +64,16 @@
 
 <!-- jQuery -->
 <script type="text/javascript" src="/js/instafeed.js"></script>
-{{-- <script src="vendor/components/jquery/jquery.min.js"></script>
-Bootstrap Core JavaScript
-<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script> --}}
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '2069783005',
+        accessToken: '2069783005.1677ed0.b78630fd97b343e6a8b7c36686659ec1'
+    });
+    userFeed.run();
+</script>
+<script src="/jquery/jquery.js"></script>
+<script src="/bootstrap/js/bootstrap.js"></script>
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 <!-- Contact Form JavaScript -->
@@ -74,13 +81,18 @@ Bootstrap Core JavaScript
 <script src="/js/contact_me.js"></script>
 <!-- Theme JavaScript -->
 <script src="/js/smowee.js"></script>
-<script>
-  var userFeed = new Instafeed({
-    get: 'user',
-    sortBy: 'most-recent',
-    userId: '2243081801',
-    limit: 14,
-    accessToken: '2069783005.aeeff59.b0693c4c7a6749bcabeecac8e1d96591'
+<script type="text/javascript">
+
+
+  $('div.paralax-bg').each(function(){
+    var $obj = $(this);
+
+    $(window).scroll(function() {
+      var yPos = -($(window).scrollTop() / $obj.data('speed'));
+      var bgpos = '50% '+ yPos + 'px';
+      $obj.css('background-position', bgpos );
+    });
   });
-  userFeed.run();
+
+
 </script>

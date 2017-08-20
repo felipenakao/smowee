@@ -181,6 +181,15 @@
     </div>
   </section>
   <!-- Botões Páginas -->
+  <!-- Paralax -->
+  <section id="paralax">
+    <div class="row">
+      <div class="paralax-bg" data-speed="15">
+        <span>Acreditamos que um trabalho de conscientização é mais eficaz que a política de repreensão. Baseado em estudos realizados sobre a descriminalização e/ou legalização da Cannabis, pode se notar que o impacto social é de maioria positiva.</span>
+      </div>
+    </div>
+  </section>
+  <!-- Paralax -->
   <!-- Instagram -->
   <section id="instagram">
     <div class="container">
