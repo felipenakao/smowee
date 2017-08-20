@@ -27,6 +27,10 @@ Route::get('/clube-de-beneficios', function () {
     return view('cdb.display');
 });
 
+Route::get('/login', function () {
+    return view('cdb.login');
+});
+
 Route::get('/clube-de-beneficios/{product}', function () {
     return view('cdb.product');
 });
