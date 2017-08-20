@@ -315,7 +315,7 @@ section h3.section-subheading {
   font-style: italic;
   font-weight: 400;
   margin-bottom: 20px;
-  color: #fec503;
+  color: #343434;
 }
 
 .about-caption {
@@ -344,7 +344,7 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-buttons {
-  margin-top: 35px;
+  margin-top: 5px;
 }
 
 .clube-de-beneficios-buttons-item {
@@ -485,6 +485,33 @@ section h3.section-subheading {
 
 .clube-de-beneficios-single-desc p {
   font-family: 'Helvetica';
+}
+
+
+.cdb-slider{
+  width: 850px;
+  height: 285px;
+}
+
+.cdb-exit{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cdb-user{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.cdb-user h4{
+  font-family: Helvetica;
+  font-size: 9pt;
+}
+
+.cdb-user img{
+  margin-right: 10px;
+
 }
 
 .blog-content-single {

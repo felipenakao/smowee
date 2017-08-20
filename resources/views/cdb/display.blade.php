@@ -80,11 +80,19 @@
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <input type="tel" class="form-control" placeholder="Data de Nascimento *" id="data" required data-validation-required-message="Por favor insira sua data de nascimento.">
+                <input type="date" class="form-control" placeholder="Data de Nascimento *" id="data" required data-validation-required-message="Por favor insira sua data de nascimento.">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <input type="tel" class="form-control" placeholder="CPF *" id="cpf" required data-validation-required-message="Por favor insira seu CPF.">
+                <input type="text" class="form-control" placeholder="Cidade *" id="cidade" required data-validation-required-message="Por favor insira sua data de nascimento.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Data de Nascimento *" id="estado" required data-validation-required-message="Por favor insira sua data de nascimento.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" placeholder="CPF *" id="cpf" required data-validation-required-message="Por favor insira seu CPF.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>

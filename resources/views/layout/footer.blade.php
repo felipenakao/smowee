@@ -3,10 +3,8 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">CONTATO</h2>
-                <h3 class="section-subheading text-muted">Entre em contato com a Smowee</h3>
-                <div class="row contato-label">
-                  <p>Acreditamos que um trabalho de conscientização é mais eficaz que a política de repreensão. Baseado em estudos realizados sobre a descriminalização e/ou legalização da Cannabis, pode se notar que o impacto social é de maioria positiva.</p>
-                </div>
+                <h3 style="color:#fec503;" class="section-subheading text-muted">Entre em contato com a Smowee</h3>
+                
             </div>
         </div>
         <div class="row">
