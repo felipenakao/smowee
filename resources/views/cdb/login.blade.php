@@ -67,9 +67,9 @@
         </div>
 
         <div class="cdb-exit">
+          <button type="submit" class="btn btn-xl">Alterar Dados</button>
           <button type="submit" class="btn btn-xl">Sair</button>
         </div>
-
     </div>
   </div>
   <div class="row clube-de-beneficios-buttons">
@@ -78,7 +78,10 @@
         <img src="img/home-buttons/button-1.jpg" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
           <h4>Kit do Mes</h4>
-          <p class="text-muted">O Smowee em parcerias com algumas marcas e tabacarias, iremos disponibilizar cupons de descontos para compras em sites on-lines ou lojas físicas. </p>
+          <p class="text-muted">
+
+O Smowee em parcerias com algumas marcas e fabricantes, iremos enviar produtos para vocês avaliarem e enviarem seu Feedback diretamente para a fabricante com a sua opinião.
+             </p>
         </div>
       </div>
     </a>
@@ -88,7 +91,7 @@
         <img src="img/home-buttons/button-2.jpg" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
           <h4>Turismo Cannabico</h4>
-          <p class="text-muted">O Smowee em parcerias com algumas marcas e fabricantes, iremos enviar produtos para vocês avaliarem e enviarem seu Feedback diretamente para a fabricante com a sua opinião. </p>
+          <p class="text-muted">  O Smowee em parcerias com uma plataforma de integração de turismo focada em viagens cannábicas, iremos disponibilizar pacotes de turismo para países que sejam permitidos com toda a segurança e comodidade da nossa parceira MiCasa420.</p>
         </div>
       </div>
     </a>
@@ -108,7 +111,10 @@
         <img src="img/soon.png" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
           <h4>Cupons de Desconto</h4>
-          <p class="text-muted">O Smowee em parcerias com uma plataforma de integração de turismo focada em viagens cannábicas, iremos disponibilizar pacotes de turismo para países que sejam permitidos com toda a segurança e comodidade da nossa parceira MiCasa420. </p>
+          <p class="text-muted">
+
+O Smowee em parcerias com algumas marcas e tabacarias, iremos disponibilizar cupons de descontos para compras em sites on-lines ou lojas físicas.
+           </p>
         </div>
       </div>
     </a>

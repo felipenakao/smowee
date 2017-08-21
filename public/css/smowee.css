@@ -352,13 +352,54 @@ section h3.section-subheading {
   background: rgba(34, 34, 34, 0.8);
 }
 
-.clube-de-beneficios-about{
+.clube-de-beneficios-about,.cdb-single{
   width: 868px;
   float: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.cdb-single-top{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.cdb-single-bottom{
+  width: 850px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.cdb-single-gallery{
+  width: 850px;
+  height: 285px;
+  background: rgba(34,34,34,0.9);
+  padding: 15px;
+}
+
+
+.cdb-single-text{
+  width: 275px;
+  height: auto;
+  background: rgba(34,34,34,0.9);
+  margin: 20px 0px;
+  padding: 15px;
+}
+
+.cdb-single-text ul{
+  padding:  0px 20px;
+}
+
+
+
+.content-slider img,.content-slider li{
+    width: 250px;
+    height: 250px;
 }
 
 .clube-de-beneficios-side{
@@ -369,11 +410,11 @@ section h3.section-subheading {
   flex-wrap: wrap;
 }
 
-.clube-de-beneficios-about h3,.clube-de-beneficios-side h3{
+.cdb-single h3,.clube-de-beneficios-about h3,.clube-de-beneficios-side h3{
   margin-top: 10px;
 }
 
-.clube-de-beneficios-about p,.clube-de-beneficios-side p {
+.cdb-single p,.clube-de-beneficios-about p,.clube-de-beneficios-side p {
   font-family: 'Helvetica';
   font-size: 10pt;
 }
@@ -427,12 +468,70 @@ section h3.section-subheading {
   margin: 0px 0px 20px 0px;
 }
 
+.valor{
+  display: flex;
+  align-items: center;
+
+}
+
+.valor p{
+  font-size: 18pt;
+font-family: 'Fjalla One';
+margin: 0px;
+padding:  0px 15px;
+}
+
+.valor h3{
+
+}
+
+.cdb-single-steps{
+width: 850px;
+height: 500px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+
+}
+
+.cdb-single-steps-list{
+  background: rgba(34, 34, 34, 0.9);
+  width: auto;
+  display: flex;
+  margin: 15px 0px;
+  margin: 15px 0px 6px 0px;
+}
+
+.steps-number{
+  width: 75px;
+  height: 75px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.steps-number span{
+  font-size: 32pt;
+}
+
+.steps-text{
+  width: auto;
+  height: 75px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 11pt;
+  font-family: 'helvetica';
+  font-style: italic;
+}
 .clube-de-beneficios-side-form-grid{
   padding: 0px 15px;
 }
 
 .clube-de-beneficios-side button{
-  padding: 5px 30px;
+  padding: 5px 15px;
 }
 
 .esqueci{
@@ -495,7 +594,7 @@ section h3.section-subheading {
 
 .cdb-exit{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .cdb-user{

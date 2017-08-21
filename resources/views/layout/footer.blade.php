@@ -4,7 +4,7 @@
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">CONTATO</h2>
                 <h3 style="color:#fec503;" class="section-subheading text-muted">Entre em contato com a Smowee</h3>
-                
+
             </div>
         </div>
         <div class="row">
@@ -83,8 +83,21 @@
 <script src="/js/contact_me.js"></script>
 <!-- Theme JavaScript -->
 <script src="/js/smowee.js"></script>
+
+<script src="/js/lightslider.js"></script>
+
 <script type="text/javascript">
 
+  $(document).ready(function(){
+    $("#content-slider").lightSlider({
+      loop:true,
+      keyPress:true,
+      enableTouch:false,
+      enableDrag:false,
+      controls: true,
+      pager: false,
+    });
+  });
 
   $('div.paralax-bg').each(function(){
     var $obj = $(this);
