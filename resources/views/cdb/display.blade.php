@@ -35,7 +35,7 @@
 
     <div class="clube-de-beneficios-side">
       <div class="cdb-side-caption">
-        <h3 class="section-heading ">Acessar</h2>
+        <h3 class="section-heading "><a href="/login">Acessar</a></h2>
           <form name="sentMessage" id="contactForm" novalidate>
             <div class="row">
               <div class="clube-de-beneficios-side-form-grid">
@@ -64,7 +64,7 @@
         <h3 class="section-heading ">Cadastre-se agora!</h2>
         <p>Está esperando o quê para ser um novo <a class="yellow" href="#">membro</a> e aproveitar tudo isso?!</p>
         <p>Não vai <span class="yellow">lesar</span> e ficar de fora dessa nova marola que está vindo!</p>
-        <form name="sentMessage" id="contactForm" novalidate>
+        <form name="sentMessage" id="cadastrocdb" novalidate>
           <div class="row">
             <div class="clube-de-beneficios-side-form-grid">
               <div class="form-group">

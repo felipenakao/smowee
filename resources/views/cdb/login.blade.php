@@ -6,45 +6,43 @@
     <h2 class="section-heading ">CLUBE DE BENEFÍCIOS - ** Usuário Logado **</h2>
   </div>
 </div>
+
 <div class="row clube-de-beneficios-grid">
   <div class="clube-de-beneficios-about">
+    <div class="cdb-slider">
+      <div id="cdb-carousel" class="carousel slide" data-ride="carousel">
+        <!-- Slides -->
+        <ol class="carousel-indicators">
+          <li data-target="#cdb-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#cdb-carousel" data-slide-to="1"></li>
+          <li data-target="#cdb-carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/cdb/about/cdb-slider-01.jpg" alt="Los Angeles">
+          </div>
 
-      <div class="cdb-slider">
-        <div id="cdb-carousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#cdb-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#cdb-carousel" data-slide-to="1"></li>
-    <li data-target="#cdb-carousel" data-slide-to="2"></li>
-  </ol>
+          <div class="item">
+            <img src="img/cdb/about/cdb-slider-02.jpg" alt="Chicago">
+          </div>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="img/cdb/about/cdb-slider-01.jpg" alt="Los Angeles">
-    </div>
+          <div class="item">
+            <img src="img/cdb/about/cdb-slider-03.jpg" alt="New York">
+          </div>
+        </div>
 
-    <div class="item">
-      <img src="img/cdb/about/cdb-slider-02.jpg" alt="Chicago">
-    </div>
+        <a class="left carousel-control" href="#cdb-carousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
 
-    <div class="item">
-      <img src="img/cdb/about/cdb-slider-03.jpg" alt="New York">
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#cdb-carousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#cdb-carousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
+        <a class="right carousel-control" href="#cdb-carousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
       </div>
+    </div>
   </div>
 
   <div class="clube-de-beneficios-side">
@@ -72,16 +70,21 @@
         </div>
     </div>
   </div>
+
+  <div class="row clube-de-beneficios-text">
+    <h3>Bem vindo ao Clube de Benefícios Smowee!</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu condimentum urna. Sed sit amet dui in ligula vehicula ultrices. Nunc dolor quam, pharetra at placerat at, lobortis ac nisl. Quisque commodo, massa eu pellentesque tempus, arcu eros pretium nisi, sed consequat ligula est eget tortor. Phasellus ipsum quam, ultrices eget velit sit amet, viverra rutrum ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis id odio rutrum, tempus urna at, vestibulum magna. Proin sit amet purus sed felis semper volutpat ut ut orci. Praesent pellentesque tincidunt felis, ut ultricies justo facilisis tempor. Nullam at accumsan augue. Nulla sed arcu et lorem dignissim malesuada vitae vitae erat.
+    </p>
+  </div>
+
   <div class="row clube-de-beneficios-buttons">
     <a href="tabacaria.html" class="portfolio-link" >
       <div class="clube-de-beneficios-buttons-list col-md-3 col-sm-6">
-        <img src="img/home-buttons/button-1.jpg" class="img-responsive" alt="">
+        <img src="img/home-buttons/button-3.jpg" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
           <h4>Kit do Mes</h4>
-          <p class="text-muted">
-
-O Smowee em parcerias com algumas marcas e fabricantes, iremos enviar produtos para vocês avaliarem e enviarem seu Feedback diretamente para a fabricante com a sua opinião.
-             </p>
+          <p class="text-muted">O Smowee em parcerias com algumas marcas e fabricantes, iremos enviar produtos para vocês avaliarem e enviarem seu Feedback diretamente para a fabricante com a sua opinião.</p>
         </div>
       </div>
     </a>
@@ -91,7 +94,7 @@ O Smowee em parcerias com algumas marcas e fabricantes, iremos enviar produtos p
         <img src="img/home-buttons/button-2.jpg" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
           <h4>Turismo Cannabico</h4>
-          <p class="text-muted">  O Smowee em parcerias com uma plataforma de integração de turismo focada em viagens cannábicas, iremos disponibilizar pacotes de turismo para países que sejam permitidos com toda a segurança e comodidade da nossa parceira MiCasa420.</p>
+          <p class="text-muted">O Smowee em parcerias com uma plataforma de integração de turismo focada em viagens cannábicas, iremos disponibilizar pacotes de turismo para países que sejam permitidos com toda a segurança e comodidade da nossa parceira MiCasa420.</p>
         </div>
       </div>
     </a>
@@ -101,7 +104,7 @@ O Smowee em parcerias com algumas marcas e fabricantes, iremos enviar produtos p
         <img src="img/soon.png" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
           <h4>Auto Cultivo</h4>
-          <p class="text-muted">O Smowee em parcerias com uma plataforma de integração de turismo focada em viagens cannábicas, iremos disponibilizar pacotes de turismo para países que sejam permitidos com toda a segurança e comodidade da nossa parceira MiCasa420. </p>
+          <p class="text-muted">Aqui você encontrará o suporte necessário para começar ou melhor sua experiência com o cultivo da Planta, estamos fechando parcerias e Em Breve lançaremos essa novidade.</p>
         </div>
       </div>
     </a>
@@ -111,13 +114,17 @@ O Smowee em parcerias com algumas marcas e fabricantes, iremos enviar produtos p
         <img src="img/soon.png" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
           <h4>Cupons de Desconto</h4>
-          <p class="text-muted">
-
-O Smowee em parcerias com algumas marcas e tabacarias, iremos disponibilizar cupons de descontos para compras em sites on-lines ou lojas físicas.
-           </p>
+          <p class="text-muted">Aqui quem é Smoweer sempre tem desconto nas melhores tabacarias e sites on-line, estamos fechando parcerias e Em Breve lançaremos essa novidade.</p>
         </div>
       </div>
     </a>
   </div>
+  <!-- Instagram -->
+    <div class="row">
+      <h3>#CDBSMOWEE</h3>
+      <div id="instafeed" style="justify-content:left"></div>
+    </div>
+  </div>
+  <!-- Instagram -->
 </div>
 @endsection

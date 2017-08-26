@@ -38,3 +38,6 @@ Route::get('/clube-de-beneficios/{product}', function () {
 Route::get('/farofino', function () {
     return view('farofino.options');
 });
+Route::get('/farofino/list', function () {
+    return view('farofino.pricelist');
+});

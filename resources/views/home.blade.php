@@ -30,6 +30,9 @@
             <p>
               Nossa missão é mostrar para a sociedade que a nossa comunidade 420 é formada por pessoas do bem e acabar com este estereótipo negativo em relação ao “maconheiro”, e que o fato de você ser como a gente, um amante e usuário consciente da planta, não faz de você menos capacitado que uma pessoa “normal”.
             </p>
+            <p style="font-size:12pt" class="yellow">
+              Você poderá nos ajudar a construir essa História.
+            </p>
           </div>
         </div>
       </div>
@@ -135,48 +138,47 @@
       </div>
 
       <div class="row">
+
+
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a href="#" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                  <div class="smowee-icon"></div>
-              </div>
-
-              <img src="/img/home-buttons/button-1.jpg" class="img-responsive" alt="">
+            <div class="portfolio-hover">
+              <div class="smowee-icon"></div>
+            </div>
+            <img src="/img/home-buttons/button-cdb.jpg" class="img-responsive" alt="">
           </a>
+          <div class="portfolio-caption">
+            <h4>Clube de Benefícios</h4>
+            <p class="text-muted">O Clube de Benefícios Smowee é voltado para o usuário do Mundo Cannábico, onde reunimos os melhores serviços relacionados a nossa comunidade em um só lugar. Através de parcerias selecionadas, nossa proposta é trazer um novo conceito e juntar a galera 420.</p>
+          </div>
+        </div>
 
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="smowee-icon"></div>
+            </div>
+            <img src="/img/home-buttons/button-farofino.jpg" class="img-responsive" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Faro Fino</h4>
+            <p class="text-muted">O Faro Fino é um dos nossos projetos pioneiros em contribuição a nossa comunidade 420, um comparativo de preços das Tabacarias Online para que os nossos membros sempre encontrem a melhor oferta.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="smowee-icon"></div>
+            </div>
+            <img src="/img/soon.png" class="img-responsive" alt="">
+          </a>
           <div class="portfolio-caption">
               <h4>APP Smowee</h4>
               <p class="text-muted">O App Smowee terá um formato único no Brasil. A sua função será facilitar a vida de quem quer aproveitar ao máximo seu momento 420 (Lançamento Inicial em São Paulo).</p>
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="smowee-icon"></div>
-            </div>
-
-            <img src="/img/home-buttons/button-2.jpg" class="img-responsive" alt="">
-          </a>
-
-          <div class="portfolio-caption">
-            <h4>Clube de Benefícios</h4>
-            <p class="text-muted">O Clube de Benefícios Smowee é voltado para o usuário do Mundo Cannábico, onde reunimos os melhores serviços relacionados a nossa comunidade em um só lugar. Através de parcerias selecionadas, nossa proposta é trazer um novo conceito e juntar a galera 420.</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="smowee-icon"></div>
-            </div>
-            <img src="/img/home-buttons/button-3.jpg" class="img-responsive" alt="">
-          </a>
-
-          <div class="portfolio-caption">
-            <h4>Crawler</h4>
-            <p class="text-muted">O Crawler é um dos nossos projetos pioneiros em contribuição a nossa comunidade 420, um comparativo de preços das Tabacarias Online para que os nossos membros sempre encontrem a melhor oferta.</p>
-          </div>
-        </div>
       </div>
     </div>
   </section>

@@ -361,6 +361,26 @@ section h3.section-subheading {
   flex-wrap: wrap;
 }
 
+.clube-de-beneficios-text{
+  background: rgba(34, 34, 34, 0.9);
+  height: auto;
+  padding: 15px;
+  width: 100%;
+  margin: auto;
+}
+
+.clube-de-beneficios-text p{
+  font-family: helvetica;
+  font-size: 9pt;
+  border-left: 2px solid #058a36;
+  padding: 0px 15px;
+}
+
+.clube-de-beneficios-text h3{
+  border-left: 2px solid #058a36;
+  padding: 0px 15px;
+}
+
 .cdb-single-top{
 display: flex;
 flex-direction: row;
@@ -1285,6 +1305,9 @@ img::-moz-selection {
   align-items: center;
 }
 
+
+
+
 @media (max-width: 768px) {
 
   .blog-content .news-img {
@@ -1536,33 +1559,217 @@ img::-moz-selection {
 
 @media (min-width: 1200px) {
 
+  #farofino{
+    padding-top: 60px;
+  }
+
+  #farofino .container{
+    background: rgba(34,34,34,1);
+  }
+
+  #farofino h2{
+
+  }
+
+  #farofino h3{
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+  }
+
+  #farofino-banner{
+    width: 1170px;
+    height: 250px;
+    background-image: url('/img/crawler/farofino-banner.jpg');
+  }
+
+
+
   .crawler_wrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 790px;
+    justify-content: center;
+    width: auto;
     margin: auto ;
   }
 
+
+
+  .crawler-text{
+
+  padding: 15px 200px;
+  margin: 30px;
+
+  border-top:  1px solid #fec503;
+  border-bottom: 1px solid #fec503;
+  }
+
+  .crawler-text h2{
+    text-align: center;
+  padding: 15px;
+  margin: 0px;
+  color: white}
+
+  .crawler-text p{
+    text-align: center;
+  font-size: 9pt;
+  font-family: helvetica;
+    color:#c7c7c7;
+  }
+
   .crawler_produto{
-      width: 200px;
-      height: 275px;
+    width: 160px;
+  height: auto;
+  padding: 10px;
+  margin: 30px 15px;
+  background: #202020;
+box-shadow: 0px 0px 5px #101010;
+  }
+
+  .crawler_produto p{
+
+    font-family: helvetica;
+    font-size: 9pt;
+    color: #c7c7c7
   }
 
   .crawler_produto:hover{
-  opacity: 0.8;
+border: 1px solid #fec503;
+cursor: pointer;
 
   }
   .crawler_produto_title{
-  text-align: center;
+    text-align: center;
   margin: 15px;
+  font-size: 12pt;
+  text-transform: uppercase;
+  letter-spacing: 0.5pt;
+  color: whitesmoke;
 
   }
 
   .crawler_produto_img{
-width: 200px;
-height: 200px;
+width: 100%;
 border: 1px solid #c6c6c6;
+  }
+
+
+
+  .crawler_wrapper_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    margin: auto ;
+
+  }
+
+  .crawler_wrapper_list h2{
+    width: 100%;
+    text-align: center;
+padding: 15px;
+margin: 30px 0px;
+
+color: white;
+
+  }
+
+  .crawler_side_list{
+  box-shadow: 0px 0px 5px #101010;
+    width: 20%;
+  height: auto;
+  background: #202020;
+
+  }
+
+  .crawler_side_title{
+    font-size: 12pt;
+  color: #fec503;
+  text-align: center;
+  padding: 15px;
+  }
+
+
+  .crawler_side_filter{
+    padding: 15px;
+    color: #c7c7c7;
+  }
+
+  .crawler_side_list select{
+    color: #202020;
+    border: 0;
+width: 100%;
+height: 30px;
+font-size: 9pt;
+  }
+
+  .crawler_side_list input{
+    margin: 10px;
+  }
+
+
+
+
+
+  .crawler_content_list{
+
+    width: 80%;
+    height: auto;
+  }
+
+  .crawler_produto_list{
+
+    box-shadow: 0px 0px 5px #101010;
+width: auto;
+height: auto;
+overflow: hidden;
+padding: 15px;
+margin: 0px 15px 15px;
+display: flex;
+flex-wrap: wrap;
+  }
+
+  .crawler_produto_list_caption{
+    padding: 0px 15px;
+    color: white;
+    width: 630px;
+  }
+
+  .crawler_produto_list_caption h4{
+
+    color: #fec503;
+
+  }
+
+  .crawler_produto_list_caption p{
+    color: #a3a3a3;
+    font-family: helvetica;
+    font-size: 9pt;
+  }
+
+  .crawler_produto_list_go{
+    padding: 15px;
+    width: 120px;
+    height: auto;
+    border-left: 1px solid black;
+  }
+
+  .crawler_produto_list_go .price{
+    color: #89be6f;
+    font-size: 18pt;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .crawler_produto_list_go .button_loja{
+  color: white;
+    text-align: center;
+  }
+
+
+  .crawler_produto_list_img{
+    width: 100px;
   }
 
   .blog-content .news-img {
@@ -1594,7 +1801,7 @@ border: 1px solid #c6c6c6;
   .about-bg {
     background-image: url('../img/about/about-bg.jpg');
     width: 100%;
-    height: 400px;
+    height: 440px;
     background-position-y: 0px;
     background-size: cover;
   }
