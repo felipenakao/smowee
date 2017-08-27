@@ -1305,6 +1305,25 @@ img::-moz-selection {
   align-items: center;
 }
 
+.parceiros-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.parceiros-text{
+  width: 70%;
+  background: white;
+  padding: 30px;
+  height: auto;
+}
+
+.parceiros-side{
+  width: 25%;
+  background: white;
+  padding: 30px;
+  height: auto;
+}
 
 
 
