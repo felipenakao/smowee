@@ -28,6 +28,10 @@ Route::get('/clube-de-beneficios', function () {
     return view('cdb.display');
 });
 
+Route::get('/login', function () {
+    return view('cdb.login');
+});
+
 Route::get('/clube-de-beneficios/{product}', function () {
     return view('cdb.product');
 });
@@ -58,3 +62,11 @@ Route::get('/admin/blog', function () {
     return view('admin.blog');
 });
 // ADMIN
+
+Route::get('/farofino/list', function () {
+    return view('farofino.pricelist');
+});
+
+Route::get('/parceiros', function () {
+    return view('parceiros.content');
+});
