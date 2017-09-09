@@ -46,7 +46,7 @@ Route::get('/admin', function () {
     return view('admin.login');
 });
 
-Route::get('/admin/painel', function () {
+Route::get('/admin/panel', function () {
     return view('admin.painel');
 });
 

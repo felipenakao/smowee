@@ -24,7 +24,7 @@
 
         <div id="wrapper">
         <div class="overlay"></div>
-    
+
         @include ('admin.partials.nav')
 
         <!-- Page Content -->
