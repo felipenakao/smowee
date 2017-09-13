@@ -45,8 +45,8 @@
     </div>
   </div>
 
-  <div class="clube-de-beneficios-side">
-    <div class="cdb-side-caption">
+  <div id="cdb-login-side" class="clube-de-beneficios-side">
+    <div id="cdb-login-side-caption" class="cdb-side-caption">
       <h3 class="section-heading ">Usuário</h2>
         <div class="cdb-user"><img width="26px" height="26px" src="/img/cdb/about/cdb-user.png" />
           <h4>Felipe Nakao</h4>
@@ -121,8 +121,8 @@
   </div>
   <!-- Instagram -->
     <div class="row">
-      <h3>#CDBSMOWEE</h3>
-      <div id="instafeed" style="justify-content:left"></div>
+      <h3 style="text-align: center">#CDBSMOWEE</h3>
+      <div id="instafeed" class="instafeed-cdb"></div>
     </div>
   </div>
   <!-- Instagram -->
