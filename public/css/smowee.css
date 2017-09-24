@@ -734,6 +734,11 @@ text-align: center;
   float: left;
 }
 
+.blog-navigation-newer:hover,.blog-navigation-older:hover{
+cursor: pointer;
+color: #43a547;
+}
+
 .blog-navigation-older {
   width: auto;
   height: 25px;
@@ -752,6 +757,11 @@ text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.blog-navigation-pages:hover{
+  background: #43a547;
+  cursor: pointer;
 }
 
 .sidebar ul {
@@ -774,6 +784,13 @@ text-align: center;
   background: #dddddd;
   margin: 5px;
   border-radius: 5px;
+}
+
+.sidebar ul li:hover{
+  background: #666666;
+  color: white;
+  transition: .5s all;
+  cursor: pointer;
 }
 
 #news-cat-sidebar-1 {
