@@ -12,6 +12,30 @@
         <span>Categoria: Curiosidades</span>
         <span>Tags: Cannabis</span>
       </div>
+      <div class='blog-content-single-meta' style="justify-content:space-between">
+        <div class="blog-views">
+          <img width="24px" src="/img/blog/views.png" />
+          <span class="">Visualizações:</span>
+          <span class="">300</span>
+        </div>
+
+        <div class="blog-facebook">
+          <img width="24px" src="/img/blog/blog-facebook.png" />
+          <span class="">23</span>
+          <span class="">Compartilhamentos</span>
+          <button>Compartilhar</button>
+        </div>
+
+        <div class="blog-likes">
+          <img width="24px" src="/img/blog/likes.png" />
+
+          <span class="">77</span>
+            <span class="">Curtidas neste post</span>
+          <button>Curtir</button>
+        </div>
+
+
+      </div>
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget pulvinar velit, in pharetra nisl. Sed purus lectus, blandit quis leo sit amet, egestas ornare ante. Cras vestibulum neque eu sagittis varius. Integer bibendum neque sit amet feugiat varius. Praesent hendrerit eros a condimentum malesuada. Phasellus gravida tortor sit amet sem condimentum, sit amet mattis nunc venenatis. Vivamus bibendum interdum dolor, eu ullamcorper ligula vestibulum nec. Quisque vel odio id eros sagittis blandit. In placerat ipsum lorem, ut lobortis risus aliquam accumsan. Cras arcu justo, maximus sed tellus in, consectetur suscipit nibh. Aenean viverra volutpat molestie. Phasellus in dignissim orci. Proin et turpis a augue euismod aliquet. Donec vulputate vestibulum est. Maecenas pellentesque non risus cursus imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.

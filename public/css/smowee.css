@@ -338,7 +338,7 @@ section h3.section-subheading {
   text-transform: none;
 }
 
-.carousel-inner>.item img{
+.carousel-inner>.item img {
   width: 100%!important;
 }
 
@@ -594,8 +594,6 @@ section h3.section-subheading {
   font-family: 'Helvetica';
 }
 
-
-
 .cdb-exit {
   display: flex;
   justify-content: space-between;
@@ -648,7 +646,8 @@ section h3.section-subheading {
 }
 
 .blog-content-single-meta {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  display: flex;
 }
 
 .blog-content-single-meta span {
@@ -661,6 +660,59 @@ section h3.section-subheading {
   width: auto;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.news-recents:hover .news-caption {
+  background: rgba(34, 34, 34, 0.5);
+}
+
+.news-recents:hover .news-img {
+  filter: grayscale(.8);
+  transition: .5s all ease;
+}
+
+.news-recents a:hover {
+  text-decoration: none;
+}
+
+.blog-meta {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+
+.blog-views,.blog-likes,.blog-comments,.blog-facebook {
+  margin: 3px;
+}
+
+.blog-content-single-meta button{
+  border: 0px;
+border-radius: 10px;
+line-height: 18px;
+height: 20px;
+font-size: 12px;
+text-align: center;
+  color: white;
+}
+
+.blog-likes button {
+  background: #4caf50;
+}
+
+.blog-facebook button {
+  background: #3f51b5;
+}
+
+.blog-likes-count {
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+.blog-content-single-meta button:hover{
+  background: #434343;
+  transition: .5s all;
 }
 
 #blog-navigation {
@@ -1501,45 +1553,44 @@ img::-moz-selection {
 
 @media (max-width: 768px) {
 
-  .cdb-single{
+  .cdb-single {
     width: auto;
     flex-direction: column;
     float: none;
   }
 
-  .cdb-single-bottom{
+  .cdb-single-bottom {
     width: auto;
     flex-direction: column;
   }
 
-  .cdb-single-text{
+  .cdb-single-text {
     width: auto;
     margin: 0px 0px 20px;
   }
 
-  .cdb-single-gallery{
+  .cdb-single-gallery {
     width: 100vw;
   }
 
-  .cdb-single-steps{
+  .cdb-single-steps {
     width: auto;
     height: auto;
   }
 
-    .cdb-single-steps h3{
-      text-align: center;
-    }
+  .cdb-single-steps h3 {
+    text-align: center;
+  }
 
-  .steps-number{
+  .steps-number {
     width: 150px;
   }
 
-  .instafeed-cdb img{
-
+  .instafeed-cdb img {
     width: 300px!important;
   }
 
-  .clube-de-beneficios-text{
+  .clube-de-beneficios-text {
     margin: 5px;
     width: auto;
   }
@@ -1691,32 +1742,33 @@ img::-moz-selection {
 
 @media (min-width: 768px) {
 
-  #cdb-side-product{
+  #cdb-side-product {
     margin-top: 0px;
   }
 
-  .cdb-single-gallery{
+  .cdb-single-gallery {
     width: 750px;
     margin: auto;
   }
 
-  .cdb-single-bottom{
+  .cdb-single-bottom {
     width: 750px;
     margin: auto;
   }
 
-  .cdb-single-text{
+  .cdb-single-text {
     width: 245px;
   }
 
-  .cdb-slider{
+  .cdb-slider {
     height: 32vw;
   }
 
-  #cdb-login-side{
+  #cdb-login-side {
     margin-top: 20px;
   }
-  #cdb-login-side-caption{
+
+  #cdb-login-side-caption {
     margin-top: 0px;
   }
 
@@ -1851,8 +1903,6 @@ img::-moz-selection {
     width: 750px;
     margin: auto;
   }
-
-
 
   .blog-content-single {
     width: 520px;
@@ -2050,7 +2100,7 @@ img::-moz-selection {
     height: 285px;
   }
 
-  #cdb-login-side{
+  #cdb-login-side {
     margin-top: 0px;
   }
 
