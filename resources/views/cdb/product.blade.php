@@ -131,18 +131,12 @@
           <span><img src="/img/cdb/step-03.png" /></span>
           </div>
 
-<div class="steps-text">
+    <div class="steps-text">
 
-  PRONTO! Assim que finalizar sua compra, aguarde o produto chegar até sua casa.
+      PRONTO! Assim que finalizar sua compra, aguarde o produto chegar até sua casa.
 
-</div>
+    </div>
         </div>
-
-
-
-
-
-
       </div>
     </div>
 
@@ -152,7 +146,7 @@
   </div>
 
   <div class="clube-de-beneficios-side">
-    <div class="cdb-side-caption">
+    <div id="cdb-side-product" class="cdb-side-caption">
       <h3 class="section-heading ">Usuário</h2>
         <div class="cdb-user"><img width="26px" height="26px" src="/img/cdb/about/cdb-user.png" />
           <h4>Felipe Nakao</h4>
@@ -175,7 +169,7 @@
           <button type="submit" class="btn btn-xl">Sair</button>
         </div>
     </div>
-    <div class="cdb-side-caption valor"><h3>
+    <div id="cdb-side-product" class="cdb-side-caption valor"><h3>
       Valor:
     </h3>
     <p class="yellow">
@@ -183,7 +177,7 @@
     </p>
   </div>
 
-    <div class="cdb-side-caption">
+    <div id="cdb-side-product" class="cdb-side-caption">
       <h3 class="section-heading ">Compre agora!</h2>
       <p>Adquira o <span class="yellow">Kit do Mês</span> se cadastrando abaixo:</p>
       <form name="sentMessage" id="contactForm" novalidate>
