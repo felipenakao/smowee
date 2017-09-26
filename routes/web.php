@@ -48,25 +48,31 @@ Route::get('/admin', function () {
 
 Route::get('/admin/panel', function () {
     return view('admin.painel');
-});
+})->middleware('auth');
 
 Route::get('/admin/cdb', function () {
     return view('admin.cdb');
-});
+})->middleware('auth');
 
 Route::get('/admin/farofino', function () {
     return view('admin.farofino');
-});
+})->middleware('auth');
 
 Route::get('/admin/blog', function () {
     return view('admin.blog');
-});
+})->middleware('auth');
 // ADMIN
 
 Route::get('/farofino/list', function () {
     return view('farofino.pricelist');
 });
 
+Route::get('/logout', 'Auth\LoginController@logout');
+
 Route::get('/parceiros', function () {
     return view('parceiros.content');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
