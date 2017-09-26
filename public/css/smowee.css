@@ -2172,7 +2172,7 @@ img::-moz-selection {
     height: 500px;
   }
 
-<<<<<<< HEAD
+
 
 
 
@@ -2233,23 +2233,22 @@ flex-wrap: wrap;
   }
 
 
-  .crawler_produto_list_img{
-    width: 100px;
-    height: 100px;
-=======
-  .clube-de-beneficios-side {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 0px;
->>>>>>> 0a9fb2013f2b9d83ed763bcef7e5cf07d52a77bd
-  }
+.crawler_produto_list_img{
+  width: 100px;
+  height: 100px;
+}
+.clube-de-beneficios-side {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
 
-  #clube-de-beneficios h2 {
-    text-align: left;
-  }
+#clube-de-beneficios h2 {
+  text-align: left;
+}
 
   .clube-de-beneficios-side .cdb-side-caption {
     width: 300px;
