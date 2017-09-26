@@ -145,7 +145,7 @@
             <div class="portfolio-hover">
               <div class="smowee-icon"></div>
             </div>
-            <img src="/img/home-buttons/button-cdb.jpg" class="img-responsive" alt="">
+            <img src="/img/soon.png" class="img-responsive" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Clube de Benefícios</h4>
@@ -158,7 +158,7 @@
             <div class="portfolio-hover">
               <div class="smowee-icon"></div>
             </div>
-            <img src="/img/home-buttons/button-farofino.jpg" class="img-responsive" alt="">
+            <img src="/img/soon.png" class="img-responsive" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Faro Fino</h4>

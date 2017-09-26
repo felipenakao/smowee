@@ -1,27 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+@extends('layouts.app')
 
-    <title>Area Administrativa</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="/css/signin.css" rel="stylesheet">
-    <link href="/css/smowee.css" rel="stylesheet">
-  </head>
-
-  <body>
-
-    <div class="container">
-
-      <form class="form-horizontal" method="POST" action="{{ route('login') }}">
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Login</div>
+                <div class="panel-body">
+                    <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
@@ -74,14 +60,9 @@
                             </div>
                         </div>
                     </form>
-
-    </div> <!-- /container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!-- <script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-  </body>
-</html>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

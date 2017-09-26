@@ -47,6 +47,9 @@
         {{-- <li>
             <a href="/admin/farofino"><i class="fa fa-fw fa-search"></i> Farofino</a>
         </li> --}}
+        <li>
+          <a href="/logout"><i class="fa fa-fw fa-archive"></i> Logout</a>
+        </li>
         <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-plus"></i> Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
