@@ -2,11 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Posts;
+use App\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
-class PostsController extends Controller
+class PostController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +19,7 @@ class PostsController extends Controller
      */
     public function index()
     {
-        //
+        return Post::all();
     }
 
     /**
@@ -24,7 +29,7 @@ class PostsController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.blog');
     }
 
     /**
@@ -35,7 +40,18 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $post = new Post([
+            'title' => $request->get('title'),
+            'cover' => $request->get('cover'),
+            'category_id' => $request->get('category_id'),
+            'tags' => $request->get('tags'),
+            'publish_date' => $request->get('publish_date'),
+            'content' => $request->get('content'),
+            'writer_id' => $request->user()->id,
+        ]);
+
+        $post->save();
+        return redirect('/posts/create');
     }
 
     /**
