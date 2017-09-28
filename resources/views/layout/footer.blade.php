@@ -69,8 +69,8 @@
 <script type="text/javascript">
     var userFeed = new Instafeed({
         get: 'user',
-        userId: '2069783005',
-        accessToken: '2069783005.1677ed0.b78630fd97b343e6a8b7c36686659ec1'
+        userId: '2243081801',
+        accessToken: '2243081801.1677ed0.b3a4693dc4864ff98f612f5859926222'
     });
     userFeed.run();
 </script>
