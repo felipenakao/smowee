@@ -28,13 +28,23 @@ class BlogController extends Controller
 
     public function single(Request $request, $slug) {
       // PROCURAR O SINGLE POST SE ELE JÁ PUDER SER VISTO
+      // COM BASE NA DATA DE PUBLICACAO
       $post = DB::table('posts')
+          ->join('posts_categories', 'posts.category_id', '=', 'posts_categories.id')
+          ->join('users', 'posts.writer_id', '=', 'users.id')
           ->where('slug', $slug)
           ->whereDate('publish_date', '<=', Carbon::now())
+          ->select(
+            'posts.*',
+            'posts_categories.name as category_name',
+            'users.name as writer')
           ->get();
-      // COM BASE NA DATA DE PUBLICACAO
+
+      if (count($post) < 1) return false;
+      // INCREMENTA VIEW + 1
+      DB::table('posts')->where('slug', $slug)->increment('views');
       // RETORNAR VIEW PARA RENDER DO POST
-      return $post;
-      // return view('blog.post')->with(['post' => $post]);
+      // return $post;
+      return view('blog.post')->with(['post' => $post]);
     }
 }

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 
 class PostController extends Controller
 {
@@ -42,6 +43,7 @@ class PostController extends Controller
     {
         $post = new Post([
             'title' => $request->get('title'),
+            'slug' => Str::slug($request->get('title')),
             'cover' => $request->get('cover'),
             'category_id' => $request->get('category_id'),
             'tags' => $request->get('tags'),

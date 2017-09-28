@@ -14,7 +14,7 @@
           <div class="blog-meta">
             <div class="blog-views">
               <img width="24px" src="/img/blog/views.png" />
-              <span class="blog-likes-count">300</span>
+              <span class="blog-likes-count">{{ $post->views }}</span>
             </div>
             {{-- <div class="blog-comments">
               <img width="24px" src="/img/blog/comments.png" />
