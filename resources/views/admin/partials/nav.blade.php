@@ -15,7 +15,7 @@
           </a>
           <ul class="dropdown-menu" role="menu">
             <li class="dropdown-header">Blog admin</li>
-            <li><a href="/admin/blog">Criar Artigo</a></li>
+            <li><a href="/posts/create">Criar Artigo</a></li>
             <li><a href="#">Lista de artigos</a></li>
           </ul>
         </li>

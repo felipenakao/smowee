@@ -15,13 +15,12 @@ Route::get('/', function () {
     return view('home');
 });
 // BLOG
-Route::get('/blog', function () {
-    return view('blog.posts');
-});
+Route::get('/blog', 'BlogController@index');
+Route::get('/blog/{slug}', 'BlogController@single');
 
-Route::get('/blog/{post}', function () {
-    return view('blog.post');
-});
+// Route::get('/blog/{post}', function () {
+//     return view('blog.post');
+// });
 // BLOG
 // CDB
 Route::get('/clube-de-beneficios', function () {
@@ -74,5 +73,7 @@ Route::get('/parceiros', function () {
 });
 
 Auth::routes();
+
+Route::resource('posts', 'PostController');
 
 Route::get('/home', 'HomeController@index')->name('home');

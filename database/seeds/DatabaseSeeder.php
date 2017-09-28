@@ -106,8 +106,8 @@ Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi
 
       DB::table('posts')->insert([
         'id' => 4,
-        'title' => 'Negreira loks',
-        'slug' => 'negreira-loks',
+        'title' => 'Negreira loks 1',
+        'slug' => 'negreira-loks-1',
         'cover' => 'http://www.caminomyway.com/wp-content/uploads/2013/06/path-windmill-negreira-Camino-Finisterre-Galicia.jpg',
         'category_id' => 3,
         'tags' => 'negreira,negro,nigga,nigger',
@@ -122,8 +122,8 @@ Pancetta cow tongue venison swine beef ribs meatball. Ground round chuck ball ti
 
       DB::table('posts')->insert([
         'id' => 5,
-        'title' => 'Sete blowers',
-        'slug' => 'sete-blowers',
+        'title' => 'Sete blowers 1',
+        'slug' => 'sete-blowers-1',
         'cover' => 'http://img.ibxk.com.br/2015/04/07/07121303620412.jpg?w=600',
         'category_id' => 2,
         'tags' => 'sete,7,seven,blow,blowe',
@@ -136,8 +136,8 @@ Pancetta cow tongue venison swine beef ribs meatball. Ground round chuck ball ti
 
       DB::table('posts')->insert([
         'id' => 6,
-        'title' => 'Negreira loks',
-        'slug' => 'negreira-loks',
+        'title' => 'Negreira loks 2',
+        'slug' => 'negreira-loks-2',
         'cover' => 'http://www.caminomyway.com/wp-content/uploads/2013/06/path-windmill-negreira-Camino-Finisterre-Galicia.jpg',
         'category_id' => 3,
         'tags' => 'negreira,negro,nigga,nigger',
@@ -152,8 +152,8 @@ Pancetta cow tongue venison swine beef ribs meatball. Ground round chuck ball ti
 
       DB::table('posts')->insert([
         'id' => 7,
-        'title' => 'Sete blowers',
-        'slug' => 'sete-blowers',
+        'title' => 'Sete blowers 2',
+        'slug' => 'sete-blowers-2',
         'cover' => 'http://img.ibxk.com.br/2015/04/07/07121303620412.jpg?w=600',
         'category_id' => 2,
         'tags' => 'sete,7,seven,blow,blowe',
@@ -166,8 +166,8 @@ Pancetta cow tongue venison swine beef ribs meatball. Ground round chuck ball ti
 
       DB::table('posts')->insert([
         'id' => 8,
-        'title' => 'Sete blowers',
-        'slug' => 'sete-blowers',
+        'title' => 'Sete blowers 3',
+        'slug' => 'sete-blowers-3',
         'cover' => 'http://img.ibxk.com.br/2015/04/07/07121303620412.jpg?w=600',
         'category_id' => 2,
         'tags' => 'sete,7,seven,blow,blowe',
