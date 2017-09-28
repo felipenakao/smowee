@@ -20,6 +20,7 @@ class BlogController extends Controller
             'posts.*',
             'posts_categories.name as category_name',
             'posts_categories.color as category_color')
+          ->orderBy('posts.publish_date', 'desc')
           ->get();
       // INFINITY SCROLLER
       // RETORNAR VIEW COM TODOS OS POSTS

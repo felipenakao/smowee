@@ -36,13 +36,5 @@
         </a>
       </div>
     @endforeach
-
-      <ul id="blog-navigation">
-        <div class="blog-navigation-newer"><< Página anterior</div>
-        <li class="blog-navigation-pages">1</li>
-        <li class="blog-navigation-pages">2</li>
-        <li class="blog-navigation-pages">3</li>
-        <div class="blog-navigation-older">Próxima página >></div>
-      </ul>
   </div>
 @endsection
