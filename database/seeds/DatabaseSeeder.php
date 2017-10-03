@@ -22,6 +22,16 @@ class DatabaseSeeder extends Seeder
         'created_at' => '2017-09-28 00:27:40',
         'updated_at' => '2017-09-28 00:27:40',
       ]);
+
+      DB::table('users')->insert([
+        'id' => 2,
+        'name' => 'Diego Diniz',
+        'email' => 'diego.diniz@smowee.com',
+        'password' => '$2y$10$WDdOY0ZplD1K0RkO5rnHvOatHAglpc8PBCxxxhOOOg01RAQcoDiWi',
+        'remember_token' => null,
+        'created_at' => '2017-09-28 00:27:40',
+        'updated_at' => '2017-09-28 00:27:40',
+      ]);
       // /USUARIO
       // CATEGORIAS
       DB::table('posts_categories')->insert([
@@ -60,7 +70,7 @@ class DatabaseSeeder extends Seeder
       // POSTS
       DB::table('posts')->insert([
         'id' => 1,
-        'title' => 'Negreira loks',
+        'title' => '4º Encontro Nacional de Associações Cannábicas na Argentina.',
         'slug' => 'negreira-loks',
         'cover' => 'http://www.caminomyway.com/wp-content/uploads/2013/06/path-windmill-negreira-Camino-Finisterre-Galicia.jpg',
         'category_id' => 3,
