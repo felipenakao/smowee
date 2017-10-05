@@ -30,7 +30,7 @@
         <div class="news-caption">
           <h4>{{ $post->title}}</h4>
           <p>
-            {{ $Str::limit($post->content, 250)}}
+            {!! $Str::limit($post->content, 250) !!}
           </p>
         </div>
         </a>

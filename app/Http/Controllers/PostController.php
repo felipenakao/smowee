@@ -6,6 +6,7 @@ use App\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\DB;
 
 class PostController extends Controller
 {
@@ -30,7 +31,11 @@ class PostController extends Controller
      */
     public function create()
     {
-        return view('admin.blog');
+        $categories = DB::table('posts_categories')
+            ->orderBy('name')
+            ->get();
+
+        return view('admin.blog')->with(['categories' => $categories]);
     }
 
     /**

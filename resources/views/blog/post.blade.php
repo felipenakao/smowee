@@ -37,7 +37,7 @@
 
       </div>
       <p>
-        {{ $post[0]->content }}
+        {!! $post[0]->content !!}
       </p>
     </div>
   </div>

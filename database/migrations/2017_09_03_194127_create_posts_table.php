@@ -18,7 +18,7 @@ class CreatePostsTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->string('slug')->unique();
-            $table->string('cover');
+            $table->text('cover');
             $table->integer('category_id')->unsigned();
             $table->foreign('category_id')->references('id')->on('posts_categories');
             $table->text('tags')->nullable();

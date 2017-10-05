@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
+use App\Post;
 
 class HomeController extends Controller
 {
@@ -11,10 +14,6 @@ class HomeController extends Controller
      *
      * @return void
      */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
     /**
      * Show the application dashboard.
@@ -23,6 +22,20 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $topPosts = DB::table('posts')
+                ->join('posts_categories', 'posts.category_id', '=', 'posts_categories.id')
+                ->whereDate('posts.publish_date', '<=', Carbon::now())
+                ->select(
+                    'posts.*',
+                    'posts_categories.name as category_name',
+                    'posts_categories.color as category_color'
+                )
+                ->orderBy('views', 'desc')
+                ->latest()
+                ->limit(5)
+                ->get();
+
+        return view('home')->with(['topPosts' => $topPosts, 'i' => 0]);
+        // return $topPosts;
     }
 }

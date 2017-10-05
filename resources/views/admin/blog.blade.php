@@ -16,7 +16,12 @@
 
     <div class="form-group">
       <label for="category">Categoria</label>
-      <input class="form-control" id="category" name="category_id" type="text" placeholder="Categoria" />
+      <!-- <input class="form-control" id="category" name="category_id" type="text" placeholder="Categoria" /> -->
+      <select name="category_id" id="category">
+        @foreach ($categories as $category)
+        <option value="{{$category->id}}">{{$category->name}}</option>
+        @endforeach
+      </select>
     </div>
 
     <div class="form-group">

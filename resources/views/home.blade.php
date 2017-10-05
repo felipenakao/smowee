@@ -51,79 +51,86 @@
 
       <div class="row">
         <div class="news-flex">
-          <div class="news-grid-middle">
-            <div class="news-recents ">
-              <div class="news-img" style="background-image: url('img/news/recents/recents-1.jpg')">
-                <div id="news-cat-1" class="news-cat">
-                  Saúde
+          <!-- LISTA OS POSTS MAIS VISTOS -->
+          @foreach ($topPosts as $topPost)
+            <!-- VERIFICA QUAL ITEM EH E COLOCA A DEVIDA MARCACAO -->
+            @if ($i === 0)
+              <!-- LINHA DE CIMA -->
+              <div class="news-grid-middle">
+                <div class="news-recents ">
+                  <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
+                  <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
+                    {{ $topPost->category_name }}
+                  </div>
+                </div>
+
+                <div class="news-caption">
+                  <h4>{{ $topPost->title }}</h4>
                 </div>
               </div>
+            @elseif ($i === 1)
+              <!-- SEGUNDA DA PRIMEIRA FILEIRA-->
+              <div class="news-recents ">
+                  <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
+                  <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
+                    {{ $topPost->category_name }}
+                  </div>
+                </div>
 
-              <div class="news-caption">
-                <h4>Título da Postagem</h4>
-              </div>
-            </div>
-
-            <div class="news-recents">
-              <div class="news-img" style="background-image: url('img/news/recents/recents-2.jpg')">
-                <div id="news-cat-3" class="news-cat">
-                  Tecnologia
+                <div class="news-caption">
+                  <h4>{{ $topPost->title }}</h4>
                 </div>
               </div>
+            @elseif ($i === 2)
+              <!-- PRIMEIRA DA SEGUNDA FILEIRA -->
+              <!-- FECHA A DIV DE CIMA -->
+                </div>
+              <!-- LINHA DE BAIXO -->
+              <div class="news-grid-bottom">
+                <div class="news-recents ">
+                  <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
+                  <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
+                    {{ $topPost->category_name }}
+                  </div>
+                </div>
 
-              <div class="news-caption">
-                <h4>Título da Postagem</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="news-grid-bottom">
-            <div class="news-recents">
-              <div class="news-img" style="background-image: url('img/news/recents/recents-3.jpg')">
-                <div id="news-cat-2" class="news-cat">
-                  Cotidiano
+                <div class="news-caption">
+                  <h4>{{ $topPost->title }}</h4>
                 </div>
               </div>
-              <div class="news-caption">
-                  <h4>Título da Postagem</h4>
-              </div>
-            </div>
+            @elseif ($i === 3)
+              <!-- SEGUNDA DA SEGUNDA FILEIRA-->
+              <div class="news-recents ">
+                  <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
+                  <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
+                    {{ $topPost->category_name }}
+                  </div>
+                </div>
 
-            <div class="news-recents">
-              <div class="news-img" style="background-image: url('img/news/recents/recents-4.jpg')">
-                <div id="news-cat-4" class="news-cat">
-                  Economia
+                <div class="news-caption">
+                  <h4>{{ $topPost->title }}</h4>
                 </div>
               </div>
+            @else
+              <!-- ULTIMA -->
+                <div class="news-recents ">
+                  <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
+                  <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
+                    {{ $topPost->category_name }}
+                  </div>
+                </div>
 
-              <div class="news-caption">
-                <h4>Título da Postagem</h4>
-              </div>
-            </div>
-
-            <div class="news-recents">
-              <div class="news-img" style="background-image: url('img/news/recents/recents-5.jpg')">
-                <div id="news-cat-1" class="news-cat">
-                  Saúde
+                <div class="news-caption">
+                  <h4>{{ $topPost->title }}</h4>
                 </div>
               </div>
-
-              <div class="news-caption ">
-                <h4>Título da Postagem</h4>
-              </div>
             </div>
+            @endif
 
-            <div class="news-recents">
-              <div class="news-img" style="background-image: url('img/news/recents/recents-6.jpg')">
-                <div id="news-cat-4" class="news-cat">Economia</div>
-              </div>
-
-              <div class="news-caption">
-                <h4>Título da Postagem</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+            @php
+              $i++
+            @endphp
+          @endforeach
       </div>
     </div>
   </section>
