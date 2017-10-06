@@ -6,8 +6,12 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="">
       <meta name="author" content="">
+      <meta  />
 
       <title>Smowee 420 - Queimando Preconceitos</title>
+
+      <!-- Favicon -->
+      <link rel="icon" href="/img/favicon.ico" sizes="16x16">
 
       <!-- Bootstrap Core CSS -->
       <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">

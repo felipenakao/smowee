@@ -28,7 +28,7 @@
             <li style="width:auto; height:150px;background-color:yellowgreen;">ANÚNCIO</li>
           </ul>
 
-          <ul class="flex-wrap">
+          {{-- <ul class="flex-wrap">
             <h4>Arquivo</h4>
             <li>Janeiro</li>
             <li>Fevereiro</li>
@@ -55,7 +55,7 @@
             <li>Ganjah</li>
             <li>Farmácias</li>
           </ul>
-        </div>
+        </div> --}}
       </div>
     </div>
   </section>

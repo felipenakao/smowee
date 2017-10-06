@@ -20,12 +20,6 @@
           <a class="page-scroll" href="/blog">Blog</a>
         </li>
         <li>
-          <a class="page-scroll" href="/farofino">FaroFino</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="/clube-de-beneficios">Clube de Benefícios</a>
-        </li>
-        <li>
           <a class="page-scroll" href="#contact">Contato</a>
         </li>
       </ul>

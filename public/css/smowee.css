@@ -8,7 +8,7 @@ body {
   font-family: 'Fjalla One', sans-serif;
   background-image: url('../img/smowee-pattern.jpg');
   background-repeat: repeat;
-    webkit-tap-highlight-color: #058a36;
+  webkit-tap-highlight-color: #058a36;
 }
 
 .text-muted {
@@ -314,6 +314,7 @@ section h3.section-subheading {
   font-style: italic;
   font-weight: 400;
   margin-bottom: 20px;
+  color: #343434;
 }
 
 .about-caption {
@@ -337,12 +338,16 @@ section h3.section-subheading {
   text-transform: none;
 }
 
+.carousel-inner>.item img {
+  width: 100%!important;
+}
+
 #clube-de-beneficios {
   color: #f8f4f3;
 }
 
 .clube-de-beneficios-buttons {
-  margin-top: 35px;
+  margin-top: 5px;
 }
 
 .clube-de-beneficios-buttons-item {
@@ -350,8 +355,200 @@ section h3.section-subheading {
   background: rgba(34, 34, 34, 0.8);
 }
 
-.clube-de-beneficios-about-caption {
+.clube-de-beneficios-about,.cdb-single {
+  width: 868px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.clube-de-beneficios-text {
+  background: rgba(34, 34, 34, 0.9);
+  height: auto;
+  padding: 15px;
+  width: 100%;
+  margin: auto;
+}
+
+.clube-de-beneficios-text p {
+  font-family: helvetica;
+  font-size: 9pt;
+  border-left: 2px solid #058a36;
+  padding: 0px 15px;
+}
+
+.clube-de-beneficios-text h3 {
+  border-left: 2px solid #058a36;
+  padding: 0px 15px;
+}
+
+.cdb-single-top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cdb-single-bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cdb-single-gallery {
+  background: rgba(34,34,34,0.9);
+  padding: 15px;
+}
+
+.cdb-single-text {
+  height: auto;
+  background: rgba(34,34,34,0.9);
+  margin: 20px 0px;
+  padding: 15px;
+}
+
+.cdb-single-text ul {
+  padding: 0px 20px;
+}
+
+.content-slider img,.content-slider li {
+  width: 250px;
+  height: 250px;
+}
+
+.clube-de-beneficios-side {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cdb-single h3,.clube-de-beneficios-about h3,.clube-de-beneficios-side h3 {
+  margin-top: 10px;
+}
+
+.cdb-single p,.clube-de-beneficios-about p,.clube-de-beneficios-side p {
+  font-family: 'Helvetica';
+  font-size: 10pt;
+}
+
+.cdb-about-caption-block a {
+  color: #ff4e50;
+}
+
+.clube-de-beneficios-about .cdb-about-caption-full {
+  width: 850px;
+  height: 500px;
+  background-image: url('/img/cdb/about/cdb-about-01.jpg');
+  background-size: cover;
+  background-position-y: -30px;
+  padding: 15px 25px;
+  color: black;
+}
+
+.cdb-about-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.cdb-about-caption-full .cdb-about-text {
+  width: 250px;
+  height: 250px;
+  border-radius: 0px 50px 50px 50px;
+  background: rgba(34,34,34,1);
+  padding: 15px 25px;
+  margin: 10px 0px;
+  color: white;
+}
+
+.clube-de-beneficios-about .cdb-about-caption-block {
+  width: 270px;
+  margin: -45px 5px;
+  height: auto;
+  background: rgba(34, 34, 34, 1);
+  padding: 15px 30px;
+  color: #f8f4f3;
+}
+
+.clube-de-beneficios-side .cdb-side-caption {
+  height: auto;
+  background: rgba(34, 34, 34, 0.9);
+  padding: 15px 30px;
+  color: #f8f4f3;
+  margin: 0px 0px 20px 0px;
+}
+
+.valor {
+  display: flex;
+  align-items: center;
+}
+
+.valor p {
+  font-size: 18pt;
+  font-family: 'Fjalla One';
+  margin: 0px;
+  padding: 0px 15px;
+}
+
+.valor h3 {
+}
+
+.cdb-single-steps {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.cdb-single-steps-list {
+  background: rgba(34, 34, 34, 0.9);
   width: auto;
+  display: flex;
+  margin: 15px 0px;
+  margin: 15px 0px 6px 0px;
+}
+
+.steps-number {
+  width: 75px;
+  height: 75px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps-number span {
+  font-size: 32pt;
+}
+
+.steps-text {
+  width: auto;
+  height: 75px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 11pt;
+  font-family: 'helvetica';
+  font-style: italic;
+}
+
+.clube-de-beneficios-side-form-grid {
+  padding: 0px 15px;
+}
+
+.clube-de-beneficios-side button {
+  padding: 5px 15px;
+}
+
+.esqueci {
+  font-family: 'Helvetica';
+  font-size: 8pt;
+  margin: 10px 0px;
+}
+
+.clube-de-beneficios-about-caption {
   height: auto;
   background: rgba(34, 34, 34, 0.8);
   padding: 30px;
@@ -397,6 +594,27 @@ section h3.section-subheading {
   font-family: 'Helvetica';
 }
 
+.cdb-exit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cdb-user {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cdb-user h4 {
+  font-family: Helvetica;
+  font-size: 9pt;
+}
+
+.cdb-user img {
+  margin-right: 10px;
+}
+
 .blog-content-single {
   height: auto;
   background: white;
@@ -428,7 +646,8 @@ section h3.section-subheading {
 }
 
 .blog-content-single-meta {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  display: flex;
 }
 
 .blog-content-single-meta span {
@@ -441,6 +660,59 @@ section h3.section-subheading {
   width: auto;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.news-recents:hover .news-caption {
+  background: rgba(34, 34, 34, 0.5);
+}
+
+.news-recents:hover .news-img {
+  filter: grayscale(.8);
+  transition: .5s all ease;
+}
+
+.news-recents a:hover {
+  text-decoration: none;
+}
+
+.blog-meta {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+
+.blog-views,.blog-likes,.blog-comments,.blog-facebook {
+  margin: 3px;
+}
+
+.blog-content-single-meta button{
+  border: 0px;
+border-radius: 10px;
+line-height: 18px;
+height: 20px;
+font-size: 12px;
+text-align: center;
+  color: white;
+}
+
+.blog-likes button {
+  background: #4caf50;
+}
+
+.blog-facebook button {
+  background: #3f51b5;
+}
+
+.blog-likes-count {
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+.blog-content-single-meta button:hover{
+  background: #434343;
+  transition: .5s all;
 }
 
 #blog-navigation {
@@ -460,6 +732,11 @@ section h3.section-subheading {
   font-size: 10pt;
   margin: 10px;
   float: left;
+}
+
+.blog-navigation-newer:hover,.blog-navigation-older:hover{
+cursor: pointer;
+color: #43a547;
 }
 
 .blog-navigation-older {
@@ -482,6 +759,11 @@ section h3.section-subheading {
   align-items: center;
 }
 
+.blog-navigation-pages:hover{
+  background: #43a547;
+  cursor: pointer;
+}
+
 .sidebar ul {
   width: auto;
   height: auto;
@@ -502,6 +784,13 @@ section h3.section-subheading {
   background: #dddddd;
   margin: 5px;
   border-radius: 5px;
+}
+
+.sidebar ul li:hover{
+  background: #666666;
+  color: white;
+  transition: .5s all;
+  cursor: pointer;
 }
 
 #news-cat-sidebar-1 {
@@ -545,7 +834,7 @@ section h3.section-subheading {
 
 #home-buttons {
   padding: 30px 0px;
-  margin: 50px 0px;
+  margin: 50px 0px 0px 0px;
   background-color: #14264d;
   background-image: url('../img/home-buttons/home-buttons-pattern.jpg');
   background-repeat: repeat;
@@ -900,7 +1189,9 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #4c4c4c;
   height: 40px;
   width: 40px;
@@ -1032,15 +1323,348 @@ img::-moz-selection {
 
 #instafeed {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around!important;
   flex-wrap: wrap;
 }
 
 #instafeed > * {
-  margin: 0px 0px 1em 0px;
+  margin: 1em 0.5em;
+}
+
+#paralax {
+  padding: 0px;
+}
+
+.paralax-bg span {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 18pt;
+  width: 1000px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  line-height: 30pt;
+}
+
+.paralax-bg {
+  background-image: url("../img/paralax/paralax-bg.jpg");
+  height: 400px;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.parceiros-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.parceiros-text {
+  width: 70%;
+  background: white;
+  padding: 30px;
+  height: auto;
+}
+
+.parceiros-side {
+  width: 25%;
+  background: white;
+  padding: 30px;
+  height: auto;
+}
+
+#farofino {
+  padding-top: 60px;
+}
+
+#farofino .container {
+  background: rgba(34,34,34,1);
+}
+
+#farofino h2 {
+}
+
+#farofino h3 {
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+}
+
+#farofino-banner {
+  background-image: url('/img/crawler/farofino-banner.jpg');
+}
+
+.crawler_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  margin: auto;
+}
+
+.crawler-text {
+  margin: 30px;
+  border-top: 1px solid #fec503;
+  border-bottom: 1px solid #fec503;
+}
+
+.crawler-text h2 {
+  text-align: center;
+  padding: 15px;
+  margin: 0px;
+  color: white
+}
+
+.crawler-text p {
+  text-align: center;
+  font-size: 9pt;
+  font-family: helvetica;
+  color: #c7c7c7;
+}
+
+.crawler_produto {
+  width: 160px;
+  height: auto;
+  padding: 10px;
+  margin: 30px 15px;
+  background: #202020;
+  box-shadow: 0px 0px 5px #101010;
+  border: 1px solid black;
+}
+
+.crawler_produto p {
+  font-family: helvetica;
+  font-size: 9pt;
+  color: #c7c7c7
+}
+
+.crawler_produto:hover {
+  border: 1px solid #fec503;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.crawler_produto_title {
+  text-align: center;
+  margin: 15px;
+  font-size: 12pt;
+  text-transform: uppercase;
+  letter-spacing: 0.5pt;
+  color: whitesmoke;
+}
+
+.crawler_produto_img {
+  width: 100%;
+  border: 1px solid #c6c6c6;
+}
+
+.crawler_wrapper_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+  margin: auto;
+}
+
+.crawler_wrapper_list h2 {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  margin: 30px 0px;
+  color: white;
+}
+
+.crawler_side_list {
+  box-shadow: 0px 0px 5px #101010;
+  width: 20%;
+  height: auto;
+  background: #202020;
+}
+
+.crawler_side_title {
+  font-size: 12pt;
+  color: #fec503;
+  text-align: center;
+  padding: 15px;
+}
+
+.crawler_side_filter {
+  padding: 15px;
+  color: #c7c7c7;
+}
+
+.crawler_side_list select {
+  color: #202020;
+  border: 0;
+  width: 100%;
+  height: 30px;
+  font-size: 9pt;
+}
+
+.crawler_side_list input {
+  margin: 10px;
+}
+
+.crawler_content_list {
+  width: 80%;
+  height: auto;
+}
+
+.crawler_produto_list {
+  box-shadow: 0px 0px 5px #101010;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  padding: 15px;
+  margin: 0px 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.crawler_produto_list_caption {
+  padding: 0px 15px;
+  color: white;
+}
+
+.crawler_produto_list_caption h4 {
+  color: #fec503;
+}
+
+.crawler_produto_list_caption p {
+  color: #a3a3a3;
+  font-family: helvetica;
+}
+
+.crawler_produto_list_go {
+  padding: 15px;
+  width: 120px;
+  height: auto;
+  border-left: 1px solid black;
+}
+
+.crawler_produto_list_go .price {
+  color: #89be6f;
+  font-size: 18pt;
+  text-align: center;
+  margin: 0px;
+}
+
+.crawler_produto_list_go .button_loja {
+  color: white;
+  text-align: center;
+}
+
+.crawler_produto_list_img {
+  width: 100px;
+}
+
+.crawler_produto a:hover {
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
+
+  .cdb-single {
+    width: auto;
+    flex-direction: column;
+    float: none;
+  }
+
+  .cdb-single-bottom {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .cdb-single-text {
+    width: auto;
+    margin: 0px 0px 20px;
+  }
+
+  .cdb-single-gallery {
+    width: 100vw;
+  }
+
+  .cdb-single-steps {
+    width: auto;
+    height: auto;
+  }
+
+  .cdb-single-steps h3 {
+    text-align: center;
+  }
+
+  .steps-number {
+    width: 150px;
+  }
+
+  .instafeed-cdb img {
+    width: 300px!important;
+  }
+
+  .clube-de-beneficios-text {
+    margin: 5px;
+    width: auto;
+  }
+
+  #farofino-banner {
+    width: 100%;
+    height: 36vw;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .crawler-text {
+    padding: 15px 0px;
+    margin: 15px;
+  }
+
+  .crawler-text h2 {
+    padding: 15px;
+    margin: 0px;
+    font-size: 14pt
+  }
+
+  .crawler_produto {
+    width: 68%;
+    padding: 10px;
+    margin: 30px 15px;
+  }
+
+  .crawler_side_list {
+    width: 40%;
+  }
+
+  .crawler_content_list {
+    width: 60%;
+  }
+
+  .crawler_produto_list {
+    margin: 0px 0px 15px;
+    text-align: center;
+  }
+
+  .crawler_produto_list_img {
+    width: 100%;
+  }
+
+  .crawler_produto_list_caption {
+    padding: 15px 15px 0px;
+  }
+
+  .crawler_produto_list_go {
+    border-left: none;
+    width: 100%;
+  }
+
+  section {
+    padding: 50px 0;
+  }
 
   .blog-content .news-img {
     height: 30vh;
@@ -1053,6 +1677,12 @@ img::-moz-selection {
   .ad-blog-header {
     position: relative!important;
     margin: 30px 0px;
+  }
+
+  #clube-de-beneficios h2 {
+    margin-top: 50px;
+    font-size: 26pt;
+    text-align: center;
   }
 
   .clube-de-beneficios-about-caption {
@@ -1071,9 +1701,130 @@ img::-moz-selection {
   .clube-de-beneficios-buttons-list img {
     width: 100%;
   }
+
+  .clube-de-beneficios-about {
+    width: 100%;
+    float: none;
+  }
+
+  .clube-de-beneficios-about .cdb-about-caption-full {
+    width: 100%;
+    background-position-y: 0px;
+    height: 450px;
+    background-position-x: 75%;
+    padding: 15px;
+  }
+
+  .cdb-about-bottom {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .clube-de-beneficios-about .cdb-about-caption-block {
+    width: auto;
+    margin: 5px 5px 0px;
+  }
+
+  .clube-de-beneficios-side {
+    width: auto;
+  }
+
+  .clube-de-beneficios-side .cdb-side-caption {
+    width: auto;
+    height: auto;
+    background: rgba(34, 34, 34, 0.9);
+    padding: 15px 30px;
+    color: #f8f4f3;
+    margin: 20px 5px 0px 5px;
+  }
+
+  .cdb-about-caption-full .cdb-about-text {
+    width: auto;
+    height: 220px;
+    border-radius: 0px;
+    padding: 15px 10px;
+    margin: 190px 0px;
+  }
+
+  .paralax-bg {
+    background-size: auto;
+  }
+
+  .paralax-bg span {
+    font-size: 14pt;
+    width: auto;
+    padding: 30px;
+  }
 }
 
 @media (min-width: 768px) {
+
+  #cdb-side-product {
+    margin-top: 0px;
+  }
+
+  .cdb-single-gallery {
+    width: 750px;
+    margin: auto;
+  }
+
+  .cdb-single-bottom {
+    width: 750px;
+    margin: auto;
+  }
+
+  .cdb-single-text {
+    width: 245px;
+  }
+
+  .cdb-slider {
+    height: 32vw;
+  }
+
+  #cdb-login-side {
+    margin-top: 20px;
+  }
+
+  #cdb-login-side-caption {
+    margin-top: 0px;
+  }
+
+  #farofino-banner {
+    width: 750px;
+    height: 250px;
+    background-position: center;
+  }
+
+  .crawler-text {
+    padding: 15px 50px;
+  }
+
+  .crawler_produto_list_caption {
+    width: 300px;
+  }
+
+  .crawler_produto_list_caption h4 {
+    font-size: 10pt;
+  }
+
+  .crawler_produto_list_caption p {
+    font-size: 7pt;
+  }
+
+  .crawler_produto_list_go {
+    padding: 5px;
+    width: 115px;
+  }
+
+  .paralax-bg {
+    background-size: auto;
+  }
+
+  .paralax-bg span {
+    font-size: 18pt;
+    width: auto;
+    padding: 60px;
+  }
 
   header .intro-text {
     padding-top: 300px;
@@ -1114,6 +1865,7 @@ img::-moz-selection {
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
+
   .navbar-custom.affix {
     background-color: #222222;
     padding: 10px 0;
@@ -1121,10 +1873,6 @@ img::-moz-selection {
 
   .navbar-custom.affix .navbar-brand {
     font-size: 2em;
-  }
-
-  section {
-    padding: 100px 0;
   }
 
   .mobile {
@@ -1140,6 +1888,17 @@ img::-moz-selection {
     height: 300px;
   }
 
+  .clube-de-beneficios-about,.cdb-single {
+    width: 100%;
+    float: none;
+  }
+
+  .clube-de-beneficios-side {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 50px
+  }
+
   .clube-de-beneficios-single-img {
     width: 100%;
   }
@@ -1152,8 +1911,27 @@ img::-moz-selection {
     margin: 15px 0px;
   }
 
+  .clube-de-beneficios-about .cdb-about-caption-full {
+    width: 750px;
+    margin: auto;
+  }
+
+  .cdb-about-bottom {
+    width: 750px;
+    margin: auto;
+  }
+
   .blog-content-single {
     width: 520px;
+  }
+
+  #clube-de-beneficios h2 {
+    text-align: center;
+  }
+
+  .clube-de-beneficios-side .cdb-side-caption {
+    width: 100%;
+    margin-top: 50px;
   }
 
   .mobile {
@@ -1223,6 +2001,36 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
 
+  #clube-de-beneficios h2 {
+    text-align: center;
+  }
+
+  #farofino-banner {
+    width: 970px;
+    height: 250px;
+    background-position: center;
+  }
+
+  .crawler-text {
+    padding: 15px 200px;
+  }
+
+  .crawler_produto_list_caption {
+    width: 470px;
+  }
+
+  .crawler_produto_list_caption h4 {
+    font-size: 14pt;
+  }
+
+  .crawler_produto_list_caption p {
+    font-size: 9pt;
+  }
+
+  section {
+    padding: 100px 0;
+  }
+
   .blog-content .news-img {
     height: 150px;
   }
@@ -1291,33 +2099,50 @@ img::-moz-selection {
 
 @media (min-width: 1200px) {
 
-  .crawler_wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 790px;
-    margin: auto ;
+  .cdb-single-steps {
+    width: 850px;
+    height: 500px;
   }
 
-  .crawler_produto{
-      width: 200px;
-      height: 275px;
+  .cdb-single-text {
+    width: 275px;
   }
 
-  .crawler_produto:hover{
-  opacity: 0.8;
-
-  }
-  .crawler_produto_title{
-  text-align: center;
-  margin: 15px;
-
+  .cdb-single-bottom {
+    width: 850px;
   }
 
-  .crawler_produto_img{
-width: 200px;
-height: 200px;
-border: 1px solid #c6c6c6;
+  .cdb-single-gallery {
+    width: 850px;
+    height: 285px;
+  }
+
+  #cdb-login-side {
+    margin-top: 0px;
+  }
+
+  .cdb-slider {
+    width: 850px;
+    height: 285px;
+  }
+
+  #farofino-banner {
+    width: 1170px;
+    height: 250px;
+    background-position: center;
+  }
+
+  .crawler_produto_list_caption {
+    width: 630px;
+  }
+
+  .paralax-bg span {
+    width: 1000px;
+  }
+
+  .paralax-bg {
+    height: 400px;
+    background-size: cover;
   }
 
   .blog-content .news-img {
@@ -1331,6 +2156,107 @@ border: 1px solid #c6c6c6;
   .clube-de-beneficios-single-img {
     width: 500px;
     height: 340px;
+  }
+
+  .clube-de-beneficios-about,.cdb-single {
+    width: 868px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .clube-de-beneficios-about .cdb-about-caption-full {
+    width: 850px;
+    height: 500px;
+  }
+
+
+
+
+
+
+  .crawler_content_list{
+
+    width: 80%;
+    height: auto;
+  }
+
+  .crawler_produto_list{
+
+    box-shadow: 0px 0px 5px #101010;
+width: auto;
+height: auto;
+overflow: hidden;
+padding: 15px;
+margin: 0px 15px 15px;
+display: flex;
+flex-wrap: wrap;
+  }
+
+  .crawler_produto_list_caption{
+    padding: 0px 15px;
+    color: white;
+    width: 630px;
+  }
+
+  .crawler_produto_list_caption h4{
+
+    color: #fec503;
+
+  }
+
+  .crawler_produto_list_caption p{
+    color: #a3a3a3;
+    font-family: helvetica;
+    font-size: 9pt;
+  }
+
+  .crawler_produto_list_go{
+    padding: 15px;
+    width: 120px;
+    height: auto;
+    border-left: 1px solid black;
+  }
+
+  .crawler_produto_list_go .price{
+    color: #89be6f;
+    font-size: 18pt;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .crawler_produto_list_go .button_loja{
+  color: white;
+    text-align: center;
+  }
+
+
+.crawler_produto_list_img{
+  width: 100px;
+  height: 100px;
+}
+.clube-de-beneficios-side {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+
+#clube-de-beneficios h2 {
+  text-align: left;
+}
+
+  .clube-de-beneficios-side .cdb-side-caption {
+    width: 300px;
+    margin-top: 0px;
+  }
+
+  .cdb-about-bottom {
+    width: 850px;
   }
 
   .blog-content-single {
@@ -1349,7 +2275,7 @@ border: 1px solid #c6c6c6;
   .about-bg {
     background-image: url('../img/about/about-bg.jpg');
     width: 100%;
-    height: 400px;
+    height: 440px;
     background-position-y: 0px;
     background-size: cover;
   }
@@ -1361,7 +2287,6 @@ border: 1px solid #c6c6c6;
 
   .blog-content {
     width: 900px;
-    height: 1300px;
   }
 
   .blog-content .news-recents {
