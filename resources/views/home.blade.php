@@ -58,28 +58,32 @@
               <!-- LINHA DE CIMA -->
               <div class="news-grid-middle">
                 <div class="news-recents ">
-                  <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
-                  <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
-                    {{ $topPost->category_name }}
+                  <a href="/blog/{{ $topPost->slug }}">
+                    <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
+                    <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
+                      {{ $topPost->category_name }}
+                    </div>
                   </div>
-                </div>
 
-                <div class="news-caption">
-                  <h4>{{ $topPost->title }}</h4>
-                </div>
+                  <div class="news-caption">
+                    <h4>{{ $topPost->title }}</h4>
+                  </div>
+                </a>
               </div>
             @elseif ($i === 1)
               <!-- SEGUNDA DA PRIMEIRA FILEIRA-->
               <div class="news-recents ">
+                <a href="/blog/{{ $topPost->slug }}">
                   <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
-                  <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
-                    {{ $topPost->category_name }}
+                    <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
+                      {{ $topPost->category_name }}
+                    </div>
                   </div>
-                </div>
 
-                <div class="news-caption">
-                  <h4>{{ $topPost->title }}</h4>
-                </div>
+                  <div class="news-caption">
+                    <h4>{{ $topPost->title }}</h4>
+                  </div>
+                </a>
               </div>
             @elseif ($i === 2)
               <!-- PRIMEIRA DA SEGUNDA FILEIRA -->
@@ -88,41 +92,47 @@
               <!-- LINHA DE BAIXO -->
               <div class="news-grid-bottom">
                 <div class="news-recents ">
-                  <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
-                  <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
-                    {{ $topPost->category_name }}
+                  <a href="/blog/{{ $topPost->slug }}">
+                    <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
+                    <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
+                      {{ $topPost->category_name }}
+                    </div>
                   </div>
-                </div>
 
-                <div class="news-caption">
-                  <h4>{{ $topPost->title }}</h4>
-                </div>
+                  <div class="news-caption">
+                    <h4>{{ $topPost->title }}</h4>
+                  </div>
+                </a>
               </div>
             @elseif ($i === 3)
               <!-- SEGUNDA DA SEGUNDA FILEIRA-->
               <div class="news-recents ">
-                  <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
-                  <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
-                    {{ $topPost->category_name }}
+                <a href="/blog/{{ $topPost->slug }}">
+                    <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
+                      <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
+                        {{ $topPost->category_name }}
+                      </div>
                   </div>
-                </div>
 
-                <div class="news-caption">
-                  <h4>{{ $topPost->title }}</h4>
-                </div>
+                  <div class="news-caption">
+                    <h4>{{ $topPost->title }}</h4>
+                  </div>
+                </a>
               </div>
             @else
               <!-- ULTIMA -->
                 <div class="news-recents ">
-                  <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
-                  <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
-                    {{ $topPost->category_name }}
+                  <a href="/blog/{{ $topPost->slug }}">
+                    <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
+                    <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
+                      {{ $topPost->category_name }}
+                    </div>
                   </div>
-                </div>
 
-                <div class="news-caption">
-                  <h4>{{ $topPost->title }}</h4>
-                </div>
+                  <div class="news-caption">
+                    <h4>{{ $topPost->title }}</h4>
+                  </div>
+                </a>
               </div>
             </div>
             @endif

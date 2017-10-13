@@ -70,7 +70,7 @@
     var userFeed = new Instafeed({
         get: 'user',
         userId: '2243081801',
-        accessToken: '2243081801.1677ed0.e516befc56e5453d9d23808306605e42'
+        accessToken: '2243081801.1677ed0.2af8a0b930fd4e3da1044b5a99451dc6'
     });
     userFeed.run();
 </script>
