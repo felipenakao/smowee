@@ -14,8 +14,8 @@ class CreateAbstractFieldOnPosts extends Migration
     public function up()
     {
         Schema::table('posts', function (Blueprint $table) {
-            if(!Schema::hasColumn('abstract')) {
-                $table->text('abstract')->default('Leia essa postagem');
+            if(!Schema::hasColumn('posts', 'abstract')) {
+                $table->text('abstract')->nullable();
             }
         });
     }
