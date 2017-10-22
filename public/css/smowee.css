@@ -98,7 +98,6 @@ b {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-
 }
 
 .btn-primary:active,
@@ -256,7 +255,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-
 }
 
 header {
@@ -278,7 +276,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
@@ -306,7 +304,7 @@ section h2.section-heading {
 
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -326,7 +324,7 @@ section h3.section-subheading {
 }
 
 .about-caption p {
-  font-family: 'Helvetica';
+  font-family: 'Lucida Grande';
   font-size: 9pt;
 }
 
@@ -370,7 +368,7 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-text p {
-  font-family: helvetica;
+  font-family: Lucida Grande;
   font-size: 9pt;
   border-left: 2px solid #058a36;
   padding: 0px 15px;
@@ -428,8 +426,8 @@ section h3.section-subheading {
 }
 
 .cdb-single p,.clube-de-beneficios-about p,.clube-de-beneficios-side p {
-  font-family: 'Helvetica';
-  font-size: 10pt;
+  font-family: 'Lucida Grande';
+  font-size: 9pt;
 }
 
 .cdb-about-caption-block a {
@@ -527,7 +525,7 @@ section h3.section-subheading {
   display: flex;
   align-items: center;
   font-size: 11pt;
-  font-family: 'helvetica';
+  font-family: 'Lucida Grande';
   font-style: italic;
 }
 
@@ -540,7 +538,7 @@ section h3.section-subheading {
 }
 
 .esqueci {
-  font-family: 'Helvetica';
+  font-family: 'Lucida Grande';
   font-size: 8pt;
   margin: 10px 0px;
 }
@@ -553,8 +551,8 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-about-caption p {
-  font-family: 'Helvetica';
-  font-size: 10pt;
+  font-family: 'Lucida Grande';
+  font-size: 9pt;
 }
 
 .clube-de-beneficios-buttons-caption {
@@ -564,8 +562,8 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-buttons-caption p {
-  font-size: 10pt;
-  font-family: 'Helvetica';
+  font-size: 9pt;
+  font-family: 'Lucida Grande';
   color: white;
 }
 
@@ -588,7 +586,7 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-single-desc p {
-  font-family: 'Helvetica';
+  font-family: 'Lucida Grande';
 }
 
 .cdb-exit {
@@ -604,7 +602,7 @@ section h3.section-subheading {
 }
 
 .cdb-user h4 {
-  font-family: Helvetica;
+  font-family: Lucida Grande;
   font-size: 9pt;
 }
 
@@ -637,8 +635,8 @@ section h3.section-subheading {
 }
 
 .blog-content-single p {
-  font-size: 10pt;
-  font-family: 'Helvetica';
+  font-size: 9pt;
+  font-family: 'Lucida Grande';
   padding: 5px;
 }
 
@@ -649,7 +647,7 @@ section h3.section-subheading {
 
 .blog-content-single-meta span {
   padding: 5px;
-  font-family: 'Helvetica';
+  font-family: 'Lucida Grande';
   font-style: italic;
 }
 
@@ -661,7 +659,7 @@ section h3.section-subheading {
 }
 
 .news-recents:hover .news-caption {
-  background: rgba(34, 34, 34, 0.5);
+  background: rgba(5, 138, 54, 1);
 }
 
 .news-recents:hover .news-img {
@@ -684,13 +682,13 @@ section h3.section-subheading {
   margin: 3px;
 }
 
-.blog-content-single-meta button{
+.blog-content-single-meta button {
   border: 0px;
-border-radius: 10px;
-line-height: 18px;
-height: 20px;
-font-size: 12px;
-text-align: center;
+  border-radius: 10px;
+  line-height: 18px;
+  height: 20px;
+  font-size: 12px;
+  text-align: center;
   color: white;
 }
 
@@ -707,7 +705,7 @@ text-align: center;
   text-shadow: 0px 0px 5px black;
 }
 
-.blog-content-single-meta button:hover{
+.blog-content-single-meta button:hover {
   background: #434343;
   transition: .5s all;
 }
@@ -726,20 +724,20 @@ text-align: center;
 .blog-navigation-newer {
   width: auto;
   height: 25px;
-  font-size: 10pt;
+  font-size: 9pt;
   margin: 10px;
   float: left;
 }
 
-.blog-navigation-newer:hover,.blog-navigation-older:hover{
-cursor: pointer;
-color: #43a547;
+.blog-navigation-newer:hover,.blog-navigation-older:hover {
+  cursor: pointer;
+  color: #43a547;
 }
 
 .blog-navigation-older {
   width: auto;
   height: 25px;
-  font-size: 10pt;
+  font-size: 9pt;
   margin: 10px;
   float: right;
 }
@@ -756,7 +754,7 @@ color: #43a547;
   align-items: center;
 }
 
-.blog-navigation-pages:hover{
+.blog-navigation-pages:hover {
   background: #43a547;
   cursor: pointer;
 }
@@ -783,9 +781,8 @@ color: #43a547;
   border-radius: 5px;
 }
 
-.sidebar ul li:hover{
-  background: #666666;
-  color: white;
+.sidebar ul li:hover {
+  background: white;
   transition: .5s all;
   cursor: pointer;
 }
@@ -809,6 +806,7 @@ color: #43a547;
 .blog-content {
   display: flex;
   flex-wrap: wrap;
+
   background: white;
   overflow: hidden;
   float: left;
@@ -906,9 +904,9 @@ color: #43a547;
 }
 
 #home-buttons .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
   font-style: italic;
-  font-size: 10pt;
+  font-size: 9pt;
   margin: 15px 0;
 }
 
@@ -927,7 +925,7 @@ color: #43a547;
 
 .contato-label p {
   font-size: 12pt;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -1125,27 +1123,27 @@ section#contact .form-control:focus {
 }
 
 section#contact ::-webkit-input-placeholder {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Lucida Grande', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
 
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Lucida Grande', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
 
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Lucida Grande', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
 
 section#contact :-ms-input-placeholder {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Lucida Grande', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
@@ -1242,7 +1240,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
@@ -1333,7 +1331,7 @@ img::-moz-selection {
 }
 
 .paralax-bg span {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
   font-style: italic;
   font-size: 18pt;
   width: 1000px;
@@ -1421,7 +1419,7 @@ img::-moz-selection {
 .crawler-text p {
   text-align: center;
   font-size: 9pt;
-  font-family: helvetica;
+  font-family: Lucida Grande;
   color: #c7c7c7;
 }
 
@@ -1436,7 +1434,7 @@ img::-moz-selection {
 }
 
 .crawler_produto p {
-  font-family: helvetica;
+  font-family: Lucida Grande;
   font-size: 9pt;
   color: #c7c7c7
 }
@@ -1535,7 +1533,7 @@ img::-moz-selection {
 
 .crawler_produto_list_caption p {
   color: #a3a3a3;
-  font-family: helvetica;
+  font-family: Lucida Grande;
 }
 
 .crawler_produto_list_go {
@@ -1566,6 +1564,14 @@ img::-moz-selection {
 }
 
 @media (max-width: 768px) {
+
+  .sidebar {
+    float: none;
+  }
+
+  .blog-content {
+    float: none;
+  }
 
   .cdb-single {
     width: auto;
@@ -1801,7 +1807,7 @@ img::-moz-selection {
   }
 
   .crawler_produto_list_caption h4 {
-    font-size: 10pt;
+    font-size: 9pt;
   }
 
   .crawler_produto_list_caption p {
@@ -1829,7 +1835,7 @@ img::-moz-selection {
   }
 
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
@@ -1956,7 +1962,6 @@ img::-moz-selection {
   }
 
   .about-caption {
-    width: 100%;
     height: auto;
   }
 
@@ -2169,83 +2174,74 @@ img::-moz-selection {
     height: 500px;
   }
 
-
-
-
-
-
-  .crawler_content_list{
-
+  .crawler_content_list {
     width: 80%;
     height: auto;
   }
 
-  .crawler_produto_list{
-
+  .crawler_produto_list {
     box-shadow: 0px 0px 5px #101010;
-width: auto;
-height: auto;
-overflow: hidden;
-padding: 15px;
-margin: 0px 15px 15px;
-display: flex;
-flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 15px;
+    margin: 0px 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .crawler_produto_list_caption{
+  .crawler_produto_list_caption {
     padding: 0px 15px;
     color: white;
     width: 630px;
   }
 
-  .crawler_produto_list_caption h4{
-
+  .crawler_produto_list_caption h4 {
     color: #fec503;
-
   }
 
-  .crawler_produto_list_caption p{
+  .crawler_produto_list_caption p {
     color: #a3a3a3;
-    font-family: helvetica;
+    font-family: Lucida Grande;
     font-size: 9pt;
   }
 
-  .crawler_produto_list_go{
+  .crawler_produto_list_go {
     padding: 15px;
     width: 120px;
     height: auto;
     border-left: 1px solid black;
   }
 
-  .crawler_produto_list_go .price{
+  .crawler_produto_list_go .price {
     color: #89be6f;
     font-size: 18pt;
     text-align: center;
     margin: 0px;
   }
 
-  .crawler_produto_list_go .button_loja{
-  color: white;
+  .crawler_produto_list_go .button_loja {
+    color: white;
     text-align: center;
   }
 
+  .crawler_produto_list_img {
+    width: 100px;
+    height: 100px;
+  }
 
-.crawler_produto_list_img{
-  width: 100px;
-  height: 100px;
-}
-.clube-de-beneficios-side {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 0px;
-}
+  .clube-de-beneficios-side {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
 
-#clube-de-beneficios h2 {
-  text-align: left;
-}
+  #clube-de-beneficios h2 {
+    text-align: left;
+  }
 
   .clube-de-beneficios-side .cdb-side-caption {
     width: 300px;
@@ -2272,14 +2268,14 @@ flex-wrap: wrap;
   .about-bg {
     background-image: url('../img/about/about-bg.jpg');
     width: 100%;
-    height: 440px;
+    height: auto;
     background-position-y: 0px;
     background-size: cover;
   }
 
   .about-caption {
     width: 520px;
-    height: 100%;
+
   }
 
   .blog-content {
