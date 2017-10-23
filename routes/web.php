@@ -12,6 +12,12 @@
 */
 
 Route::get('/', 'HomeController@index');
+
+// PARCEIROS
+Route::get('/parceiros', function () {
+    return view('parceiros.content');
+});
+
 // BLOG
 Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{slug}', 'BlogController@single');
@@ -65,10 +71,6 @@ Route::get('/farofino/list', function () {
 });
 
 Route::get('/logout', 'Auth\LoginController@logout');
-
-Route::get('/parceiros', function () {
-    return view('parceiros.content');
-});
 
 Auth::routes();
 

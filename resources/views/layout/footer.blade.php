@@ -48,7 +48,7 @@
       <div class="col-md-10 col-copyright">
         <img src="/img/logo-smowee-footer.png" />
         <span class="copyright">Copyright 2017 - Todos os direitos reservados ao Smowee. Conteúdo para maiores de 18 anos.</span>
-        <span style="margin-left:10px"><a href="#">Mídia / Assessoria / Parcerias</a></span>
+        <span style="margin-left:10px"><a target="_blank" href="/parceiros">Mídia / Assessoria / Parcerias</a></span>
 
       </div>
       <div class="col-md-2">
