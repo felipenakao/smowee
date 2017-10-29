@@ -17,6 +17,7 @@
 
         <div class="sidebar">
           <ul>
+            <span>=</span>
             <h4>Categorias</h4>
             <li id="news-cat-sidebar-1">Saúde</li>
             <li id="news-cat-sidebar-2">Cotidiano</li>
@@ -24,9 +25,9 @@
             <li id="news-cat-sidebar-4">Economia</li>
           </ul>
 
-          <ul>
+          <!-- <ul> -->
             <!-- <li style="width:auto; height:150px;background-color:yellowgreen;">ANÚNCIO</li> -->
-          </ul>
+          <!-- </ul> -->
 
           {{-- <ul class="flex-wrap">
             <h4>Arquivo</h4>

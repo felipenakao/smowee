@@ -1,0 +1,69 @@
+bold{
+  font-weight: 800;
+}
+
+.sorteio{
+
+height: auto;
+background-color:#15253f;
+text-align: center;
+}
+
+.sorteio h2{
+  font-family: 'Fjalla One';
+  font-weight: 200;
+  padding: 30px;
+  font-size: 4em;
+  color: #c3452f;
+}
+
+.sorteio h3{
+
+  color: white;
+  font-size: 1.2em;
+  width: 1024px;
+  margin: auto;
+}
+
+.sorteio-premios-grid{
+display: flex;
+justify-content: space-between;
+width: 1024px;
+margin: 30px auto;
+padding: 30px;
+}
+
+.sorteio-premios-list img{
+  background: #c3452f;
+  width: 180px;
+  height: 180px;
+  border-radius: 200px;
+}
+
+.sorteio-premios-list p{
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  padding: 15px;
+}
+
+.sorteio-ganhador{
+  display: flex;flex-wrap: wrap;
+width: 1024px;
+margin: auto;
+align-items: center;
+}
+
+.sorteio-ganhador img{
+  width: 180px;
+  background: white;
+  height: 180px;
+}
+
+.sorteio-ganhador-info{
+  padding: 15px;
+  width: 770px;
+  margin: 30px;
+  border: 1px solid white;
+  color: white;
+}

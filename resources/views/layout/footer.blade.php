@@ -53,7 +53,7 @@
       </div>
       <div class="col-md-2">
         <ul class="list-inline social-buttons">
-          <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+          <li><a target="_blank" href="https://www.twitter.com/SmoweeOficial/"><i class="fa fa-twitter"></i></a></li>
           <li><a target="_blank" href="https://www.facebook.com/SmoweeOficial/"><i class="fa fa-facebook"></i></a></li>
           <li><a target="_blank" href="https://www.instagram.com/smowee/"><i class="fa fa-instagram"></i></a></li>
 
@@ -89,6 +89,24 @@
 <script type="text/javascript">
 
   $(document).ready(function(){
+
+    var resizeTimer;
+$(window).resize(function(e) {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+        if ($(window).width() <= 768) {
+          $(".sidebar ul").click(function(){
+            $(".sidebar ul li").stop().slideToggle();
+            $(this).toggleClass("expand");
+          });
+        } else {
+
+        }
+    },250);
+});
+
+
+
     $("#content-slider").lightSlider({
       loop:true,
       keyPress:true,

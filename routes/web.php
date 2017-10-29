@@ -18,6 +18,16 @@ Route::get('/parceiros', function () {
     return view('parceiros.content');
 });
 
+// PAGE 404
+Route::get('/404', function () {
+    return view('404');
+});
+
+// PAGE SORTEIO
+Route::get('/sorteio', function () {
+    return view('sorteio');
+});
+
 // BLOG
 Route::get('/blog', 'BlogController@index');
 Route::get('/blog/{slug}', 'BlogController@single');

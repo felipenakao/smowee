@@ -14,7 +14,7 @@
       <link rel="icon" href="/img/favicon.ico" sizes="16x16">
 
       <!-- Bootstrap Core CSS -->
-      <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
 
       <!-- Custom Fonts -->
       <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -23,12 +23,13 @@
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
       <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-      <link href="/css/hover.css" rel="stylesheet" media="all">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
       <!-- Theme CSS -->
       <link href="/css/smowee.css" rel="stylesheet">
       <link href="/css/news.css" rel="stylesheet">
+      <link href="/css/sorteio.css" rel="stylesheet">
   </head>
 
   <body id="page-top" class="index">

@@ -5,10 +5,40 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-image: url('../img/smowee-pattern.jpg');
   background-repeat: repeat;
+  font-size: 10pt;
   webkit-tap-highlight-color: #058a36;
+}
+
+.pnf{
+background-image: url('../img/pnf.jpg');
+background-size: cover;
+height: 100%;
+background-position: center;
+}
+
+.pnf-grid{
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  color: white;
+  border: 2px solid white;
+padding: 3% 2%;
+text-align: center;
+}
+
+.pnf h2{
+  font-size: 132px;
+  text-align: center;
+}
+
+.pnf a{
+  text-align: center;
+  color: white;
+
+
 }
 
 .text-muted {
@@ -20,7 +50,7 @@ body {
 }
 
 p {
-  font-size: 14px;
+  font-size: 9pt;
   line-height: 1.75;
 }
 
@@ -53,7 +83,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Fjalla One', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -88,7 +117,7 @@ b {
   color: white;
   background-color: #058a36;
   border-color: #058a36;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -134,7 +163,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #058a36;
   border-color: #058a36;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   border-radius: 3px;
@@ -222,7 +251,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle {
   background-color: #058a36;
   border-color: #058a36;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
@@ -234,7 +263,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom .nav li a {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -276,7 +305,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
+  font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
@@ -299,16 +328,17 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
+  font-size: 14px;
+  font-family: "Droid Serif";
   text-transform: none;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 0px;
   color: #343434;
 }
 
@@ -323,8 +353,12 @@ section h3.section-subheading {
   background-repeat: repeat;
 }
 
+#about h2 {
+  margin-bottom: 15px;
+}
+
 .about-caption p {
-  font-family: 'Lucida Grande';
+  font-family: 'Open Sans';
   font-size: 9pt;
 }
 
@@ -368,7 +402,7 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-text p {
-  font-family: Lucida Grande;
+  font-family: 'Open Sans';
   font-size: 9pt;
   border-left: 2px solid #058a36;
   padding: 0px 15px;
@@ -426,7 +460,7 @@ section h3.section-subheading {
 }
 
 .cdb-single p,.clube-de-beneficios-about p,.clube-de-beneficios-side p {
-  font-family: 'Lucida Grande';
+  font-family: 'Open Sans';
   font-size: 9pt;
 }
 
@@ -483,7 +517,7 @@ section h3.section-subheading {
 
 .valor p {
   font-size: 18pt;
-  font-family: 'Fjalla One';
+  font-family: 'Roboto';
   margin: 0px;
   padding: 0px 15px;
 }
@@ -525,7 +559,7 @@ section h3.section-subheading {
   display: flex;
   align-items: center;
   font-size: 11pt;
-  font-family: 'Lucida Grande';
+  font-family: 'Open Sans';
   font-style: italic;
 }
 
@@ -538,7 +572,7 @@ section h3.section-subheading {
 }
 
 .esqueci {
-  font-family: 'Lucida Grande';
+  font-family: 'Open Sans';
   font-size: 8pt;
   margin: 10px 0px;
 }
@@ -551,7 +585,7 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-about-caption p {
-  font-family: 'Lucida Grande';
+  font-family: 'Open Sans';
   font-size: 9pt;
 }
 
@@ -563,7 +597,7 @@ section h3.section-subheading {
 
 .clube-de-beneficios-buttons-caption p {
   font-size: 9pt;
-  font-family: 'Lucida Grande';
+  font-family: 'Open Sans';
   color: white;
 }
 
@@ -586,7 +620,7 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-single-desc p {
-  font-family: 'Lucida Grande';
+  font-family: 'Open Sans';
 }
 
 .cdb-exit {
@@ -602,7 +636,7 @@ section h3.section-subheading {
 }
 
 .cdb-user h4 {
-  font-family: Lucida Grande;
+  font-family: 'Open Sans';
   font-size: 9pt;
 }
 
@@ -610,44 +644,50 @@ section h3.section-subheading {
   margin-right: 10px;
 }
 
+.blog-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .blog-content-single {
   height: auto;
   background: white;
   overflow: hidden;
-  float: left;
   margin: 5px;
+  padding: 30px;
 }
 
 .blog-content-single .single-featured-image {
   margin: auto;
   width: 100%;
-  height: 480px;
 }
 
 .blog-content-single-grid {
-  padding: 25px;
+  padding: 0px;
 }
 
 .blog-content-single h4 {
   font-size: 18pt;
+  font-weight: 500;
   padding: 5px;
-  margin: 0px;
+  margin: 15px 0px 0px;
 }
 
 .blog-content-single p {
   font-size: 9pt;
-  font-family: 'Lucida Grande';
+  font-family: 'Open Sans';
   padding: 5px;
 }
 
 .blog-content-single-meta {
   margin-bottom: 5px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .blog-content-single-meta span {
   padding: 5px;
-  font-family: 'Lucida Grande';
+  font-family: 'Open Sans';
   font-style: italic;
 }
 
@@ -763,6 +803,11 @@ section h3.section-subheading {
   width: auto;
   height: auto;
   padding: 0px 0px 10px 0px;
+  margin-bottom: 0px;
+}
+
+.sidebar ul span {
+  display: none;
 }
 
 .sidebar ul h4 {
@@ -806,10 +851,8 @@ section h3.section-subheading {
 .blog-content {
   display: flex;
   flex-wrap: wrap;
-
   background: white;
   overflow: hidden;
-  float: left;
 }
 
 .flex-wrap {
@@ -828,7 +871,7 @@ section h3.section-subheading {
 }
 
 #home-buttons {
-  padding: 30px 0px;
+  padding: 0px 0px;
   margin: 50px 0px 0px 0px;
   background-color: #14264d;
   background-image: url('../img/home-buttons/home-buttons-pattern.jpg');
@@ -904,7 +947,7 @@ section h3.section-subheading {
 }
 
 #home-buttons .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
+  font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
   font-style: italic;
   font-size: 9pt;
   margin: 15px 0;
@@ -925,7 +968,7 @@ section h3.section-subheading {
 
 .contato-label p {
   font-size: 12pt;
-  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
+  font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -1048,7 +1091,6 @@ section h3.section-subheading {
 }
 
 .sidebar {
-  float: right;
   background: white;
   margin: 5px;
 }
@@ -1096,6 +1138,10 @@ section#contact {
   background-size: cover;
 }
 
+#contact h3 {
+  margin-bottom: 60px;
+}
+
 section#contact .section-heading {
   color: white;
 }
@@ -1123,27 +1169,27 @@ section#contact .form-control:focus {
 }
 
 section#contact ::-webkit-input-placeholder {
-  font-family: 'Lucida Grande', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
 
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: 'Lucida Grande', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
 
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: 'Lucida Grande', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
 
 section#contact :-ms-input-placeholder {
-  font-family: 'Lucida Grande', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
@@ -1158,13 +1204,19 @@ footer {
   background: #222222;
 }
 
+.col-copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .col-copyright img {
   padding-right: 20px;
 }
 
 footer span.copyright {
-  line-height: 40px;
-  font-family: 'Fjalla One', sans-serif;
+  line-height: 22px;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-transform: none;
   color: white;
@@ -1173,7 +1225,7 @@ footer span.copyright {
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
@@ -1240,7 +1292,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
+  font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
@@ -1331,7 +1383,7 @@ img::-moz-selection {
 }
 
 .paralax-bg span {
-  font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
+  font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
   font-style: italic;
   font-size: 18pt;
   width: 1000px;
@@ -1419,7 +1471,7 @@ img::-moz-selection {
 .crawler-text p {
   text-align: center;
   font-size: 9pt;
-  font-family: Lucida Grande;
+  font-family: 'Open Sans';
   color: #c7c7c7;
 }
 
@@ -1434,7 +1486,7 @@ img::-moz-selection {
 }
 
 .crawler_produto p {
-  font-family: Lucida Grande;
+  font-family: 'Open Sans';
   font-size: 9pt;
   color: #c7c7c7
 }
@@ -1533,7 +1585,7 @@ img::-moz-selection {
 
 .crawler_produto_list_caption p {
   color: #a3a3a3;
-  font-family: Lucida Grande;
+  font-family: 'Open Sans';
 }
 
 .crawler_produto_list_go {
@@ -1565,8 +1617,62 @@ img::-moz-selection {
 
 @media (max-width: 768px) {
 
+  .sidebar ul {
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .sidebar ul h4{
+    margin: 0px;
+  }
+
+  .sidebar ul li{
+    display: none;
+  }
+
+  .expand span{
+      transition: .5s all linear;
+
+  }
+
+  .expand h4{
+      background-color: #058a36!important;
+  }
+
+  .sidebar ul span {
+    display: block;
+    position: absolute;
+    color: white;
+    right: 15px;
+    font-size: 32px;
+    transition: .5s all linear;
+  }
+
+  .blog-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  section h2.section-heading {
+    font-size: 28px;
+  }
+
+  #home-buttons h2 {
+    text-align: center;
+  }
+
+  .blog-content-single {
+    margin: 15px;
+  }
+
+  .blog-content-single .single-featured-image {
+    height: auto;
+  }
+
   .sidebar {
     float: none;
+    margin: 10px 15px 5px;
   }
 
   .blog-content {
@@ -1666,11 +1772,11 @@ img::-moz-selection {
   }
 
   section {
-    padding: 50px 0;
+    padding: 80px 0;
   }
 
   .blog-content .news-img {
-    height: 30vh;
+    height: 164px;
   }
 
   .clube-de-beneficios-single-img {
@@ -1690,6 +1796,11 @@ img::-moz-selection {
 
   .clube-de-beneficios-about-caption {
     margin: 15px;
+  }
+
+  .col-copyright {
+    flex-direction: column;
+    margin-bottom: 15px;
   }
 
   .col-copyright img {
@@ -1835,7 +1946,7 @@ img::-moz-selection {
   }
 
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Lucida Grande Neue", Lucida Grande, Arial, sans-serif;
+    font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
@@ -1867,15 +1978,6 @@ img::-moz-selection {
 
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
-  }
-
-  .navbar-custom.affix {
-    background-color: #222222;
-    padding: 10px 0;
-  }
-
-  .navbar-custom.affix .navbar-brand {
-    font-size: 2em;
   }
 
   .mobile {
@@ -1925,7 +2027,7 @@ img::-moz-selection {
   }
 
   .blog-content-single {
-    width: 520px;
+    width: 518px;
   }
 
   #clube-de-beneficios h2 {
@@ -1942,7 +2044,7 @@ img::-moz-selection {
   }
 
   .blog-content {
-    width: 540px;
+    width: 538px;
   }
 
   .sidebar {
@@ -2047,7 +2149,7 @@ img::-moz-selection {
   }
 
   .blog-content-single {
-    width: 740px;
+    width: 738px;
   }
 
   .ad-blog-header {
@@ -2060,11 +2162,11 @@ img::-moz-selection {
   }
 
   .blog-content {
-    width: 750px;
+    width: 748px;
   }
 
   .blog-content .news-recents {
-    width: 240px;
+    width: 238px;
     height: auto;
     margin: 5px;
   }
@@ -2202,7 +2304,7 @@ img::-moz-selection {
 
   .crawler_produto_list_caption p {
     color: #a3a3a3;
-    font-family: Lucida Grande;
+    font-family: 'Open Sans';
     font-size: 9pt;
   }
 
@@ -2253,7 +2355,7 @@ img::-moz-selection {
   }
 
   .blog-content-single {
-    width: 900px;
+    width: 898px;
   }
 
   .ad-blog-header {
@@ -2275,7 +2377,6 @@ img::-moz-selection {
 
   .about-caption {
     width: 520px;
-
   }
 
   .blog-content {
