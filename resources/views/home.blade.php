@@ -108,6 +108,21 @@
                   </div>
                 </a>
               </div>
+             @elseif ($i === 4)
+              <!-- TERCEIRA DA SEGUNDA FILEIRA-->
+              <div class="news-recents ">
+                <a href="/blog/{{ $topPost->slug }}">
+                    <div class="news-img" style="background-image: url('{{ $topPost->cover }}')">
+                      <div id="news-cat-1" class="news-cat" style="background-color: {{ $topPost->category_color }}">
+                        {{ $topPost->category_name }}
+                      </div>
+                  </div>
+
+                  <div class="news-caption">
+                    <h4>{{ $topPost->title }}</h4>
+                  </div>
+                </a>
+              </div>
             @else
               <!-- ULTIMA -->
                 <div class="news-recents ">
@@ -154,7 +169,7 @@
             <img src="/img/soon.png" class="img-responsive" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Clube de Benefícios</h4>
+            <h4>Smowee Club</h4>
             <p class="text-muted">O Clube de Benefícios Smowee é voltado para o usuário do Mundo Cannábico, onde reunimos os melhores serviços relacionados a nossa comunidade em um só lugar. Através de parcerias selecionadas, nossa proposta é trazer um novo conceito e juntar a galera 420.</p>
           </div>
         </div>

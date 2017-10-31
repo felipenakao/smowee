@@ -32,7 +32,7 @@ class HomeController extends Controller
                 )
                 ->orderBy('views', 'desc')
                 ->latest()
-                ->limit(5)
+                ->limit(6)
                 ->get();
 
         return view('home')->with(['topPosts' => $topPosts, 'i' => 0]);
