@@ -4,41 +4,45 @@
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">CONTATO</h2>
                 <h3 style="color:#fec503;" class="section-subheading text-muted">Entre em contato com a Smowee</h3>
-
             </div>
         </div>
+        
         <div class="row">
-            <div class="col-lg-12">
-                <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Nome *" id="name" required data-validation-required-message="Por favor insira seu nome.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="E-mail *" id="email" required data-validation-required-message="Por favor insira seu e-mail.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input type="tel" class="form-control" placeholder="Telefone *" id="phone" required data-validation-required-message="Por favor insira o seu telefone.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="Mensagem *" id="message" required data-validation-required-message="Por favor insira uma mensagem."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">Enviar</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+          <div class="col-lg-12">
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nome *" id="name" required data-validation-required-message="Por favor insira seu nome.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="E-mail *" id="email" required data-validation-required-message="Por favor insira seu e-mail.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+                  <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="Telefone *" id="phone" required data-validation-required-message="Por favor insira o seu telefone.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Mensagem *" id="message" required data-validation-required-message="Por favor insira uma mensagem."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                    <div id="success"></div>
+                    <button type="submit" class="btn btn-xl">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
     </div>
 </section>
@@ -48,17 +52,15 @@
       <div class="col-md-10 col-copyright">
         <img src="/img/logo-smowee-footer.png" />
         <span class="copyright">Copyright 2017 - Todos os direitos reservados ao Smowee. Conteúdo para maiores de 18 anos.</span>
-        <span style="margin-left:10px"><a href="#">Mídia / Assessoria / Parcerias</a></span>
+        <!-- <span style="margin-left:10px"><a target="_blank" href="/parceiros">Mídia / Assessoria / Parcerias</a></span> -->
 
       </div>
       <div class="col-md-2">
         <ul class="list-inline social-buttons">
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-
+          <li><a target="_blank" href="https://www.twitter.com/SmoweeOficial/"><i class="fa fa-twitter"></i></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/SmoweeOficial/"><i class="fa fa-facebook"></i></a></li>
+          <li><a target="_blank" href="https://www.instagram.com/smowee/"><i class="fa fa-instagram"></i></a></li>
         </ul>
-
       </div>
     </div>
   </div>
@@ -84,12 +86,23 @@
 <script src="/js/contact_me.js"></script>
 <!-- Theme JavaScript -->
 <script src="/js/smowee.js"></script>
-
 <script src="/js/lightslider.js"></script>
-
 <script type="text/javascript">
-
   $(document).ready(function(){
+    var resizeTimer;
+
+    $(window).resize(function(e) {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function() {
+        if ($(window).width() <= 768) {
+          $(".sidebar ul").click(function(){
+            $(".sidebar ul li").stop().slideToggle();
+            $(this).toggleClass("expand");
+          });
+        }
+      },250);
+    });
+
     $("#content-slider").lightSlider({
       loop:true,
       keyPress:true,
@@ -109,6 +122,4 @@
       $obj.css('background-position', bgpos );
     });
   });
-
-
 </script>

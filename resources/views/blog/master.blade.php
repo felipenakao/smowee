@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <span class="ad-blog-header">ANÚNCIO</span>
+          <!-- <span class="ad-blog-header">ANÚNCIO</span> -->
           <h2 class="section-heading">Blog Smowee</h2>
           <h3 class="section-subheading text-muted">Veja as postagens mais recentes do nosso blog.</h3>
         </div>
@@ -17,6 +17,7 @@
 
         <div class="sidebar">
           <ul>
+            <span>=</span>
             <h4>Categorias</h4>
             <li id="news-cat-sidebar-1">Saúde</li>
             <li id="news-cat-sidebar-2">Cotidiano</li>
@@ -24,9 +25,9 @@
             <li id="news-cat-sidebar-4">Economia</li>
           </ul>
 
-          <ul>
-            <li style="width:auto; height:150px;background-color:yellowgreen;">ANÚNCIO</li>
-          </ul>
+          <!-- <ul> -->
+            <!-- <li style="width:auto; height:150px;background-color:yellowgreen;">ANÚNCIO</li> -->
+          <!-- </ul> -->
 
           {{-- <ul class="flex-wrap">
             <h4>Arquivo</h4>
@@ -40,7 +41,7 @@
           </ul>
 
           <ul>
-            <li style="width:auto; height:300px;background-color:yellowgreen;">ANÚNCIO</li>
+            <!-- <li style="width:auto; height:300px;background-color:yellowgreen;">ANÚNCIO</li> -->
           </ul>
 
           <ul class="flex-wrap">

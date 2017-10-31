@@ -5,10 +5,38 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-image: url('../img/smowee-pattern.jpg');
   background-repeat: repeat;
+  font-size: 10pt;
   webkit-tap-highlight-color: #058a36;
+}
+
+.pnf {
+  background-image: url('../img/pnf.jpg');
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+}
+
+.pnf-grid {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  color: white;
+  border: 2px solid white;
+  padding: 3% 2%;
+  text-align: center;
+}
+
+.pnf h2 {
+  font-size: 132px;
+  text-align: center;
+}
+
+.pnf a {
+  text-align: center;
+  color: white;
 }
 
 .text-muted {
@@ -20,7 +48,7 @@ body {
 }
 
 p {
-  font-size: 14px;
+  font-size: 9pt;
   line-height: 1.75;
 }
 
@@ -53,7 +81,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Fjalla One', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -88,7 +115,7 @@ b {
   color: white;
   background-color: #058a36;
   border-color: #058a36;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -98,9 +125,6 @@ b {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
 }
 
 .btn-primary:active,
@@ -137,7 +161,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #058a36;
   border-color: #058a36;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   border-radius: 3px;
@@ -225,7 +249,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle {
   background-color: #058a36;
   border-color: #058a36;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
@@ -237,7 +261,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom .nav li a {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -253,13 +277,11 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #058a36;
 }
 
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
 }
 
 header {
@@ -281,7 +303,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
@@ -304,21 +326,22 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-family: "Droid Serif";
   text-transform: none;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 0px;
   color: #343434;
 }
 
 .about-caption {
-  background: rgba(34, 34, 34, 1);
+  background: #222222;
   padding: 30px;
   color: #f8f4f3;
 }
@@ -328,8 +351,12 @@ section h3.section-subheading {
   background-repeat: repeat;
 }
 
+#about h2 {
+  margin-bottom: 15px;
+}
+
 .about-caption p {
-  font-family: 'Helvetica';
+  font-family: 'Open Sans';
   font-size: 9pt;
 }
 
@@ -373,7 +400,7 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-text p {
-  font-family: helvetica;
+  font-family: 'Open Sans';
   font-size: 9pt;
   border-left: 2px solid #058a36;
   padding: 0px 15px;
@@ -431,8 +458,8 @@ section h3.section-subheading {
 }
 
 .cdb-single p,.clube-de-beneficios-about p,.clube-de-beneficios-side p {
-  font-family: 'Helvetica';
-  font-size: 10pt;
+  font-family: 'Open Sans';
+  font-size: 9pt;
 }
 
 .cdb-about-caption-block a {
@@ -488,7 +515,7 @@ section h3.section-subheading {
 
 .valor p {
   font-size: 18pt;
-  font-family: 'Fjalla One';
+  font-family: 'Roboto';
   margin: 0px;
   padding: 0px 15px;
 }
@@ -530,7 +557,7 @@ section h3.section-subheading {
   display: flex;
   align-items: center;
   font-size: 11pt;
-  font-family: 'helvetica';
+  font-family: 'Open Sans';
   font-style: italic;
 }
 
@@ -543,7 +570,7 @@ section h3.section-subheading {
 }
 
 .esqueci {
-  font-family: 'Helvetica';
+  font-family: 'Open Sans';
   font-size: 8pt;
   margin: 10px 0px;
 }
@@ -556,8 +583,8 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-about-caption p {
-  font-family: 'Helvetica';
-  font-size: 10pt;
+  font-family: 'Open Sans';
+  font-size: 9pt;
 }
 
 .clube-de-beneficios-buttons-caption {
@@ -567,8 +594,8 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-buttons-caption p {
-  font-size: 10pt;
-  font-family: 'Helvetica';
+  font-size: 9pt;
+  font-family: 'Open Sans';
   color: white;
 }
 
@@ -591,7 +618,7 @@ section h3.section-subheading {
 }
 
 .clube-de-beneficios-single-desc p {
-  font-family: 'Helvetica';
+  font-family: 'Open Sans';
 }
 
 .cdb-exit {
@@ -607,7 +634,7 @@ section h3.section-subheading {
 }
 
 .cdb-user h4 {
-  font-family: Helvetica;
+  font-family: 'Open Sans';
   font-size: 9pt;
 }
 
@@ -615,44 +642,50 @@ section h3.section-subheading {
   margin-right: 10px;
 }
 
+.blog-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .blog-content-single {
   height: auto;
   background: white;
   overflow: hidden;
-  float: left;
   margin: 5px;
+  padding: 30px;
 }
 
 .blog-content-single .single-featured-image {
   margin: auto;
   width: 100%;
-  height: 480px;
 }
 
 .blog-content-single-grid {
-  padding: 25px;
+  padding: 0px;
 }
 
 .blog-content-single h4 {
   font-size: 18pt;
+  font-weight: 500;
   padding: 5px;
-  margin: 0px;
+  margin: 15px 0px 0px;
 }
 
 .blog-content-single p {
-  font-size: 10pt;
-  font-family: 'Helvetica';
+  font-size: 14pt;
+  font-family: 'Open Sans';
   padding: 5px;
 }
 
 .blog-content-single-meta {
   margin-bottom: 5px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .blog-content-single-meta span {
   padding: 5px;
-  font-family: 'Helvetica';
+  font-family: 'Open Sans';
   font-style: italic;
 }
 
@@ -664,7 +697,7 @@ section h3.section-subheading {
 }
 
 .news-recents:hover .news-caption {
-  background: rgba(34, 34, 34, 0.5);
+  background: rgba(5, 138, 54, 1);
 }
 
 .news-recents:hover .news-img {
@@ -687,13 +720,13 @@ section h3.section-subheading {
   margin: 3px;
 }
 
-.blog-content-single-meta button{
+.blog-content-single-meta button {
   border: 0px;
-border-radius: 10px;
-line-height: 18px;
-height: 20px;
-font-size: 12px;
-text-align: center;
+  border-radius: 10px;
+  line-height: 18px;
+  height: 20px;
+  font-size: 12px;
+  text-align: center;
   color: white;
 }
 
@@ -710,7 +743,7 @@ text-align: center;
   text-shadow: 0px 0px 5px black;
 }
 
-.blog-content-single-meta button:hover{
+.blog-content-single-meta button:hover {
   background: #434343;
   transition: .5s all;
 }
@@ -729,20 +762,20 @@ text-align: center;
 .blog-navigation-newer {
   width: auto;
   height: 25px;
-  font-size: 10pt;
+  font-size: 9pt;
   margin: 10px;
   float: left;
 }
 
-.blog-navigation-newer:hover,.blog-navigation-older:hover{
-cursor: pointer;
-color: #43a547;
+.blog-navigation-newer:hover,.blog-navigation-older:hover {
+  cursor: pointer;
+  color: #43a547;
 }
 
 .blog-navigation-older {
   width: auto;
   height: 25px;
-  font-size: 10pt;
+  font-size: 9pt;
   margin: 10px;
   float: right;
 }
@@ -759,7 +792,7 @@ color: #43a547;
   align-items: center;
 }
 
-.blog-navigation-pages:hover{
+.blog-navigation-pages:hover {
   background: #43a547;
   cursor: pointer;
 }
@@ -768,6 +801,11 @@ color: #43a547;
   width: auto;
   height: auto;
   padding: 0px 0px 10px 0px;
+  margin-bottom: 0px;
+}
+
+.sidebar ul span {
+  display: none;
 }
 
 .sidebar ul h4 {
@@ -786,9 +824,8 @@ color: #43a547;
   border-radius: 5px;
 }
 
-.sidebar ul li:hover{
-  background: #666666;
-  color: white;
+.sidebar ul li:hover {
+  background: white;
   transition: .5s all;
   cursor: pointer;
 }
@@ -814,7 +851,6 @@ color: #43a547;
   flex-wrap: wrap;
   background: white;
   overflow: hidden;
-  float: left;
 }
 
 .flex-wrap {
@@ -833,7 +869,7 @@ color: #43a547;
 }
 
 #home-buttons {
-  padding: 30px 0px;
+  padding: 0px 0px;
   margin: 50px 0px 0px 0px;
   background-color: #14264d;
   background-image: url('../img/home-buttons/home-buttons-pattern.jpg');
@@ -909,9 +945,9 @@ color: #43a547;
 }
 
 #home-buttons .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
   font-style: italic;
-  font-size: 10pt;
+  font-size: 9pt;
   margin: 15px 0;
 }
 
@@ -930,7 +966,7 @@ color: #43a547;
 
 .contato-label p {
   font-size: 12pt;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -1053,7 +1089,6 @@ color: #43a547;
 }
 
 .sidebar {
-  float: right;
   background: white;
   margin: 5px;
 }
@@ -1101,6 +1136,10 @@ section#contact {
   background-size: cover;
 }
 
+#contact h3 {
+  margin-bottom: 60px;
+}
+
 section#contact .section-heading {
   color: white;
 }
@@ -1128,27 +1167,27 @@ section#contact .form-control:focus {
 }
 
 section#contact ::-webkit-input-placeholder {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
 
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
 
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
 
 section#contact :-ms-input-placeholder {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #222222;
 }
@@ -1163,13 +1202,19 @@ footer {
   background: #222222;
 }
 
+.col-copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .col-copyright img {
   padding-right: 20px;
 }
 
 footer span.copyright {
-  line-height: 40px;
-  font-family: 'Fjalla One', sans-serif;
+  line-height: 22px;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-transform: none;
   color: white;
@@ -1178,7 +1223,7 @@ footer span.copyright {
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
@@ -1189,6 +1234,7 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1245,7 +1291,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
@@ -1336,7 +1382,7 @@ img::-moz-selection {
 }
 
 .paralax-bg span {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
   font-style: italic;
   font-size: 18pt;
   width: 1000px;
@@ -1424,7 +1470,7 @@ img::-moz-selection {
 .crawler-text p {
   text-align: center;
   font-size: 9pt;
-  font-family: helvetica;
+  font-family: 'Open Sans';
   color: #c7c7c7;
 }
 
@@ -1439,7 +1485,7 @@ img::-moz-selection {
 }
 
 .crawler_produto p {
-  font-family: helvetica;
+  font-family: 'Open Sans';
   font-size: 9pt;
   color: #c7c7c7
 }
@@ -1538,7 +1584,7 @@ img::-moz-selection {
 
 .crawler_produto_list_caption p {
   color: #a3a3a3;
-  font-family: helvetica;
+  font-family: 'Open Sans';
 }
 
 .crawler_produto_list_go {
@@ -1569,6 +1615,71 @@ img::-moz-selection {
 }
 
 @media (max-width: 768px) {
+
+  .sidebar ul {
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .sidebar ul h4 {
+    margin: 0px;
+  }
+
+  .sidebar ul li {
+    display: none;
+  }
+
+  .expand span {
+    transition: .5s all linear;
+  }
+
+  .expand h4 {
+    background-color: #058a36!important;
+  }
+
+  .sidebar ul span {
+    display: block;
+    position: absolute;
+    color: white;
+    right: 15px;
+    font-size: 32px;
+    transition: .5s all linear;
+  }
+
+  .blog-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .blog-content-single p {
+    font-size: 11pt;
+  }
+
+  section h2.section-heading {
+    font-size: 28px;
+  }
+
+  #home-buttons h2 {
+    text-align: center;
+  }
+
+  .blog-content-single {
+    margin: 15px;
+  }
+
+  .blog-content-single .single-featured-image {
+    height: auto;
+  }
+
+  .sidebar {
+    float: none;
+    margin: 10px 15px 5px;
+  }
+
+  .blog-content {
+    float: none;
+  }
 
   .cdb-single {
     width: auto;
@@ -1663,11 +1774,11 @@ img::-moz-selection {
   }
 
   section {
-    padding: 50px 0;
+    padding: 80px 0;
   }
 
   .blog-content .news-img {
-    height: 30vh;
+    height: 164px;
   }
 
   .clube-de-beneficios-single-img {
@@ -1687,6 +1798,11 @@ img::-moz-selection {
 
   .clube-de-beneficios-about-caption {
     margin: 15px;
+  }
+
+  .col-copyright {
+    flex-direction: column;
+    margin-bottom: 5px;
   }
 
   .col-copyright img {
@@ -1804,7 +1920,7 @@ img::-moz-selection {
   }
 
   .crawler_produto_list_caption h4 {
-    font-size: 10pt;
+    font-size: 9pt;
   }
 
   .crawler_produto_list_caption p {
@@ -1832,7 +1948,7 @@ img::-moz-selection {
   }
 
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Droid Serif", "'Open Sans' Neue", 'Open Sans', Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
@@ -1864,15 +1980,6 @@ img::-moz-selection {
 
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
-  }
-
-  .navbar-custom.affix {
-    background-color: #222222;
-    padding: 10px 0;
-  }
-
-  .navbar-custom.affix .navbar-brand {
-    font-size: 2em;
   }
 
   .mobile {
@@ -1922,7 +2029,7 @@ img::-moz-selection {
   }
 
   .blog-content-single {
-    width: 520px;
+    width: 518px;
   }
 
   #clube-de-beneficios h2 {
@@ -1939,7 +2046,7 @@ img::-moz-selection {
   }
 
   .blog-content {
-    width: 540px;
+    width: 538px;
   }
 
   .sidebar {
@@ -1959,7 +2066,6 @@ img::-moz-selection {
   }
 
   .about-caption {
-    width: 100%;
     height: auto;
   }
 
@@ -2045,7 +2151,7 @@ img::-moz-selection {
   }
 
   .blog-content-single {
-    width: 740px;
+    width: 738px;
   }
 
   .ad-blog-header {
@@ -2058,11 +2164,11 @@ img::-moz-selection {
   }
 
   .blog-content {
-    width: 750px;
+    width: 748px;
   }
 
   .blog-content .news-recents {
-    width: 240px;
+    width: 238px;
     height: auto;
     margin: 5px;
   }
@@ -2172,83 +2278,74 @@ img::-moz-selection {
     height: 500px;
   }
 
-
-
-
-
-
-  .crawler_content_list{
-
+  .crawler_content_list {
     width: 80%;
     height: auto;
   }
 
-  .crawler_produto_list{
-
+  .crawler_produto_list {
     box-shadow: 0px 0px 5px #101010;
-width: auto;
-height: auto;
-overflow: hidden;
-padding: 15px;
-margin: 0px 15px 15px;
-display: flex;
-flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 15px;
+    margin: 0px 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .crawler_produto_list_caption{
+  .crawler_produto_list_caption {
     padding: 0px 15px;
     color: white;
     width: 630px;
   }
 
-  .crawler_produto_list_caption h4{
-
+  .crawler_produto_list_caption h4 {
     color: #fec503;
-
   }
 
-  .crawler_produto_list_caption p{
+  .crawler_produto_list_caption p {
     color: #a3a3a3;
-    font-family: helvetica;
+    font-family: 'Open Sans';
     font-size: 9pt;
   }
 
-  .crawler_produto_list_go{
+  .crawler_produto_list_go {
     padding: 15px;
     width: 120px;
     height: auto;
     border-left: 1px solid black;
   }
 
-  .crawler_produto_list_go .price{
+  .crawler_produto_list_go .price {
     color: #89be6f;
     font-size: 18pt;
     text-align: center;
     margin: 0px;
   }
 
-  .crawler_produto_list_go .button_loja{
-  color: white;
+  .crawler_produto_list_go .button_loja {
+    color: white;
     text-align: center;
   }
 
+  .crawler_produto_list_img {
+    width: 100px;
+    height: 100px;
+  }
 
-.crawler_produto_list_img{
-  width: 100px;
-  height: 100px;
-}
-.clube-de-beneficios-side {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 0px;
-}
+  .clube-de-beneficios-side {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
 
-#clube-de-beneficios h2 {
-  text-align: left;
-}
+  #clube-de-beneficios h2 {
+    text-align: left;
+  }
 
   .clube-de-beneficios-side .cdb-side-caption {
     width: 300px;
@@ -2260,7 +2357,7 @@ flex-wrap: wrap;
   }
 
   .blog-content-single {
-    width: 900px;
+    width: 898px;
   }
 
   .ad-blog-header {
@@ -2275,14 +2372,18 @@ flex-wrap: wrap;
   .about-bg {
     background-image: url('../img/about/about-bg.jpg');
     width: 100%;
-    height: 440px;
+    height: 420px;
     background-position-y: 0px;
     background-size: cover;
+    position: relative;
   }
 
   .about-caption {
-    width: 520px;
-    height: 100%;
+    width: 450px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    text-align: justify
   }
 
   .blog-content {

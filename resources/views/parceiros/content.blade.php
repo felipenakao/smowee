@@ -2,12 +2,12 @@
 
 @section ('parceiros-content')
 
-  <div class="row">
-    <h2 style="text-align:center">Seja um Parceiro Smowee</h2>
-  </div>
+
 
   <div class="row parceiros-flex">
     <div class="parceiros-text">
+      <h2>Seja um Parceiro Smowee</h2>
+      <br>
       <h3>Mídia</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tortor est, euismod a elit vel, maximus gravida velit. Mauris id congue nibh. Pellentesque sit amet volutpat turpis. Praesent placerat malesuada dapibus. Proin sit amet ornare lacus. Aenean vel condimentum quam, ac dapibus augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur euismod ac lacus id posuere. Ut volutpat orci at pellentesque bibendum. Morbi vehicula viverra urna ut fringilla. Maecenas consectetur massa enim, sit amet vestibulum est congue eget. Nulla pulvinar facilisis sapien, et tincidunt nunc tristique sed. Aenean dictum, justo quis posuere gravida, lorem nibh euismod neque, eget maximus ante diam nec turpis. Aliquam lorem leo, luctus ut sollicitudin in, mollis id odio.
