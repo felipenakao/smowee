@@ -19,20 +19,9 @@
         <div class="about-bg">
           <div class="about-caption">
             <h2 class="section-heading">QUEM SOMOS</h2>
-
-            <p>
-              O Smowee é uma marca canábica brasileira, criada em 2015, preocupada com a disseminação e conscientização da planta Cannabis Sativa, através de ferramentas sociais disseminamos conhecimentos e notícias sobre o Mundo Canábico, além de facilitar o dia a dia através de soluções tecnológicas focadas e pensadas especificamente para o nosso público 420.
-            </p>
+            <p>O Smowee é uma marca canábica brasileira, criada em 2015, cujo o objetivo é a conscientização e disseminação de informações sobre a planta Cannabis Sativa, utilizando e desenvolvendo tecnologia focada para o nosso público 420.</p>
+            <p style="font-size:12pt" class="yellow">Você poderá nos ajudar a construir essa História.</p>
             <img class="mobile" width="100%" style="margin-bottom:10px" src="/img/about/about-bg.jpg" />
-            <p>
-              Nós queremos representar uma ideia positiva, com uma equipe de profissionais dedicados e amantes da Cannabis, buscamos sempre oferecer um trabalho de qualidade que contribua com o desenvolvimento de um mundo mais consciente e melhor.
-            </p>
-            <p>
-              Nossa missão é mostrar para a sociedade que a nossa comunidade 420 é formada por pessoas do bem e acabar com este estereótipo negativo em relação ao “maconheiro”, e que o fato de você ser como a gente, um amante e usuário consciente da planta, não faz de você menos capacitado que uma pessoa “normal”.
-            </p>
-            <p style="font-size:12pt" class="yellow">
-              Você poderá nos ajudar a construir essa História.
-            </p>
           </div>
         </div>
       </div>

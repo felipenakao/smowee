@@ -36,7 +36,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .news-caption h4 {
@@ -44,6 +43,7 @@
   font-weight: 100;
   font-size: 14px;
   margin: 0px;
+  line-height: 20px;
 }
 
 .news-caption p {
