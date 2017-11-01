@@ -17,6 +17,7 @@
     <!-- Custom styles for this template -->
     <link href="/css/simple-sidebar.css" rel="stylesheet">
     <link href="/css/smowee.css" rel="stylesheet">
+    
 
 </head>
 
@@ -52,7 +53,7 @@
     <script src="/tinymce/jquery.tinymce.min.js"></script>
     <script src="/tinymce/tinymce.min.js"></script>
     <script>
-      tinymce.init({ 
+      tinymce.init({
         selector: 'textarea',
         plugins: [
           'advlist autolink lists link image charmap print preview anchor textcolor',
@@ -71,17 +72,17 @@
            isClosed = false;
 
           trigger.click(function () {
-            hamburger_cross();      
+            hamburger_cross();
           });
 
           function hamburger_cross() {
 
-            if (isClosed == true) {          
+            if (isClosed == true) {
               overlay.hide();
               trigger.removeClass('is-open');
               trigger.addClass('is-closed');
               isClosed = false;
-            } else {   
+            } else {
               overlay.show();
               trigger.removeClass('is-closed');
               trigger.addClass('is-open');
@@ -91,7 +92,7 @@
 
         $('[data-toggle="offcanvas"]').click(function () {
               $('#wrapper').toggleClass('toggled');
-        });  
+        });
       });
     // $("#menu-toggle").click(function(e) {
     //     e.preventDefault();

@@ -8,9 +8,14 @@
 
       <div class='blog-content-single-meta'>
         <span>Autor: {{ $post[0]->writer }}</span>
-        <span>Data: {{ $post[0]->publish_date }}</span>
+        <span>Data: {{ $date }}</span>
         <span>Categoria: {{ $post[0]->category_name }}</span>
-        <span>Tags: {{ $post[0]->tags }}</span>
+        <span>
+          Tags:
+          @foreach ($tags as $tag)
+            <span class="label label-success">{{$tag}}</span>
+          @endforeach
+        </span>
       </div>
       <div class='blog-content-single-meta' style="justify-content:space-between">
         <div class="blog-views">
