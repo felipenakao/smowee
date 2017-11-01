@@ -44,8 +44,9 @@ class BlogController extends Controller
       if (count($post) < 1) return false;
       // INCREMENTA VIEW + 1
       DB::table('posts')->where('slug', $slug)->increment('views');
+      // TRATA AS TAGS PARA RENDERIZA-LAS SEPARADAMENTE
+      $tags = explode(',', $post[0]->tags);
       // RETORNAR VIEW PARA RENDER DO POST
-      // return $post;
-      return view('blog.post')->with(['post' => $post]);
+      return view('blog.post', compact(['post', 'tags']));
     }
 }

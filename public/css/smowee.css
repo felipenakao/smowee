@@ -1614,6 +1614,11 @@ img::-moz-selection {
   text-decoration: none;
 }
 
+.blog-content-single span.label.label-success {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
 
   .sidebar ul {
