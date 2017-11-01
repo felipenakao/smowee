@@ -46,7 +46,9 @@ class BlogController extends Controller
       DB::table('posts')->where('slug', $slug)->increment('views');
       // TRATA AS TAGS PARA RENDERIZA-LAS SEPARADAMENTE
       $tags = explode(',', $post[0]->tags);
+      // TRATA DATA 
+      $date = Carbon::createFromFormat('Y-m-d', $post[0]->publish_date)->format('d/m/Y');
       // RETORNAR VIEW PARA RENDER DO POST
-      return view('blog.post', compact(['post', 'tags']));
+      return view('blog.post', compact(['post', 'tags', 'date']));
     }
 }
