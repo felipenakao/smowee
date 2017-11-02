@@ -91,17 +91,40 @@
   $(document).ready(function(){
     var resizeTimer;
 
-    $(window).resize(function(e) {
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(function() {
-        if ($(window).width() <= 768) {
-          $(".sidebar ul").click(function(){
-            $(".sidebar ul li").stop().slideToggle();
-            $(this).toggleClass("expand");
-          });
-        }
-      },250);
+    function expandsTagList() {
+      $(".sidebar ul li").stop().slideToggle();
+      $(this).toggleClass("expand");
+    } 
+
+    if ($(window).width() > 770) {
+      $(".sidebar ul li").stop().slideDown();
+    }
+
+    $(".sidebar ul").click(function(){
+      console.log('mano jonys clicado')
+      if ($(window).width() < 770) {
+        expandsTagList();
+      }
     });
+
+    $(window).resize(function(e) {
+      if ($(window).width() > 770) {
+        $(".sidebar ul li").stop().slideDown();
+      }
+    });
+
+    // $(window).resize(function(e) {
+    //   clearTimeout(resizeTimer);
+    //   resizeTimer = setTimeout(function() {
+    //     if ($(window).width() <= 768) {
+    //       $(".sidebar ul").click(function(){
+    //         console.log('mano jonys clicado')
+    //         $(".sidebar ul li").stop().slideToggle();
+    //         $(this).toggleClass("expand");
+    //       });
+    //     }
+    //   },250);
+    // });
 
     $("#content-slider").lightSlider({
       loop:true,
