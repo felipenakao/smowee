@@ -14,9 +14,8 @@
             Blog <span class="caret"></span>
           </a>
           <ul class="dropdown-menu" role="menu">
-            <li class="dropdown-header">Blog admin</li>
-            <li><a href="/posts/create">Criar Artigo</a></li>
-            <li><a href="#">Lista de artigos</a></li>
+            {{-- <li><a href="/posts/create">Criar Artigo</a></li> --}}
+            <li><a href="/posts">Lista de artigos</a></li>
           </ul>
         </li>
 
@@ -32,7 +31,7 @@
           </ul>
         </li> --}}
 
-        <li class="dropdown">
+        {{-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <i class="fa fa-fw fa-search"></i>
             Farofino <span class="caret"></span>
@@ -42,13 +41,13 @@
             <li><a href="/admin/farofino">Inserir produto</a></li>
             <li><a href="#">Lista de produtos</a></li>
           </ul>
-        </li>
+        </li> --}}
 
         {{-- <li>
             <a href="/admin/farofino"><i class="fa fa-fw fa-search"></i> Farofino</a>
         </li> --}}
         <li>
-          <a href="/logout"><i class="fa fa-fw fa-archive"></i> Logout</a>
+          <a href="/logout"><i class="fa fa-fw fa-sign-out"></i> Logout</a>
         </li>
         <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-plus"></i> Dropdown <span class="caret"></span></a>

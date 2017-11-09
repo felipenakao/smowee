@@ -21,7 +21,9 @@ class PostController extends Controller
      */
     public function index()
     {
-        return Post::all();
+        $posts = Post::all();
+        // return Post::all();
+        return view('admin.post.list', compact(['posts']));
     }
 
     /**
@@ -35,7 +37,7 @@ class PostController extends Controller
             ->orderBy('name')
             ->get();
 
-        return view('admin.blog')->with(['categories' => $categories]);
+        return view('admin.post.new')->with(['categories' => $categories]);
     }
 
     /**

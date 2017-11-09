@@ -36,7 +36,7 @@ Route::get('/blog/{slug}', 'BlogController@single');
 //     return view('blog.post');
 // });
 // BLOG
-// CDB
+// SMOWEE CLUB
 Route::get('/clube-de-beneficios', function () {
     return view('cdb.display');
 });
@@ -48,7 +48,7 @@ Route::get('/login', function () {
 Route::get('/clube-de-beneficios/{product}', function () {
     return view('cdb.product');
 });
-// CDB
+// SMOWEE CLUB
 // FAROFINO
 Route::get('/farofino', function () {
     return view('farofino.options');

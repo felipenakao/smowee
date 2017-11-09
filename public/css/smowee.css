@@ -1619,6 +1619,11 @@ img::-moz-selection {
     font-weight: bold;
 }
 
+/* ADMIN POSTS */
+.table-admin {
+  background-color: #eee;
+}
+
 @media (max-width: 768px) {
 
   .sidebar ul {
