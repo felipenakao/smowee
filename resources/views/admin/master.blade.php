@@ -54,7 +54,7 @@
     <script src="/tinymce/tinymce.min.js"></script>
     <script>
       tinymce.init({
-        selector: 'textarea',
+        selector: '#post-content',
         plugins: [
           'advlist autolink lists link image charmap print preview anchor textcolor',
           'searchreplace visualblocks code fullscreen',
