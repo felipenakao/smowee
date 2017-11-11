@@ -1624,6 +1624,18 @@ img::-moz-selection {
   background-color: #eee;
 }
 
+.admin-post__action {
+  font-size: 14px;
+  /* font-weight: bold; */
+  color: #666;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.admin-post__action:hover {
+  color: #2ecc71;
+}
+
 @media (max-width: 768px) {
 
   .sidebar ul {
@@ -1635,6 +1647,7 @@ img::-moz-selection {
 
   .sidebar ul h4 {
     margin: 0px;
+    margin-left: 5px;
   }
 
   .sidebar ul li {
