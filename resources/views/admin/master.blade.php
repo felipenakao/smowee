@@ -35,7 +35,7 @@
             <span class="hamb-middle"></span>
             <span class="hamb-bottom"></span>
           </button>
-            <div class="container admin-area">
+            <div class="container admin-area col-md-10 col-md-offset-1">
                 @yield ('content')
             </div>
         </div>

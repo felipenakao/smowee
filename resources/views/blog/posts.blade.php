@@ -29,9 +29,6 @@
 
         <div class="news-caption">
           <h4>{{ $post->title}}</h4>
-          <p>
-            {!! $Str::limit($post->abstract, 250) !!}
-          </p>
         </div>
         </a>
       </div>
