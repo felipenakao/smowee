@@ -1619,7 +1619,7 @@ img::-moz-selection {
     font-weight: bold;
 }
 
-/* ADMIN POSTS */
+/* ADMIN  */
 .table-admin {
   background-color: #eee;
 }
@@ -1635,6 +1635,19 @@ img::-moz-selection {
 .admin-post__action:hover {
   color: #2ecc71;
 }
+
+.admin-area .btn {
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+.admin-area .btn-admin-header {
+    position: relative;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+/* ADMIN  */
 
 @media (max-width: 768px) {
 
