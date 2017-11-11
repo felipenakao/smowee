@@ -80,9 +80,14 @@ class PostController extends Controller
      * @param  \App\Posts  $posts
      * @return \Illuminate\Http\Response
      */
-    public function edit(Posts $posts)
+    public function edit(Post $post)
     {
-        //
+        $categories = DB::table('posts_categories')
+            ->orderBy('name')
+            ->get();
+        // $post = $post;
+        // return [$post->toArray()];
+        return view('admin.post.edit', compact(['post', 'categories']));
     }
 
     /**

@@ -15,7 +15,7 @@
           </a>
           <ul class="dropdown-menu" role="menu">
             {{-- <li><a href="/posts/create">Criar Artigo</a></li> --}}
-            <li><a href="/posts">Lista de artigos</a></li>
+            <li><a href="/posts">Matérias</a></li>
           </ul>
         </li>
 
