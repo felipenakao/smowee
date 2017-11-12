@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\URL;
 use Carbon\Carbon;
 use App\Post;
 
@@ -34,8 +35,13 @@ class HomeController extends Controller
                 ->latest()
                 ->limit(6)
                 ->get();
+        // VARIAVEL DE CONTROLE PARA DISPLAY BLOG
+        $i = 0;
+        // VARIAVEIS PARA SOCIAL METATAGS
+        $ogUrl = URL::current();
+        $ogType = 'website';
+        $ogTitle = 'Smowee 420 - Queimando Preconceitos';
 
-        return view('home')->with(['topPosts' => $topPosts, 'i' => 0]);
-        // return $topPosts;
+        return view('home', compact(['topPosts', 'i', 'ogUrl', 'ogType', 'ogTitle']));
     }
 }

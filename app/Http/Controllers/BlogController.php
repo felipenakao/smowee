@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Str;
 use Carbon\Carbon;
 use App\Post;
@@ -22,9 +23,13 @@ class BlogController extends Controller
             'posts_categories.color as category_color')
           ->latest()
           ->get();
+      // VARIAVEIS PARA SOCIAL METATAGS
+      $ogUrl = URL::current();
+      $ogType = 'website';
+      $ogTitle = 'Smowee 420 - Blog';
       // INFINITY SCROLLER
       // RETORNAR VIEW COM TODOS OS POSTS
-      return view('blog.posts')->with(['posts' => $posts]);
+      return view('blog.posts', compact(['posts', 'ogUrl', 'ogType', 'ogTitle']));
     }
 
     public function single(Request $request, $slug) {
@@ -48,7 +53,11 @@ class BlogController extends Controller
       $tags = explode(',', $post[0]->tags);
       // TRATA DATA 
       $date = Carbon::createFromFormat('Y-m-d', $post[0]->publish_date)->format('d/m/Y');
+      // VARIAVEIS PARA SOCIAL METATAGS
+      $ogUrl  = URL::current();
+      $ogType = 'article';
+      $ogTitle = $post[0]->title;
       // RETORNAR VIEW PARA RENDER DO POST
-      return view('blog.post', compact(['post', 'tags', 'date']));
+      return view('blog.post', compact(['post', 'tags', 'date', 'ogUrl', 'ogType', 'ogTitle']));
     }
 }
