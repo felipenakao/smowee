@@ -27,9 +27,11 @@ class BlogController extends Controller
       $ogUrl = URL::current();
       $ogType = 'website';
       $ogTitle = 'Smowee 420 - Blog';
+      $ogDescription = 'O Smowee é uma marca canábica brasileira, cujo o objetivo é a conscientização e disseminação de informações sobre a planta Cannabis Sativa, utilizando e desenvolvendo tecnologia focada para o nosso público 420.';
+      $ogImage = 'http://smowee.com/img/about/about-bg.jpg';
       // INFINITY SCROLLER
       // RETORNAR VIEW COM TODOS OS POSTS
-      return view('blog.posts', compact(['posts', 'ogUrl', 'ogType', 'ogTitle']));
+      return view('blog.posts', compact(['posts', 'ogUrl', 'ogType', 'ogTitle', 'ogDescription','ogImage']));
     }
 
     public function single(Request $request, $slug) {
@@ -51,13 +53,16 @@ class BlogController extends Controller
       DB::table('posts')->where('slug', $slug)->increment('views');
       // TRATA AS TAGS PARA RENDERIZA-LAS SEPARADAMENTE
       $tags = explode(',', $post[0]->tags);
-      // TRATA DATA 
+      // TRATA DATA
       $date = Carbon::createFromFormat('Y-m-d', $post[0]->publish_date)->format('d/m/Y');
       // VARIAVEIS PARA SOCIAL METATAGS
       $ogUrl  = URL::current();
       $ogType = 'article';
       $ogTitle = $post[0]->title;
+      $ogDescription = $post[0]->abstract;
+      $ogImage = $post[0]->cover;
+
       // RETORNAR VIEW PARA RENDER DO POST
-      return view('blog.post', compact(['post', 'tags', 'date', 'ogUrl', 'ogType', 'ogTitle']));
+      return view('blog.post', compact(['post', 'tags', 'date', 'ogUrl', 'ogType', 'ogTitle', 'ogDescription','ogImage']));
     }
 }

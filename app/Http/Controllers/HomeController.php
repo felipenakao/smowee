@@ -41,7 +41,9 @@ class HomeController extends Controller
         $ogUrl = URL::current();
         $ogType = 'website';
         $ogTitle = 'Smowee 420 - Queimando Preconceitos';
+        $ogDescription = 'O Smowee é uma marca canábica brasileira, cujo o objetivo é a conscientização e disseminação de informações sobre a planta Cannabis Sativa, utilizando e desenvolvendo tecnologia focada para o nosso público 420.';
+        $ogImage = 'http://smowee.com/img/about/about-bg.jpg';
 
-        return view('home', compact(['topPosts', 'i', 'ogUrl', 'ogType', 'ogTitle']));
+        return view('home', compact(['topPosts', 'i', 'ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage']));
     }
 }
