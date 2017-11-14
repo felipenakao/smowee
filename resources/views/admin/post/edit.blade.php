@@ -44,16 +44,12 @@
 
     <div class="form-group">
       <label for="content">Resumo</label>
-      <textarea class="form-control" name="abstract" placeholder="Resumo" rows="5">
-        {{ $post->abstract }}
-      </textarea>
+      <textarea class="form-control" name="abstract" placeholder="Resumo" rows="5">{{ $post->abstract }}</textarea>
     </div>
 
     <div class="form-group">
       <label for="content">Conteúdo</label>
-      <textarea class="form-control" name="content" id="post-content" placeholder="Conteúdo" rows="10">
-        {{ $post->content }}
-      </textarea>
+      <textarea class="form-control" name="content" id="post-content" placeholder="Conteúdo" rows="10">{{ $post->content }}</textarea>
     </div>
 
     <button type="submit" class="btn btn-success">Salvar</button>
