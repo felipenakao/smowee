@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 class PostController extends Controller
 {
@@ -21,8 +22,8 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts = Post::all();
-        // return Post::all();
+        $posts = Post::whereNull('deleted_at')->get();
+        // dd($posts);
         return view('admin.post.list', compact(['posts']));
     }
 
@@ -117,8 +118,11 @@ class PostController extends Controller
      * @param  \App\Posts  $posts
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Posts $posts)
+    public function destroy(Post $post)
     {
-        //
+        $post->deleted_at = Carbon::now();
+
+        $post->save();
+        return redirect('/posts');
     }
 }
