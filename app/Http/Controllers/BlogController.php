@@ -17,6 +17,7 @@ class BlogController extends Controller
       $posts = DB::table('posts')
           ->join('posts_categories', 'posts.category_id', '=', 'posts_categories.id')
           ->whereDate('posts.publish_date', '<=', Carbon::now())
+          ->whereNull('deleted_at')
           ->select(
             'posts.*',
             'posts_categories.name as category_name',
@@ -39,6 +40,7 @@ class BlogController extends Controller
           ->join('posts_categories', 'posts.category_id', '=', 'posts_categories.id')
           ->join('users', 'posts.writer_id', '=', 'users.id')
           ->where('slug', $slug)
+          ->whereNull('deleted_at')
           ->whereDate('publish_date', '<=', Carbon::now())
           ->select(
             'posts.*',

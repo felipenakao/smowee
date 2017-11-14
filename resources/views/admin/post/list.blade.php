@@ -23,7 +23,7 @@
                 {{--<td>{{ $post->tags }}</td>--}}
                 <td>
                     @foreach (explode(',', $post->tags) as $tag)
-                        <span class="label label-success">{{$tag}}</span>
+                        <span class="label label-success">{{ $tag }}</span>
                     @endforeach
                 </td>
                 <td>{{ $post->views }}</td>
@@ -32,7 +32,8 @@
                     {{ Carbon\Carbon::parse($post->publish_date)->format('d/m/Y') }}
                 </td>
                 <td class="text-right">
-                    <form action="{{ action('PostController@destroy', $post['id'])}}" method="post">
+                    <form action="{{ action('PostController@destroy', $post['id']) }}" method="post">
+                        {{ csrf_field() }}
                         <input name="_method" type="hidden" value="DELETE">
                         <a href="{{ action('PostController@edit', $post['id']) }}">
                             <i class="fa fa-pencil admin-post__action"></i>
