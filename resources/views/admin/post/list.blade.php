@@ -39,8 +39,6 @@
                             <i class="fa fa-pencil admin-post__action"></i>
                         </a>
                         <i class="fa fa-times admin-post__action" onclick="document.getElementById('posts-delete').submit();"></i>
-                        {{--<button type="submit">
-                        </button>--}}
                     </form>
                 </td>
             </tr>
