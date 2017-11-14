@@ -21,7 +21,9 @@ class PostController extends Controller
      */
     public function index()
     {
-        return Post::all();
+        $posts = Post::all();
+        // return Post::all();
+        return view('admin.post.list', compact(['posts']));
     }
 
     /**
@@ -35,7 +37,7 @@ class PostController extends Controller
             ->orderBy('name')
             ->get();
 
-        return view('admin.blog')->with(['categories' => $categories]);
+        return view('admin.post.new')->with(['categories' => $categories]);
     }
 
     /**
@@ -46,6 +48,7 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+        // dd($request->all());
         $post = new Post([
             'title' => $request->get('title'),
             'slug' => Str::slug($request->get('title')),
@@ -54,11 +57,12 @@ class PostController extends Controller
             'tags' => $request->get('tags'),
             'publish_date' => $request->get('publish_date'),
             'content' => $request->get('content'),
+            'abstract' => $request->get('abstract'),
             'writer_id' => $request->user()->id,
         ]);
-
+        // dd($post);
         $post->save();
-        return redirect('/posts/create');
+        return redirect('/posts');
     }
 
     /**
@@ -78,9 +82,14 @@ class PostController extends Controller
      * @param  \App\Posts  $posts
      * @return \Illuminate\Http\Response
      */
-    public function edit(Posts $posts)
+    public function edit(Post $post)
     {
-        //
+        $categories = DB::table('posts_categories')
+            ->orderBy('name')
+            ->get();
+        // $post = $post;
+        // return [$post->toArray()];
+        return view('admin.post.edit', compact(['post', 'categories']));
     }
 
     /**
@@ -90,9 +99,16 @@ class PostController extends Controller
      * @param  \App\Posts  $posts
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Posts $posts)
+    public function update(Request $request, Post $post)
     {
-        //
+        $post->cover = $request->cover;
+        $post->category_id = $request->category_id;
+        $post->tags = $request->tags;
+        $post->content = $request->content;
+        $post->abstract = $request->abstract;
+
+        $post->save();
+        return redirect('/posts');
     }
 
     /**

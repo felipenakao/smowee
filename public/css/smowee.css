@@ -1619,6 +1619,36 @@ img::-moz-selection {
     font-weight: bold;
 }
 
+/* ADMIN  */
+.table-admin {
+  background-color: #eee;
+}
+
+.admin-post__action {
+  font-size: 14px;
+  /* font-weight: bold; */
+  color: #666;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.admin-post__action:hover {
+  color: #2ecc71;
+}
+
+.admin-area .btn {
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+.admin-area .btn-admin-header {
+    position: relative;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+/* ADMIN  */
+
 @media (max-width: 768px) {
 
   .sidebar ul {
@@ -1630,6 +1660,7 @@ img::-moz-selection {
 
   .sidebar ul h4 {
     margin: 0px;
+    margin-left: 5px;
   }
 
   .sidebar ul li {

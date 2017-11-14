@@ -35,7 +35,7 @@
             <span class="hamb-middle"></span>
             <span class="hamb-bottom"></span>
           </button>
-            <div class="container">
+            <div class="container admin-area col-md-10 col-md-offset-1">
                 @yield ('content')
             </div>
         </div>
@@ -54,7 +54,7 @@
     <script src="/tinymce/tinymce.min.js"></script>
     <script>
       tinymce.init({
-        selector: 'textarea',
+        selector: '#post-content',
         plugins: [
           'advlist autolink lists link image charmap print preview anchor textcolor',
           'searchreplace visualblocks code fullscreen',

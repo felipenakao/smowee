@@ -1,7 +1,7 @@
 @extends ('admin.master')
 {{-- TITULO; IMAGEM CAPA; CATEGORIA; TAG; CONTEUDO--}}
 @section ('content')
-  <h4>Inserir uma nova postagem</h4>
+  <h4>Nova Matéria</h4>
   <form method="post" action="{{url('posts')}}">
     {{csrf_field()}}
     <div class="form-group">
@@ -11,7 +11,7 @@
 
     <div class="form-group">
       <label for="cover">Informe o link para a imagem de capa</label>
-      <input type="text" class="form-control" id="image-cover" name="cover" placeholder="Link imagem capa" />
+      <input type="text" class="form-control" id="image-cover" name="cover" placeholder="Link imagem capa"/>
     </div>
 
     <div class="form-group">
@@ -35,8 +35,13 @@
     </div>
 
     <div class="form-group">
+      <label for="content">Resumo</label>
+      <textarea class="form-control" name="abstract" placeholder="Resumo" rows="5"></textarea>
+    </div>
+
+    <div class="form-group">
       <label for="content">Conteúdo</label>
-      <textarea class="form-control" name="content" placeholder="Conteúdo" rows="10"></textarea>
+      <textarea class="form-control" name="content" id="post-content" placeholder="Conteúdo" rows="10"></textarea>
     </div>
 
     <button type="submit" class="btn btn-success">Salvar</button>
