@@ -13,9 +13,9 @@
       <!-- TITULO FACEBOOK -->
       <meta property="og:title"              content="{{ $ogTitle }}" />
       <!-- DESCRICAO FACEBOOK -->
-      <meta property="og:description"        content="O Smowee é uma marca canábica brasileira, criada em 2015, cujo o objetivo é a conscientização e disseminação de informações sobre a planta Cannabis Sativa, utilizando e desenvolvendo tecnologia focada para o nosso público 420." />
+      <meta property="og:description"        content="{{ $ogDescription }}" />
       <!-- IMAGEM FACEBOOK -->
-      <meta property="og:image"              content="http://smowee.com/img/about/about-bg.jpg" />
+      <meta property="og:image"              content="{{ $ogImage }}" />
       <meta  />
 
       <title>Smowee 420 - Queimando Preconceitos</title>
