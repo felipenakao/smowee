@@ -32,13 +32,13 @@
                     {{ Carbon\Carbon::parse($post->publish_date)->format('d/m/Y') }}
                 </td>
                 <td class="text-right">
-                    <form action="{{ action('PostController@destroy', $post['id']) }}" method="post" id="posts-delete">
+                    <form action="{{ action('PostController@destroy', $post['id']) }}" method="post" id="posts-delete-{{$post->id}}">
                         {{ csrf_field() }}
                         <input name="_method" type="hidden" value="DELETE">
                         <a href="{{ action('PostController@edit', $post['id']) }}">
                             <i class="fa fa-pencil admin-post__action"></i>
                         </a>
-                        <i class="fa fa-times admin-post__action" onclick="document.getElementById('posts-delete').submit();"></i>
+                        <i class="fa fa-times admin-post__action" onclick="document.getElementById('posts-delete-{{$post->id}}').submit();"></i>
                     </form>
                 </td>
             </tr>
