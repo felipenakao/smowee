@@ -44,6 +44,8 @@
       <p>
         {!! $post[0]->content !!}
       </p>
+      <!-- Facebook Comments -->
+      <div class="fb-comments" data-href="{{ $ogUrl }}" data-width="100%" data-numposts="15"></div>
     </div>
   </div>
 @endsection
