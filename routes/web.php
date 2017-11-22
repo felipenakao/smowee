@@ -75,6 +75,9 @@ Route::get('/admin/blog', function () {
     return view('admin.blog');
 })->middleware('auth');
 // ADMIN
+// EMAIL
+Route::post('/send', 'EmailController@send');
+// EMAIL
 
 Route::get('/farofino/list', function () {
     return view('farofino.pricelist');
