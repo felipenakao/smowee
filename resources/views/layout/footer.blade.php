@@ -6,7 +6,7 @@
                 <h3 style="color:#fec503;" class="section-subheading text-muted">Entre em contato com a Smowee</h3>
             </div>
         </div>
-        
+
         <div class="row">
           <div class="col-lg-12">
             <form action="{{ action('EmailController@send')}}" method="POST">
@@ -53,7 +53,7 @@
       <div class="col-md-10 col-copyright">
         <img src="/img/logo-smowee-footer.png" />
         <span class="copyright">Copyright 2017 - Todos os direitos reservados ao Smowee. Conteúdo para maiores de 18 anos.</span>
-        <!-- <span style="margin-left:10px"><a target="_blank" href="/parceiros">Mídia / Assessoria / Parcerias</a></span> -->
+        <span style="margin-left:10px"><a target="_blank" href="/parceiros">Quer ser um parceiro Smowee? Clique aqui!</a></span>
 
       </div>
       <div class="col-md-2">
@@ -95,7 +95,7 @@
     function expandsTagList() {
       $(".sidebar ul li").stop().slideToggle();
       $(this).toggleClass("expand");
-    } 
+    }
 
     if ($(window).width() > 770) {
       $(".sidebar ul li").stop().slideDown();

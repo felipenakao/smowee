@@ -7,20 +7,44 @@
         <div class="parceiros-text">
           <h2>Seja um Parceiro Smowee</h2>
           <br>
-          <h3>Mídia</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tortor est, euismod a elit vel, maximus gravida velit. Mauris id congue nibh. Pellentesque sit amet volutpat turpis. Praesent placerat malesuada dapibus. Proin sit amet ornare lacus. Aenean vel condimentum quam, ac dapibus augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur euismod ac lacus id posuere. Ut volutpat orci at pellentesque bibendum. Morbi vehicula viverra urna ut fringilla. Maecenas consectetur massa enim, sit amet vestibulum est congue eget. Nulla pulvinar facilisis sapien, et tincidunt nunc tristique sed. Aenean dictum, justo quis posuere gravida, lorem nibh euismod neque, eget maximus ante diam nec turpis. Aliquam lorem leo, luctus ut sollicitudin in, mollis id odio.
-          </p>
-
-          <h3>Assessoria</h3>
-          <p>
-            In auctor metus vitae justo hendrerit pretium. Cras ac congue mi. Vestibulum mattis eros ut velit interdum aliquam. Cras non quam ultricies, molestie mi ac, lacinia augue. Vivamus malesuada eros massa, a consequat nunc tempor quis. Duis efficitur, libero ac aliquam suscipit, lacus nibh pharetra risus, ac consectetur diam diam quis leo. Sed tempus ligula vitae diam fermentum gravida.
-          </p>
-
           <h3>Parcerias</h3>
           <p>
-            Nam ac tellus ac massa pellentesque gravida quis at risus. Duis id ante ac tellus viverra euismod non non erat. Donec vel tempus lacus. Praesent faucibus purus nec semper vestibulum. Phasellus sodales nisl sapien, vitae tincidunt mi vehicula sit amet. Duis convallis tincidunt dignissim. Aenean vitae mauris vitae orci egestas elementum eu in nisi. Sed ut augue eu sem tempus dictum consequat a lacus. Praesent at congue purus. Ut sed lorem ligula. Sed sem lorem, vulputate nec mi commodo, eleifend vehicula felis. Ut vehicula tempor ultrices. Proin non risus a est luctus molestie sed a arcu. Vivamus nibh mi, lacinia sit amet nisl pretium, finibus tincidunt lectus. Nam venenatis massa non mollis accumsan.
+            Entender que ninguém cresce sozinho é um grande passo para o sucesso de qualquer empresa.
           </p>
+
+          <p>
+            Existem diversas maneiras de conduzir uma campanha de marketing digital. A marca pode dar início a publicações temáticas em suas redes sociais, pode organizar uma promoção ou concurso que premie o seu público. Outra maneira, em certos casos até muito mais eficiente, é associar o seu produto ou marca à influenciadores com grande audiência e capacidade de direcioná-los para os seus produtos.
+          </p>
+
+          <p>
+            Uma boa parceria é sinal de ideias inovadoras, de credibilidade no negócio.
+          </p>
+
+          <p>
+            Entre em contato conosco através do formulário e saiba mais como juntos poderemos fortalecer a comunidade 420.
+          </p>
+
+          <h3>Investidores</h3>
+          <p>
+            Investir em StartUps é uma excelente maneira de buscar retornos significativos para o seu portfólio, claro.
+          </p>
+          <p>
+            Porém estamos procurando por pessoas que queiram, de alguma forma, fazer parte deste fascinante universo 420.
+          </p>
+          <p>
+            Pessoas que nesse primeiro momento, não esteja tão preocupado com a rentabilidade, mas que queiram, na verdade, contribuir com o Smowee, apoiar o crescimento do ecossistema, estar perto e participar.
+          </p>
+          <br>
+          <p>
+            Hoje o Smowee conta com 03 projetos em seu escopo, com datas pré-definidas para início, sendo que um já está em desenvolvimento e validação no Mercado.
+          </p>
+          <p>São eles:</p>
+          <ul>
+            <li>Smowee Club: Em produção e validação;</li>
+            <li>Faro Fino: Definir com o Caio;</li>
+            <li>Aplicativo Smowee: Fevereiro ou Março / 2018;</li>
+          </ul>
+          <p>Entre em contato conosco através do formulário e saiba mais sobre os nossos projetos e oportunidades.</p>
         </div>
 
         <div class="parceiros-side">
@@ -45,12 +69,17 @@
                 </div>
 
                 <div class="form-group">
-                  <input type="date" class="form-control" placeholder="Setor/Segmento *" id="setor" required data-validation-required-message="Por favor insira sua data de nascimento.">
+                  <input type="date" class="form-control" placeholder="Data de Nascimento *" id="setor" required data-validation-required-message="Por favor insira sua data de nascimento.">
                   <p class="help-block text-danger"></p>
                 </div>
 
                 <div class="form-group">
                   <input type="text" class="form-control" placeholder="Assunto *" id="assunto" required data-validation-required-message="Por favor insira sua data de nascimento.">
+                  <p class="help-block text-danger"></p>
+                </div>
+
+                <div class="form-group">
+                  <textarea rows="8" class="form-control" placeholder="Breve Mensagem *" id="mensagem" required data-validation-required-message="Por favor insira sua data de nascimento."></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
