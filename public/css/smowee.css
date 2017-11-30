@@ -382,7 +382,7 @@ section h3.section-subheading {
   background: rgba(34, 34, 34, 0.8);
 }
 
-.clube-de-beneficios-about,.cdb-single {
+.clube-de-beneficios-about,.clube-single {
   width: 868px;
   float: left;
   display: flex;
@@ -411,32 +411,32 @@ section h3.section-subheading {
   padding: 0px 15px;
 }
 
-.cdb-single-top {
+.clube-single-top {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.cdb-single-bottom {
+.clube-single-bottom {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.cdb-single-gallery {
+.clube-single-gallery {
   background: rgba(34,34,34,0.9);
   padding: 15px;
 }
 
-.cdb-single-text {
+.clube-single-text {
   height: auto;
   background: rgba(34,34,34,0.9);
   margin: 20px 0px;
   padding: 15px;
 }
 
-.cdb-single-text ul {
+.clube-single-text ul {
   padding: 0px 20px;
 }
 
@@ -453,35 +453,35 @@ section h3.section-subheading {
   flex-wrap: wrap;
 }
 
-.cdb-single h3,.clube-de-beneficios-about h3,.clube-de-beneficios-side h3 {
+.clube-single h3,.clube-de-beneficios-about h3,.clube-de-beneficios-side h3 {
   margin-top: 10px;
 }
 
-.cdb-single p,.clube-de-beneficios-about p,.clube-de-beneficios-side p {
+.clube-single p,.clube-de-beneficios-about p,.clube-de-beneficios-side p {
   font-family: 'Open Sans';
   font-size: 9pt;
 }
 
-.cdb-about-caption-block a {
+.clube-about-caption-block a {
   color: #ff4e50;
 }
 
-.clube-de-beneficios-about .cdb-about-caption-full {
+.clube-de-beneficios-about .clube-about-caption-full {
   width: 850px;
   height: 500px;
-  background-image: url('/img/cdb/about/cdb-about-01.jpg');
+  background-image: url('/img/clube/about/clube-about-01.jpg');
   background-size: cover;
   background-position-y: -30px;
   padding: 15px 25px;
   color: black;
 }
 
-.cdb-about-bottom {
+.clube-about-bottom {
   display: flex;
   justify-content: center;
 }
 
-.cdb-about-caption-full .cdb-about-text {
+.clube-about-caption-full .clube-about-text {
   width: 250px;
   height: 250px;
   border-radius: 0px 50px 50px 50px;
@@ -491,7 +491,7 @@ section h3.section-subheading {
   color: white;
 }
 
-.clube-de-beneficios-about .cdb-about-caption-block {
+.clube-de-beneficios-about .clube-about-caption-block {
   width: 270px;
   margin: -45px 5px;
   height: auto;
@@ -500,7 +500,7 @@ section h3.section-subheading {
   color: #f8f4f3;
 }
 
-.clube-de-beneficios-side .cdb-side-caption {
+.clube-de-beneficios-side .clube-side-caption {
   height: auto;
   background: rgba(34, 34, 34, 0.9);
   padding: 15px 30px;
@@ -523,13 +523,13 @@ section h3.section-subheading {
 .valor h3 {
 }
 
-.cdb-single-steps {
+.clube-single-steps {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.cdb-single-steps-list {
+.clube-single-steps-list {
   background: rgba(34, 34, 34, 0.9);
   width: auto;
   display: flex;
@@ -621,24 +621,24 @@ section h3.section-subheading {
   font-family: 'Open Sans';
 }
 
-.cdb-exit {
+.clube-exit {
   display: flex;
   justify-content: space-between;
 }
 
-.cdb-user {
+.clube-user {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.cdb-user h4 {
+.clube-user h4 {
   font-family: 'Open Sans';
   font-size: 9pt;
 }
 
-.cdb-user img {
+.clube-user img {
   margin-right: 10px;
 }
 
@@ -1717,32 +1717,32 @@ img::-moz-selection {
     float: none;
   }
 
-  .cdb-single {
+  .clube-single {
     width: auto;
     flex-direction: column;
     float: none;
   }
 
-  .cdb-single-bottom {
+  .clube-single-bottom {
     width: auto;
     flex-direction: column;
   }
 
-  .cdb-single-text {
+  .clube-single-text {
     width: auto;
     margin: 0px 0px 20px;
   }
 
-  .cdb-single-gallery {
+  .clube-single-gallery {
     width: 100vw;
   }
 
-  .cdb-single-steps {
+  .clube-single-steps {
     width: auto;
     height: auto;
   }
 
-  .cdb-single-steps h3 {
+  .clube-single-steps h3 {
     text-align: center;
   }
 
@@ -1750,7 +1750,7 @@ img::-moz-selection {
     width: 150px;
   }
 
-  .instafeed-cdb img {
+  .instafeed-clube img {
     width: 300px!important;
   }
 
@@ -1859,7 +1859,7 @@ img::-moz-selection {
     float: none;
   }
 
-  .clube-de-beneficios-about .cdb-about-caption-full {
+  .clube-de-beneficios-about .clube-about-caption-full {
     width: 100%;
     background-position-y: 0px;
     height: 450px;
@@ -1867,12 +1867,12 @@ img::-moz-selection {
     padding: 15px;
   }
 
-  .cdb-about-bottom {
+  .clube-about-bottom {
     width: 100%;
     flex-direction: column;
   }
 
-  .clube-de-beneficios-about .cdb-about-caption-block {
+  .clube-de-beneficios-about .clube-about-caption-block {
     width: auto;
     margin: 5px 5px 0px;
   }
@@ -1881,7 +1881,7 @@ img::-moz-selection {
     width: auto;
   }
 
-  .clube-de-beneficios-side .cdb-side-caption {
+  .clube-de-beneficios-side .clube-side-caption {
     width: auto;
     height: auto;
     background: rgba(34, 34, 34, 0.9);
@@ -1890,7 +1890,7 @@ img::-moz-selection {
     margin: 20px 5px 0px 5px;
   }
 
-  .cdb-about-caption-full .cdb-about-text {
+  .clube-about-caption-full .clube-about-text {
     width: auto;
     height: 220px;
     border-radius: 0px;
@@ -1911,33 +1911,33 @@ img::-moz-selection {
 
 @media (min-width: 768px) {
 
-  #cdb-side-product {
+  #clube-side-product {
     margin-top: 0px;
   }
 
-  .cdb-single-gallery {
+  .clube-single-gallery {
     width: 750px;
     margin: auto;
   }
 
-  .cdb-single-bottom {
+  .clube-single-bottom {
     width: 750px;
     margin: auto;
   }
 
-  .cdb-single-text {
+  .clube-single-text {
     width: 245px;
   }
 
-  .cdb-slider {
+  .clube-slider {
     height: 32vw;
   }
 
-  #cdb-login-side {
+  #clube-login-side {
     margin-top: 20px;
   }
 
-  #cdb-login-side-caption {
+  #clube-login-side-caption {
     margin-top: 0px;
   }
 
@@ -2031,7 +2031,7 @@ img::-moz-selection {
     height: 300px;
   }
 
-  .clube-de-beneficios-about,.cdb-single {
+  .clube-de-beneficios-about,.clube-single {
     width: 100%;
     float: none;
   }
@@ -2054,12 +2054,12 @@ img::-moz-selection {
     margin: 15px 0px;
   }
 
-  .clube-de-beneficios-about .cdb-about-caption-full {
+  .clube-de-beneficios-about .clube-about-caption-full {
     width: 750px;
     margin: auto;
   }
 
-  .cdb-about-bottom {
+  .clube-about-bottom {
     width: 750px;
     margin: auto;
   }
@@ -2072,7 +2072,7 @@ img::-moz-selection {
     text-align: center;
   }
 
-  .clube-de-beneficios-side .cdb-side-caption {
+  .clube-de-beneficios-side .clube-side-caption {
     width: 100%;
     margin-top: 50px;
   }
@@ -2241,29 +2241,29 @@ img::-moz-selection {
 
 @media (min-width: 1200px) {
 
-  .cdb-single-steps {
+  .clube-single-steps {
     width: 850px;
     height: 500px;
   }
 
-  .cdb-single-text {
+  .clube-single-text {
     width: 275px;
   }
 
-  .cdb-single-bottom {
+  .clube-single-bottom {
     width: 850px;
   }
 
-  .cdb-single-gallery {
+  .clube-single-gallery {
     width: 850px;
     height: 285px;
   }
 
-  #cdb-login-side {
+  #clube-login-side {
     margin-top: 0px;
   }
 
-  .cdb-slider {
+  .clube-slider {
     width: 850px;
     height: 285px;
   }
@@ -2300,7 +2300,7 @@ img::-moz-selection {
     height: 340px;
   }
 
-  .clube-de-beneficios-about,.cdb-single {
+  .clube-de-beneficios-about,.clube-single {
     width: 868px;
     float: left;
     display: flex;
@@ -2309,7 +2309,7 @@ img::-moz-selection {
     flex-wrap: wrap;
   }
 
-  .clube-de-beneficios-about .cdb-about-caption-full {
+  .clube-de-beneficios-about .clube-about-caption-full {
     width: 850px;
     height: 500px;
   }
@@ -2383,12 +2383,12 @@ img::-moz-selection {
     text-align: left;
   }
 
-  .clube-de-beneficios-side .cdb-side-caption {
+  .clube-de-beneficios-side .clube-side-caption {
     width: 300px;
     margin-top: 0px;
   }
 
-  .cdb-about-bottom {
+  .clube-about-bottom {
     width: 850px;
   }
 
