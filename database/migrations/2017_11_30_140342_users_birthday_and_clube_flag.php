@@ -14,7 +14,8 @@ class UsersBirthdayAndClubeFlag extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            $table->date('birth_day')->after('password');
+            $table->boolean('clube')->after('birth_day')->default(false);
         });
     }
 
@@ -26,7 +27,7 @@ class UsersBirthdayAndClubeFlag extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            $table->dropColumn(['birth_day', 'clube']);
         });
     }
 }
