@@ -22,7 +22,9 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts = Post::whereNull('deleted_at')->get();
+        $posts = Post::whereNull('deleted_at')
+                ->orderBy('publish_date', 'desc')
+                ->get();
         // dd($posts);
         return view('admin.post.list', compact(['posts']));
     }
