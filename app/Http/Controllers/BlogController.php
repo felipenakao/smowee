@@ -22,6 +22,7 @@ class BlogController extends Controller
             'posts.*',
             'posts_categories.name as category_name',
             'posts_categories.color as category_color')
+          ->orderBy('publish_date', 'desc')
           ->latest()
           ->get();
       // VARIAVEIS PARA SOCIAL METATAGS
