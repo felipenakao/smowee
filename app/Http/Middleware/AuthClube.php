@@ -15,7 +15,14 @@ class AuthClube
      */
     public function handle($request, Closure $next)
     {
-        dd($request->user()->name);
+        $user = $request->user();
+        // verificar ano de nascimento
+        // verificar acesso ao clube(flag clube)
+        dd($user->clube);
+        if (!$user || $user->clube < 1){
+        
+        }
+
         return $next($request);
     }
 }
