@@ -27,11 +27,11 @@ class AuthClube
         $user = $request->user();
         // verificar ano de nascimento
         // verificar acesso ao clube(flag clube)
-        if (!$user || $user->clube < 1){
+        if (!$user){
             return Response(view('clube.login', compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage'])));
-            dd($user);
         }
+        dd($user);
 
-        return $response;
+        return Response(view('clube.display', compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage'])));
     }
 }

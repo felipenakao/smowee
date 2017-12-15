@@ -35,30 +35,31 @@
 
     <div class="clube-de-beneficios-side">
       <div class="clube-side-caption">
-        <h3 class="section-heading "><a href="/login">Acessar</a></h2>
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="row">
-              <div class="clube-de-beneficios-side-form-grid">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Nome *" id="name" required data-validation-required-message="Por favor insira seu nome.">
-                  <p class="help-block text-danger"></p>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" placeholder="E-mail *" id="email" required data-validation-required-message="Por favor insira seu e-mail.">
-                  <p class="help-block text-danger"></p>
-                </div>
+        <h3 class="section-heading ">Acessar</h3>
+        <form action="{{ route('login') }}" method="POST"name="clube-login" id="clube-login" novalidate>
+          {{ csrf_field() }}
+          <div class="row">
+            <div class="clube-de-beneficios-side-form-grid">
+              <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="E-mail *" id="email" required data-validation-required-message="Por favor insira seu e-mail.">
+                <p class="help-block text-danger"></p>
               </div>
-
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <button type="submit" class="btn btn-xl">Acessar</button>
-              </div>
-              <div class="col-lg-12 text-center esqueci">
-                <a href="#">Esqueci minha senha</a>
+              <div class="form-group">
+                <input type="password" name="password" class="form-control" placeholder="Senha *" id="password" required data-validation-required-message="Por favor insira sua senha.">
+                <p class="help-block text-danger"></p>
               </div>
             </div>
-          </form>
+
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-xl">Acessar</button>
+            </div>
+            <div class="col-lg-12 text-center esqueci">
+              <a href="#">Esqueci minha senha</a>
+            </div>
+          </div>
+        </form>
       </div>
       <div class="clube-side-caption">
         <h3 class="section-heading ">Cadastre-se agora!</h2>
