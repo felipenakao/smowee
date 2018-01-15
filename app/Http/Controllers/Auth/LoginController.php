@@ -30,7 +30,7 @@ class LoginController extends Controller
     protected function redirectTo()
     {
         $url = '/admin/panel';
-        dd(Auth::user());
+        dd(Auth::user()->name);
         return $url;
     }
     /**

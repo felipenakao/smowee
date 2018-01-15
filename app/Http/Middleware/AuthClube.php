@@ -30,7 +30,7 @@ class AuthClube
         if (!$user){
             return Response(view('clube.login', compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage'])));
         }
-        dd($user);
+        // dd($user);
 
         return Response(view('clube.display', compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage'])));
     }
