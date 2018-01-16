@@ -25,6 +25,7 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        Gate::define('access-clube', 'UserPolicy@accessClube');
+        Gate::define('access-admin', 'UserPolicy@accessAdmin');
     }
 }
