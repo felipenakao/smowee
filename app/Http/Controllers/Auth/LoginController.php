@@ -30,8 +30,9 @@ class LoginController extends Controller
     // protected $redirectTo = '/admin/panel';
     protected function redirectTo()
     {
-        $url = '/admin/panel';
-        dd(Auth::user()->name);
+        $loginFromAdmin = $this->loginFromAdmin();
+        $url = $loginFromAdmin ? '/admin/panel' : '/clube';
+        // dd(Auth::user()->name);
         return $url;
     }
 
