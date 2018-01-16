@@ -34,6 +34,23 @@ class LoginController extends Controller
         dd(Auth::user()->name);
         return $url;
     }
+
+    private function loginFromAdmin() {
+        $loginFromURL = URL::previous();
+
+        return preg_match('/admin/',$loginFromURL);
+    }
+
+    private function socialMetatags() {
+        $ogUrl = URL::current();
+        $ogType = 'website';
+        $ogTitle = 'Smowee 420 - Queimando Preconceitos';
+        $ogDescription = 'Participe do Clube Smowee e concorra a prêmios!';
+        $ogImage = 'http://smowee.com/img/about/about-bg.jpg';
+
+        return compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage']);
+    }
+
     /**
      * Create a new controller instance.
      *
@@ -44,10 +61,14 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
+
     public function showLoginForm()
     {
-        dd(URL::previous());
-        return view('admin.login');
-    }
+        $loginFromAdmin = $this->loginFromAdmin();
 
+        //verificar se o usuario esta tentando acessar o clube ou o admin
+        if ($loginFromAdmin) return view('admin.login');
+        
+        return view('clube.login', $this->socialMetatags());
+    }
 }
