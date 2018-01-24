@@ -40,7 +40,20 @@
       <link href="/css/smowee.css" rel="stylesheet">
       <link href="/css/news.css" rel="stylesheet">
       <link href="/css/sorteio.css" rel="stylesheet">
+
+
   </head>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112146516-1"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-112146516-1');
+  </script>
+
   <!-- Facebook Comments -->
   <div id="fb-root"></div>
 
@@ -51,7 +64,7 @@
     js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.11&appId=1929564893964363';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-  
+
   <body id="page-top" class="index">
     @include('layout.nav')
 
