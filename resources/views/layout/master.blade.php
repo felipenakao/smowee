@@ -39,7 +39,7 @@
       <!-- Theme CSS -->
       <link href="/css/smowee.css" rel="stylesheet">
       <link href="/css/news.css" rel="stylesheet">
-      <link href="/css/sorteio.css" rel="stylesheet">
+      
   </head>
   <!-- Facebook Comments -->
   <div id="fb-root"></div>
@@ -51,7 +51,7 @@
     js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.11&appId=1929564893964363';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-  
+
   <body id="page-top" class="index">
     @include('layout.nav')
 
