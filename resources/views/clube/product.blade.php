@@ -1,6 +1,9 @@
 @extends ('clube.master')
 
 @section ('clube-content')
+
+<link rel="stylesheet"  href="/css/lightslider.css"/>
+
 <div class="row">
   <div class="col-lg-12">
     <h2 class="section-heading">KIT SALVA NOIXXX</h2>
@@ -11,30 +14,15 @@
   <div class="clube-single">
     <div class="clube-single-top">
       <div class="clube-single-gallery">
-        <link rel="stylesheet"  href="/css/lightslider.css"/>
-
         <ul id="content-slider" class="content-slider">
             <a href="#">
               <li>
-                <img src="/img/clube/kit-do-mes/kit-do-mes-01.png" />
+                <img src="/img/clube/tabacaria/01.png" />
               </li>
             </a>
-
             <a href="#">
               <li>
-                <img src="/img/clube/kit-do-mes/kit-do-mes-02.png" />
-              </li>
-            </a>
-
-            <a href="#">
-              <li>
-                <img src="/img/clube/kit-do-mes/kit-do-mes-01.png" />
-              </li>
-            </a>
-
-            <a href="#">
-              <li>
-                <img src="/img/clube/kit-do-mes/kit-do-mes-02.png" />
+                <img src="/img/clube/tabacaria/02.png" />
               </li>
             </a>
         </ul>
