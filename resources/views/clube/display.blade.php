@@ -83,7 +83,7 @@
       <div class="clube-de-beneficios-buttons-list col-md-3 col-sm-6">
         <img src="img/home-buttons/button-3.jpg" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
-          <h4>Kit do Mes</h4>
+          <h4>Tabacaria em Casa</h4>
           <p class="text-muted">O Smowee em parcerias com algumas marcas e fabricantes, iremos enviar produtos para vocês avaliarem e enviarem seu Feedback diretamente para a fabricante com a sua opinião.</p>
         </div>
       </div>
@@ -91,9 +91,9 @@
 
     <a href="#" class="portfolio-link">
       <div class="clube-de-beneficios-buttons-list col-md-3 col-sm-6">
-        <img src="img/home-buttons/button-2.jpg" class="img-responsive" alt="">
+        <img src="img/soon.png" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
-          <h4>Turismo Cannabico</h4>
+          <h4>Turismo Canábico</h4>
           <p class="text-muted">O Smowee em parcerias com uma plataforma de integração de turismo focada em viagens cannábicas, iremos disponibilizar pacotes de turismo para países que sejam permitidos com toda a segurança e comodidade da nossa parceira MiCasa420.</p>
         </div>
       </div>
@@ -103,7 +103,7 @@
       <div class="clube-de-beneficios-buttons-list col-md-3 col-sm-6">
         <img src="img/soon.png" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
-          <h4>Auto Cultivo</h4>
+          <h4>Auto-Cultivo</h4>
           <p class="text-muted">Aqui você encontrará o suporte necessário para começar ou melhor sua experiência com o cultivo da Planta, estamos fechando parcerias e Em Breve lançaremos essa novidade.</p>
         </div>
       </div>
