@@ -32,7 +32,7 @@ class LoginController extends Controller
     {
         // se o usuário estiver tentado se logar como admin
         // redireciona ele para o admin, se não para o clube
-        $loginFromAdmin = $this->fromAdmin();
+        $fromAdmin = $this->fromAdmin();
         $url = $fromAdmin ? '/admin/panel' : '/clube';
 
         return $url;
@@ -72,7 +72,7 @@ class LoginController extends Controller
 
         //verificar se o usuario esta tentando acessar o clube ou o admin
         if ($loginFromAdmin) return view('admin.login');
-        
+
         return view('clube.login', $this->socialMetatags());
     }
 }
