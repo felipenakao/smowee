@@ -14,9 +14,9 @@ class CreateClubeFieldsToUsers extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('telephone')->nullable();
-            $table->string('city')->nullable();
-            $table->string('cpf')->nullable();
+            $table->string('telephone')->nullable()->after('role');
+            $table->string('city')->nullable()->after('telephone');
+            $table->string('cpf')->nullable()->after('cpf');
         });
     }
 
