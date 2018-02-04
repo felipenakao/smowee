@@ -3,7 +3,7 @@
 @section ('clube-content')
 <div class="row">
   <div class="col-lg-12">
-    <h2 class="section-heading ">CLUBE - ** Usuário Logado **</h2>
+    <h2 class="section-heading ">CLUBE</h2>
   </div>
 </div>
 
@@ -66,7 +66,7 @@
 
         <div class="clube-exit">
           <button type="submit" class="btn btn-xl">Alterar Dados</button>
-          <button type="submit" class="btn btn-xl">Sair</button>
+          <a href="/logout" class="btn btn-xl">Sair</a>
         </div>
     </div>
   </div>

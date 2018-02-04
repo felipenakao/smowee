@@ -99,6 +99,16 @@
                 <input name="cpf" type="number" class="form-control" placeholder="CPF *" id="cpf" required data-validation-required-message="Por favor insira seu CPF.">
                 <p class="help-block text-danger"></p>
               </div>
+              <div class="form-group">
+                <label for="pasword">Senha *</label>
+                <input name="password" type="password" class="form-control" placeholder="Senha *" id="password" required data-validation-required-message="Por favor insira sua senha.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label for="pasword-confirm">Repita sua Senha *</label>
+                <input id="password-confirm"  name="password_confirmation" type="password" class="form-control" placeholder="Repita sua Senha *" required data-validation-required-message="Por favor insira sua senha novamente.">
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
