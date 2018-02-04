@@ -27,7 +27,14 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    // protected $redirectTo = '/home';
+    protected function redirectTo()
+    {
+        $registerAdmin = $this->fromAdmin();
+        $url = $registerAdmin ? '/admin/panel' : '/clube';
+
+        return $url;
+    }
 
     /**
      * Create a new controller instance.
@@ -62,12 +69,13 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
-            'birth_day' => $data['birth_day'],
-        ]);
+        return User::create($data);
+        // return User::create([
+        //     'name' => $data['name'],
+        //     'email' => $data['email'],
+        //     'password' => bcrypt($data['password']),
+        //     'birth_day' => $data['birth_day'],
+        // ]);
     }
 
 
