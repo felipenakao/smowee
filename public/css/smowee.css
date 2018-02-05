@@ -545,8 +545,13 @@ section h3.section-subheading {
   height: 75px;
   background: red;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.steps-number img{
+  width: 30px;
 }
 
 .steps-number span {
@@ -556,6 +561,7 @@ section h3.section-subheading {
 .steps-text {
   width: auto;
   height: 75px;
+  width: 90%;
   padding: 30px;
   display: flex;
   align-items: center;
@@ -1909,6 +1915,10 @@ img::-moz-selection {
     font-size: 14pt;
     width: auto;
     padding: 30px;
+  }
+
+  .steps-text{
+    font-size: 9pt;
   }
 }
 
