@@ -25,4 +25,18 @@ class EmailController extends Controller
     // return response()->json(['message' => 'email enviado']);
        return redirect('/'); 
     }
+
+    public function joinTabacaria(Request $request)
+    {
+        $user = $request->user();
+        $name = $user->name;
+        $city = $user->city;
+        $birth_day = $user->birth_day;
+        $telephone  = $user->telephone;
+        $cpf = $user->cpf;
+        $email = $user->email;
+
+        Mail::send('emails.tabacaria', ['title' => 'Inscrição Tabacaria em Casa', 'email'=> $email, 'name' => $name, 'city' => $city, 'telephone' => $telephone, 'birth_day' => $birth_day, 'cpf' => $cpf]);
+        return redirect('/clube/tabacaria');
+    }
 }

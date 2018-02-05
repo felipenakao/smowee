@@ -128,19 +128,19 @@
     <div id="clube-side-product" class="clube-side-caption">
       <h3 class="section-heading ">Usuário</h2>
         <div class="clube-user"><img width="26px" height="26px" src="/img/clube/about/clube-user.png" />
-          <h4>Felipe Nakao</h4>
+          <h4>{{ $user->name }}</h4>
         </div>
 
         <div class="clube-user"><img width="26px" height="26px" src="/img/clube/about/clube-email.png" />
-          <h4>felipe_nakao@hotmail.com</h4>
+          <h4>{{ $user->email }}</h4>
         </div>
 
         <div class="clube-user"><img width="26px" height="26px" src="/img/clube/about/clube-location.png" />
-          <h4>São Paulo - SP</h4>
+          <h4>{{ $user->city }}</h4>
         </div>
 
         <div class="clube-user"><img width="26px" height="26px" src="/img/clube/about/clube-phone.png" />
-          <h4>(11) 99507-0544</h4>
+          <h4>{{ $user->telephone }}</h4>
         </div>
 
         <div class="clube-exit">
@@ -157,8 +157,11 @@
 
     <div id="clube-side-product" class="clube-side-caption">
       <h3 class="section-heading ">Compre agora!</h2>
-      <p>Adquira o <span class="yellow">Kit – Salva Noixxx</span> se cadastrando abaixo:</p>
-      <form name="sentMessage" id="contactForm" novalidate>
+      <p>Adquira o <span class="yellow">Kit – Salva Noixxx</span> clicando abaixo:</p>
+      <form action="{{ action('EmailController@joinTabacaria')}}" method="GET">
+        <button type="submit" class="btn btn-xl">Quero participar!</button>
+      </form>
+      <!-- <form name="sentMessage" id="contactForm" novalidate>
         <div class="row">
           <div class="clube-de-beneficios-side-form-grid">
             <div class="form-group">
@@ -198,7 +201,7 @@
             <button type="submit" class="btn btn-xl">Cadastrar</button>
           </div>
         </div>
-      </form>
+      </form> -->
     </div>
   </div>
 </div>

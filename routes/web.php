@@ -40,17 +40,8 @@ Route::get('/blog/{slug}', 'BlogController@single');
 // Route::get('/clube', 'ClubeController@index')->middleware('can:access-clube');
 Route::get('/clube', 'ClubeController@index')->middleware('auth.clube');
 Route::get('/clube/tabacaria', 'ClubeController@tabacaria')->middleware('auth.clube');
-// Route::get('/clube', function () {
-//     return view('cdb.display');
-// });
+Route::get('/clube/tabacaria/participar', 'ClubeController@tabacaria')->middleware('auth.clube');
 
-Route::get('/login', function () {
-    return view('cdb.login');
-});
-
-Route::get('/clube-de-beneficios/{product}', function () {
-    return view('cdb.product');
-});
 // SMOWEE CLUB
 // FAROFINO
 Route::get('/farofino', function () {

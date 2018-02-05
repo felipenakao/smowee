@@ -6,7 +6,10 @@
         <p>
             Nome: {{ $name }};<br>
             Email: {{ $email }};<br>
-            Telefone: {{ $tel }};<br>
+            Telefone: {{ $telephone }};<br>
+            Nascimento: {{ $birth_day }};<br>
+            CPF: {{ $cpf }};<br>
+            Cidade: {{ $cpf }};<br>
         </p>
         <p>{{ $content }}</p>
     </body>
