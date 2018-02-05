@@ -1,8 +1,17 @@
 <html>
   <head>
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="http://www.smowee.com/sorteio">
+    <meta property="og:title" content="Sorteio Smowee - Todo mês um prêmio diferente">
+    <meta property="og:site_name" content="Sorteio Smowee">
+    <meta property="og:description" content="Participe e concorra a 1 bong dobrável + 1 vale tattoo no valor de R$300.">
+    <meta property="og:image" content="http://www.smowee.com/img/sorteio/ogimage.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="315">
+    <meta property="og:type" content="website">
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/sorteio.css">
-
   </head>
 
   <body>
@@ -28,9 +37,7 @@
             </div>
 
             <div class="chamada-video">
-
                 <iframe width="100%" src="https://www.youtube.com/embed/Ut03bD3zgOo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
             </div>
 
             <div class="chamada-logos">
