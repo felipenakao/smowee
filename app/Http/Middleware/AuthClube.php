@@ -8,6 +8,15 @@ use Illuminate\Http\Response;
 
 class AuthClube
 {
+    private function isOverAge($user) {
+        return \Carbon\Carbon::now()->diff(new \Carbon\Carbon($user->birth_day))->y >= 18;
+    }
+
+    private function haveClubeRole($user) {
+        // return $user->role === 'clube';
+        return preg_match('/admin|clube/',$user->role);
+    }
+
     /**
      * Handle an incoming request.
      *
@@ -26,12 +35,15 @@ class AuthClube
 
         $user = $request->user();
         // verificar ano de nascimento
+        $isOverAge = $user && $this->isOverAge($user);
         // verificar acesso ao clube(flag clube)
-        if (!$user){
+        $haveClubeRole = $user && $this->haveClubeRole($user);
+
+        if (!$user || !$isOverAge || !$haveClubeRole){
             return Response(view('clube.login', compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage'])));
         }
         // dd($user);
 
-        return Response(view('clube.display', compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage'])));
+        return Response(view('clube.display', compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage', 'user'])));
     }
 }
