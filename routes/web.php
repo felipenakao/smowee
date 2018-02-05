@@ -78,6 +78,11 @@ Route::get('/farofino/list', function () {
     return view('farofino.pricelist');
 });
 
+// LANDIGIN PAGE
+Route::get('/sorteio', function () {
+    return view('sorteio');
+});
+
 Route::get('/logout', 'Auth\LoginController@logout');
 
 Auth::routes();
