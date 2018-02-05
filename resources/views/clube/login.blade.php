@@ -103,7 +103,7 @@
                 <input name="city" type="text" class="form-control" placeholder="Cidade *" id="cidade" required data-validation-required-message="Por favor insira sua data de nascimento.">
                 <p class="help-block text-danger"></p>
               </div>
-              <!-- <div class="form-group">
+              <div class="form-group">
                 <label for="cpf">CPF *</label>
                 <input name="cpf" type="number" class="form-control" placeholder="CPF *" id="cpf" required data-validation-required-message="Por favor insira seu CPF.">
                 <p class="help-block text-danger"></p>
@@ -117,7 +117,7 @@
                 <label for="pasword-confirm">Repita sua Senha *</label>
                 <input id="password-confirm"  name="password_confirmation" type="password" class="form-control" placeholder="Repita sua Senha *" required data-validation-required-message="Por favor insira sua senha novamente.">
                 <p class="help-block text-danger"></p>
-              </div> -->
+              </div>
             </div>
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
