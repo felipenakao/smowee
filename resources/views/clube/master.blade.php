@@ -9,7 +9,7 @@
 
   <section id="clube-de-beneficios">
     <div class="container">
-      @yield ('cdb-content')
+      @yield ('clube-content')
     </div>
   </section>
 @endsection

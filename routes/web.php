@@ -37,9 +37,11 @@ Route::get('/blog/{slug}', 'BlogController@single');
 // });
 // BLOG
 // SMOWEE CLUB
-Route::get('/clube-de-beneficios', function () {
-    return view('cdb.display');
-});
+Route::get('/clube', 'ClubeController@index')->middleware('can:access-clube');
+// Route::get('/clube', 'ClubeController@index')->middleware('auth.clube');
+// Route::get('/clube', function () {
+//     return view('cdb.display');
+// });
 
 Route::get('/login', function () {
     return view('cdb.login');

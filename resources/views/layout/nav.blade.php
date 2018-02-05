@@ -20,6 +20,9 @@
           <a class="page-scroll" href="/blog">Blog</a>
         </li>
         <li>
+          <a class="page-scroll" href="/clube">Clube</a>
+        </li>
+        <li>
           <a class="page-scroll" href="#contact">Contato</a>
         </li>
       </ul>
