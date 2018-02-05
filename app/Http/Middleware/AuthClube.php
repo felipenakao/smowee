@@ -44,6 +44,7 @@ class AuthClube
         }
         // dd($user);
 
-        return Response(view('clube.display', compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage', 'user'])));
+        // return Response(view('clube.display', compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage', 'user'])));
+        return $next($request);
     }
 }
