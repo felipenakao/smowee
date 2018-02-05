@@ -49,23 +49,23 @@
     <div id="clube-login-side-caption" class="clube-side-caption">
       <h3 class="section-heading ">Usuário</h2>
         <div class="clube-user"><img width="26px" height="26px" src="/img/clube/about/clube-user.png" />
-          <h4>Felipe Nakao</h4>
+          <h4>{{ $user->name }}</h4>
         </div>
 
         <div class="clube-user"><img width="26px" height="26px" src="/img/clube/about/clube-email.png" />
-          <h4>felipe_nakao@hotmail.com</h4>
+          <h4>{{ $user->email }}</h4>
         </div>
 
         <div class="clube-user"><img width="26px" height="26px" src="/img/clube/about/clube-location.png" />
-          <h4>São Paulo - SP</h4>
+          <h4>{{ $user->city }}</h4>
         </div>
 
         <div class="clube-user"><img width="26px" height="26px" src="/img/clube/about/clube-phone.png" />
-          <h4>(11) 99507-0544</h4>
+          <h4>{{ $user->telephone }}</h4>
         </div>
 
         <div class="clube-exit">
-          <button type="submit" class="btn btn-xl">Alterar Dados</button>
+          <!-- <button type="submit" class="btn btn-xl">Alterar Dados</button> -->
           <a href="/logout" class="btn btn-xl">Sair</a>
         </div>
     </div>
