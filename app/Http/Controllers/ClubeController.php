@@ -18,4 +18,16 @@ class ClubeController extends Controller
 
         return view('clube.display', compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage', 'user']));
     }
+
+    public function tabacaria(Request $request) {
+        $ogUrl = URL::current();
+        $ogType = 'website';
+        $ogTitle = 'Smowee 420 - Queimando Preconceitos';
+        $ogDescription = 'Participe do Clube Smowee e concorra a prêmios!';
+        $ogImage = 'http://smowee.com/img/about/about-bg.jpg';
+
+        $user = $request->user();
+
+        return view('clube.product', compact(['ogUrl', 'ogType', 'ogTitle', 'ogDescription', 'ogImage', 'user']));
+    }
 }
