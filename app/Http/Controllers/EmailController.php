@@ -36,7 +36,11 @@ class EmailController extends Controller
         $cpf = $user->cpf;
         $email = $user->email;
 
-        Mail::send('emails.tabacaria', ['title' => 'Inscrição Tabacaria em Casa', 'email'=> $email, 'name' => $name, 'city' => $city, 'telephone' => $telephone, 'birth_day' => $birth_day, 'cpf' => $cpf]);
+        Mail::send('emails.tabacaria', ['title' => 'Inscrição Tabacaria em Casa', 'email'=> $email, 'name' => $name, 'city' => $city, 'telephone' => $telephone, 'birth_day' => $birth_day, 'cpf' => $cpf], function($message) {
+            $message->from('no-reply@smowee.com', 'Site Smowee');
+            $message->to('contato@smowee.com');
+            $message->subject('Inscrição Tabacaria em Casa');
+        });
         return redirect('/clube/tabacaria');
     }
 }

@@ -158,7 +158,7 @@
     <div id="clube-side-product" class="clube-side-caption">
       <h3 class="section-heading ">Compre agora!</h2>
       <p>Adquira o <span class="yellow">Kit – Salva Noixxx</span> clicando abaixo:</p>
-      <form action="{{ action('EmailController@joinTabacaria')}}" method="GET">
+      <form action="{{ action('EmailController@joinTabacaria')}}" method="get">
         <button type="submit" class="btn btn-xl">Quero participar!</button>
       </form>
       <!-- <form name="sentMessage" id="contactForm" novalidate>

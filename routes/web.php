@@ -71,6 +71,7 @@ Route::get('/admin/blog', function () {
 // ADMIN
 // EMAIL
 Route::post('/send', 'EmailController@send');
+Route::get('/joinTabacaria', 'EmailController@joinTabacaria');
 // EMAIL
 
 Route::get('/farofino/list', function () {

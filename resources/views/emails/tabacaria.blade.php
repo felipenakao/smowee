@@ -11,6 +11,5 @@
             CPF: {{ $cpf }};<br>
             Cidade: {{ $cpf }};<br>
         </p>
-        <p>{{ $content }}</p>
     </body>
 </html>
