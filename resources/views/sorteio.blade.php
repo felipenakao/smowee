@@ -5,7 +5,7 @@
     <meta property="og:title" content="Sorteio Smowee - Todo mês um prêmio diferente">
     <meta property="og:site_name" content="Sorteio Smowee">
     <meta property="og:description" content="Participe e concorra a 1 bong dobrável + 1 vale tattoo no valor de R$300.">
-    <meta property="og:image" content="http://www.smowee.com/img/sorteio/ogimage.png">
+    <meta property="og:image" content="/img/sorteio/ogimage.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="600">
     <meta property="og:image:height" content="315">
