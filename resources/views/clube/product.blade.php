@@ -149,10 +149,10 @@
         </div>
     </div>
     <div id="clube-side-product" class="clube-side-caption valor"><h3>
-      <!-- Valor: -->
+      Valor:
     </h3>
     <p class="yellow">
-      <!-- R$ 50,00 -->
+      R$ 50,00
     </p>
   </div>
 
