@@ -14,8 +14,8 @@ class UsersBirthdayAndClubeFlag extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->date('birth_day')->after('password');
-            $table->boolean('clube')->after('birth_day')->default('1990-01-01');
+            $table->date('birth_day')->after('password')->default('1990-01-01');
+            $table->boolean('clube')->after('birth_day');
         });
     }
 
