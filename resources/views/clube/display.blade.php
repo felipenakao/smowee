@@ -62,6 +62,7 @@
           <a href="/logout" class="btn btn-xl">Sair</a>
     </div>
   </div>
+</div>
 
   <div class="row clube-de-beneficios-text">
     <h3>Bem vindo ao Clube de Benefícios Smowee!</h3>
