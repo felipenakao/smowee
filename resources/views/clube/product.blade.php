@@ -17,12 +17,12 @@
         <ul id="content-slider" class="content-slider">
             <a href="#">
               <li>
-                <img src="/img/clube/tabacaria/01.png" />
+                <img src="/img/clube/tabacaria/01.jpg" />
               </li>
             </a>
             <a href="#">
               <li>
-                <img src="/img/clube/tabacaria/02.png" />
+                <img src="/img/clube/tabacaria/02.jpg" />
               </li>
             </a>
         </ul>
@@ -32,7 +32,7 @@
     <div class="clube-single-bottom">
       <div class="clube-single-text">
         <h3>Descrição</h3>
-        <p class="text-muted">O <b class="yellow">Kit Salva Noixxx</b> conta com produtos de tabacarias pensados em suprir suas necessidades mensais em acessórios, deixando você preocupado com o que realmente importa: <b>Relaxar e curtir a Brisa</b>. Nossa equipe em parceria com a <a target="_blank" href="http://www.ultra420.com.br">Ultra420</a> está sempre atenta no mercado de acessórios buscando todo mês os melhores produtos e novidades no mercado para te entregar no conforto da sua casa. </p>
+        <p class="text">O <b class="yellow">Kit Salva Noixxx</b> conta com produtos de tabacarias pensados em suprir suas necessidades mensais em acessórios, deixando você preocupado com o que realmente importa: <b>Relaxar e curtir a Brisa</b>. Nossa equipe em parceria com a <a target="_blank" href="http://www.ultra420.com.br">Ultra420</a> está sempre atenta no mercado de acessórios buscando todo mês os melhores produtos e novidades no mercado para te entregar no conforto da sua casa. </p>
         <p class="yellow"><b class="yellow">A cada 02 meses um item surpresa será enviado junto com seu kit, e o melhor é de GRAÇA!</b></p>
       </div>
 
