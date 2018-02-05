@@ -98,7 +98,7 @@
             </span>
           </div>
 
-          <div class="steps-text">Faça a sua solicitação através do nosso formulário preenchendo todos os dados corretamente.</div>
+          <div class="steps-text">Faça a sua solicitação através do botão ao lado.</div>
         </div>
 
         <div class="clube-single-steps-list">
@@ -108,7 +108,7 @@
             </span>
           </div>
 
-          <div class="steps-text">Assim que preencher, clique em ENVIAR. Depois é só aguardar o e-mail com o link de pagamento e as informações sobre planos e vantagens.</div>
+          <div class="steps-text">Depois é só aguardar o e-mail com o link de pagamento e as informações sobre planos e vantagens.</div>
         </div>
 
         <div class="clube-single-steps-list">
