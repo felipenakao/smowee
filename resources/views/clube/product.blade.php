@@ -144,8 +144,7 @@
         </div>
 
         <div class="clube-exit">
-          <!-- <button type="submit" class="btn btn-xl">Alterar Dados</button> -->
-          <button type="submit" class="btn btn-xl">Sair</button>
+          <a href="/logout" class="btn btn-xl">Sair</a>
         </div>
     </div>
     <div id="clube-side-product" class="clube-side-caption valor"><h3>
