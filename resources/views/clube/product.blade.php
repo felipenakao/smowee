@@ -47,36 +47,36 @@
         <ul>
           <li>
             <p>
-              3 Sedas Slim Ultra420 Brown;
+              3 Sedas Slim Ultra420 Brown
             </p>
           </li>
 
           <li>
             <p>
-              1 pct piteira (100 unid);
+              1 pct piteira (100 unid)
             </p>
           </li>
 
           <li>
             <p>
-              1 Isqueiro pequeno;
+              1 Isqueiro pequeno
             </p>
           </li>
           <li>
             <p>
-              1 Seda de Metro;
-            </p>
-          </li>
-
-          <li>
-            <p>
-              1 Cerveja Artesanal;
+              1 Seda de Metro
             </p>
           </li>
 
           <li>
             <p>
-              Adesivos;
+              1 Cerveja Artesanal
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Adesivos
             </p>
           </li>
 
@@ -144,15 +144,15 @@
         </div>
 
         <div class="clube-exit">
-          <button type="submit" class="btn btn-xl">Alterar Dados</button>
+          <!-- <button type="submit" class="btn btn-xl">Alterar Dados</button> -->
           <button type="submit" class="btn btn-xl">Sair</button>
         </div>
     </div>
     <div id="clube-side-product" class="clube-side-caption valor"><h3>
-      Valor:
+      <!-- Valor: -->
     </h3>
     <p class="yellow">
-      R$ 50,00
+      <!-- R$ 50,00 -->
     </p>
   </div>
 
@@ -179,11 +179,11 @@
               <p class="help-block text-danger"></p>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Cidade *" id="cidade" required data-validation-required-message="Por favor insira sua data de nascimento.">
+              <input type="text" class="form-control" placeholder="Cidade *" id="cidade" required data-validation-required-message="Por favor insira sua cidade.">
               <p class="help-block text-danger"></p>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Data de Nascimento *" id="estado" required data-validation-required-message="Por favor insira sua data de nascimento.">
+              <input type="text" class="form-control" placeholder="Estado *" id="estado" required data-validation-required-message="Por favor insira seu estado.">
               <p class="help-block text-danger"></p>
             </div>
             <div class="form-group">
