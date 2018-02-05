@@ -75,36 +75,47 @@
             <b>Não vai lesar e ficar de fora dessa nova marola que está vindo!</b>
           </p>
         <form name="sentMessage" id="cadastroclube" novalidate>
+          {{ csrf_field() }}
           <div class="row">
             <div class="clube-de-beneficios-side-form-grid">
               <div class="form-group">
                 <label for="name">Nome *</label>
-                <input type="text" class="form-control" placeholder="Nome *" id="name" required data-validation-required-message="Por favor insira seu nome.">
+                <input name="name"type="text" class="form-control" placeholder="Nome *" id="name" required data-validation-required-message="Por favor insira seu nome.">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
                 <label for="email">E-mail *</label>
-                <input type="email" class="form-control" placeholder="E-mail *" id="email" required data-validation-required-message="Por favor insira seu e-mail.">
+                <input name="email" type="email" class="form-control" placeholder="E-mail *" id="email" required data-validation-required-message="Por favor insira seu e-mail.">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
                 <label for="phone">Telefone *</label>
-                <input type="tel" class="form-control" placeholder="Telefone *" id="phone" required data-validation-required-message="Por favor insira seu telefone.">
+                <input name="telephone" type="tel" class="form-control" placeholder="Telefone *" id="phone" required data-validation-required-message="Por favor insira seu telefone.">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
                 <label for="data">Data de Nascimento *</label>
-                <input type="date" class="form-control" placeholder="Data de Nascimento *" id="data" required data-validation-required-message="Por favor insira sua data de nascimento.">
+                <input name="birth_day" type="date" class="form-control" placeholder="Data de Nascimento *" id="data" required data-validation-required-message="Por favor insira sua data de nascimento.">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
                 <label for="cidade">Cidade *</label>
-                <input type="text" class="form-control" placeholder="Cidade *" id="cidade" required data-validation-required-message="Por favor insira sua data de nascimento.">
+                <input name="city" type="text" class="form-control" placeholder="Cidade *" id="cidade" required data-validation-required-message="Por favor insira sua data de nascimento.">
                 <p class="help-block text-danger"></p>
               </div>
               <!-- <div class="form-group">
                 <label for="cpf">CPF *</label>
-                <input type="number" class="form-control" placeholder="CPF *" id="cpf" required data-validation-required-message="Por favor insira seu CPF.">
+                <input name="cpf" type="number" class="form-control" placeholder="CPF *" id="cpf" required data-validation-required-message="Por favor insira seu CPF.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label for="pasword">Senha *</label>
+                <input name="password" type="password" class="form-control" placeholder="Senha *" id="password" required data-validation-required-message="Por favor insira sua senha.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label for="pasword-confirm">Repita sua Senha *</label>
+                <input id="password-confirm"  name="password_confirmation" type="password" class="form-control" placeholder="Repita sua Senha *" required data-validation-required-message="Por favor insira sua senha novamente.">
                 <p class="help-block text-danger"></p>
               </div> -->
             </div>

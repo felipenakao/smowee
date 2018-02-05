@@ -30,16 +30,19 @@ class LoginController extends Controller
     // protected $redirectTo = '/admin/panel';
     protected function redirectTo()
     {
-        $loginFromAdmin = $this->loginFromAdmin();
-        $url = $loginFromAdmin ? '/admin/panel' : '/clube';
-        // dd(Auth::user()->name);
+        // se o usuário estiver tentado se logar como admin
+        // redireciona ele para o admin, se não para o clube
+        $fromAdmin = $this->fromAdmin();
+        $url = $fromAdmin ? '/admin/panel' : '/clube';
+
         return $url;
     }
 
-    private function loginFromAdmin() {
-        $loginFromURL = URL::previous();
-
-        return preg_match('/admin/',$loginFromURL);
+    private function fromAdmin() {
+        // verifica se a o usuario esta tentando se logar como admin
+        $fromURL = URL::previous();
+        // verificando a url de onde ele veio
+        return preg_match('/admin/',$fromURL);
     }
 
     private function socialMetatags() {
@@ -65,11 +68,11 @@ class LoginController extends Controller
 
     public function showLoginForm()
     {
-        $loginFromAdmin = $this->loginFromAdmin();
+        $loginFromAdmin = $this->fromAdmin();
 
         //verificar se o usuario esta tentando acessar o clube ou o admin
         if ($loginFromAdmin) return view('admin.login');
-        
+
         return view('clube.login', $this->socialMetatags());
     }
 }
