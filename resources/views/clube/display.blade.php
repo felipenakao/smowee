@@ -3,7 +3,7 @@
 @section ('clube-content')
 <div class="row">
   <div class="col-lg-12">
-    <h2 class="section-heading ">CLUBE</h2>
+    <h2 class="section-heading ">CLUBE SMOWEE</h2>
   </div>
 </div>
 
@@ -19,17 +19,11 @@
         </ol>
         <!-- Slides -->
         <div class="carousel-inner">
-          <div class="item active">
-            <img src="img/clube/about/clube-slider-01.jpg" alt="Los Angeles">
-          </div>
-
-          <div class="item">
-            <img src="img/clube/about/clube-slider-02.jpg" alt="Chicago">
-          </div>
-
-          <div class="item">
-            <img src="img/clube/about/clube-slider-03.jpg" alt="New York">
-          </div>
+          <a href="/sorteio">
+            <div class="item active">
+              <img src="img/clube/about/clube-slider-01.jpg" alt="Sorteio Smowee">
+            </div>
+          </a>
         </div>
 
         <a class="left carousel-control" href="#clube-carousel" data-slide="prev">
@@ -47,7 +41,7 @@
 
   <div id="clube-login-side" class="clube-de-beneficios-side">
     <div id="clube-login-side-caption" class="clube-side-caption">
-      <h3 class="section-heading ">Usuário</h2>
+      <h3 class="section-heading ">Smoweer</h2>
         <div class="clube-user"><img width="26px" height="26px" src="/img/clube/about/clube-user.png" />
           <h4>{{ $user->name }}</h4>
         </div>
@@ -65,36 +59,41 @@
         </div>
 
         <div class="clube-exit">
-          <!-- <button type="submit" class="btn btn-xl">Alterar Dados</button> -->
           <a href="/logout" class="btn btn-xl">Sair</a>
-        </div>
     </div>
   </div>
 
   <div class="row clube-de-beneficios-text">
     <h3>Bem vindo ao Clube de Benefícios Smowee!</h3>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu condimentum urna. Sed sit amet dui in ligula vehicula ultrices. Nunc dolor quam, pharetra at placerat at, lobortis ac nisl. Quisque commodo, massa eu pellentesque tempus, arcu eros pretium nisi, sed consequat ligula est eget tortor. Phasellus ipsum quam, ultrices eget velit sit amet, viverra rutrum ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis id odio rutrum, tempus urna at, vestibulum magna. Proin sit amet purus sed felis semper volutpat ut ut orci. Praesent pellentesque tincidunt felis, ut ultricies justo facilisis tempor. Nullam at accumsan augue. Nulla sed arcu et lorem dignissim malesuada vitae vitae erat.
+      Agora sim você é um Smoweer oficial e ficamos muito felizes por ter você junto conosco nessa empreitada pela descriminalização e/ou legalização da nossa planta.
+    </p>
+    <p>
+      Esperamos fazer dessa experiência algo agradável e prazeroso e que a cada dia você se sinta melhor por fazer parte dessa comunidade.
+    </p>
+    <p>
+      Use a hashtag <b class="yellow">#CBSMOWEE</b> no Instagram para ter a sua foto divulgada na nossa aérea exclusiva de assinantes.
     </p>
   </div>
 
   <div class="row clube-de-beneficios-buttons">
-    <a href="tabacaria.html" class="portfolio-link" >
+    <a href="/clube/tabacaria" class="portfolio-link">
       <div class="clube-de-beneficios-buttons-list col-md-3 col-sm-6">
         <img src="img/home-buttons/button-3.jpg" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
-          <h4>Tabacaria em Casa</h4>
-          <p class="text-muted">O Smowee em parcerias com algumas marcas e fabricantes, iremos enviar produtos para vocês avaliarem e enviarem seu Feedback diretamente para a fabricante com a sua opinião.</p>
+          <h4>Tabacaria em Casa (Kit Salva Noixxx)</h4>
+          <p class="text-muted">O <b class="yellow">Kit Salva Noixxx</b> conta com produtos de tabacarias pensados em suprir suas necessidades mensais em acessórios, deixando você preocupado com o que realmente importa: <b>Relaxar e curtir a Brisa</b>. Nossa equipe em parceria com a <b class="yellow">Ultra420</b> está sempre atenta no mercado de acessórios buscando todo mês os melhores produtos e novidades no mercado para te entregar no conforto da sua casa. </p>
+          <p class="yellow"><b class="yellow">A cada 02 meses um item surpresa será enviado junto com seu kit, e o melhor é de GRAÇA!</b></p>
         </div>
       </div>
-    </a>
+      </a>
 
     <a href="#" class="portfolio-link">
       <div class="clube-de-beneficios-buttons-list col-md-3 col-sm-6">
         <img src="img/soon.png" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
           <h4>Turismo Canábico</h4>
-          <p class="text-muted">O Smowee em parcerias com uma plataforma de integração de turismo focada em viagens cannábicas, iremos disponibilizar pacotes de turismo para países que sejam permitidos com toda a segurança e comodidade da nossa parceira MiCasa420.</p>
+          <p class="text-muted">Em parceria com umas das mais inovadoras plataformas de integração de turismo focada em viagens canábicas, o <b class="yellow">MiCasa420</b> vem com o foco e a missão de disponibilizar pacotes de turismo para países onde a Cannabis Sativa seja permitida com toda a segurança e comodidade que você espera. EM BREVE lançaremos essa novidade.</p>
         </div>
       </div>
     </a>
@@ -104,7 +103,7 @@
         <img src="img/soon.png" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
           <h4>Auto-Cultivo</h4>
-          <p class="text-muted">Aqui você encontrará o suporte necessário para começar ou melhor sua experiência com o cultivo da Planta, estamos fechando parcerias e Em Breve lançaremos essa novidade.</p>
+          <p class="text-muted">Aqui você encontrará o suporte necessário para começar ou melhorar sua experiência com o cultivo da planta. EM BREVE lançaremos essa novidade.</p>
         </div>
       </div>
     </a>
@@ -114,14 +113,14 @@
         <img src="img/soon.png" class="img-responsive" alt="">
         <div class="clube-de-beneficios-buttons-caption">
           <h4>Cupons de Desconto</h4>
-          <p class="text-muted">Aqui quem é Smoweer sempre tem desconto nas melhores tabacarias e sites on-line, estamos fechando parcerias e Em Breve lançaremos essa novidade.</p>
+          <p class="text-muted">Aqui quem é Smoweer sempre tem descontos na hora que quiser nas melhores tabacarias e sites on-line, o mais difícil vai ser decidir aonde usar. EM BREVE lançaremos essa novidade.</p>
         </div>
       </div>
     </a>
   </div>
   <!-- Instagram -->
     <div class="row">
-      <h3 style="text-align: center">#clubeSMOWEE</h3>
+      <h3 style="text-align: center">#CBSMOWEE</h3>
       <div id="instafeed" class="instafeed-clube"></div>
     </div>
   </div>

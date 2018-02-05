@@ -3,7 +3,7 @@
 @section ('clube-content')
   <div class="row">
     <div class="col-lg-12">
-      <h2 class="section-heading ">CLUBE DE BENEFÍCIOS</h2>
+      <h2 class="section-heading ">CLUBE SMOWEE</h2>
     </div>
   </div>
   <div class="row clube-de-beneficios-grid">
@@ -11,24 +11,31 @@
       <div class="clube-about-caption-full">
         <div class="clube-about-text">
           <h3 class="section-heading ">O que é?</h2>
-          <p>O <b class="yellow">Smowee</b> acaba de lançar uma novidade para a cultura 420.</p>
-          <p>É o <b class="yellow">Clube de Benefícios Smowee</b>, que nasce com a proposta de promover e mostrar todos os produtos, <b class="yellow">serviços</b> e <b class="yellow">benefícios</b> realmente especiais.</p>
+            <p>O <b class="yellow">Clube Smowee</b> vem com a proposta de promover serviços para facilitar e melhorar a vida dos nossos amigos 420.</p>
+            <p>Nosso foco não é só nos produtos mas também no seu bem-estar e lifestyle.</p>
         </div>
       </div>
       <div class="clube-about-bottom">
         <div class="clube-about-caption-block">
           <h3 class="section-heading ">Porque participar?</h2>
-          <p>Através das parcerias realizadas, nosso foco é promover experiências únicas para os nossos membros, desde acessórios de tabacarias até viagens cannábicas, tudo em um só lugar.</p>
+          <p>Através de parcerias estrategicamente selecionadas, nosso foco é promover experiências únicas para os nossos membros, desde produtos de tabacarias até viagens canábicas, tudo em um só lugar.</p><p>Além de todo mês concorrer a um <a class="yellow" href="/sorteio">sorteio exclusivo</a> para os Smoweers cadastrados.</p>
         </div>
 
         <div  class="clube-about-caption-block">
           <h3 class="section-heading ">O que eu ganho?</h2>
-          <p>Nesse Lançamento já contamos com o serviço de <a class="yellow" href="#">Tabacaria em Casa</a> disponibilizando o <a class="yellow" href="#">Kit do Mês</a>, onde nossos <a class="yellow" href="#">membros</a> receberão mensalmente, através da contratação da assinatura, uma caixa com acessórios de tabacaria suficiente para passar o mês sem se preocupar e o mais importante: <span class="yellow">Sem sair de casa!</span></p>
+          <p>Além de todo mês concorrer a prêmios irados, nesse lançamento vamos disponibilizar o serviço de <b class="yellow">Tabacaria em Casa, Kit Salva Noixxx</b>, possibilitando os nossos membros comprarem Kits exclusivos desenvolvidos por nossa equipe para você ficar o mês inteiro sem se preocupar. Além de itens exclusivos que você só encontra aqui.</p>
+          <p>
+            <b class="yellow">E o melhor de tudo é que você NÃO PAGA NADA para se inscrever.</b>
+          </p>
         </div>
 
         <div  class="clube-about-caption-block">
           <h3 class="section-heading">E as novidades?</h2>
-          <p>* Em breve disponibilizaremos os serviços de <b>Turismo Canábico</b>, <b>Jardinagem</b>, <b>Cupom de Desconto</b> e o <b>Sampling</b>. *</p>
+          <p>Você acha que paramos por aqui? Em breve nós iremos apresentar mais serviços que estamos desenvolvendo, entre eles:</p>
+          <p>· <b class="yellow">Turismo Canábico</b> (Focado em viagens e experiências – Em Breve Lançamento);</p>
+          <p>· <b class="yellow">Auto-Cultivo</b> (Kit Agora Vai – Em Breve Lançamento);</p>
+          <p>· <b class="yellow">Cupom de Descontos</b> (Lojas Físicas e On-line – Em Breve Lançamento;</p>
+          <p>E para se manter atualizado das novidades você precisa estar cadastrado no Clube, onde contamos com um canal exclusivo para essa comunicação.</p>
         </div>
       </div>
     </div>
@@ -63,9 +70,11 @@
       </div>
       <div class="clube-side-caption">
         <h3 class="section-heading ">Cadastre-se agora!</h2>
-        <p>Está esperando o quê para ser um novo <a class="yellow" href="#">membro</a> e aproveitar tudo isso?!</p>
-        <p>Não vai <span class="yellow">lesar</span> e ficar de fora dessa nova marola que está vindo!</p>
-        <form name="sentMessage" id="cadastroclube" method="POST" action="{{ route('register') }}">
+          <p>Está esperando o quê para ser um novo membro e aproveitar já.</p>
+          <p>
+            <b>Não vai lesar e ficar de fora dessa nova marola que está vindo!</b>
+          </p>
+        <form name="sentMessage" id="cadastroclube" novalidate>
           {{ csrf_field() }}
           <div class="row">
             <div class="clube-de-beneficios-side-form-grid">
@@ -94,7 +103,7 @@
                 <input name="city" type="text" class="form-control" placeholder="Cidade *" id="cidade" required data-validation-required-message="Por favor insira sua data de nascimento.">
                 <p class="help-block text-danger"></p>
               </div>
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label for="cpf">CPF *</label>
                 <input name="cpf" type="number" class="form-control" placeholder="CPF *" id="cpf" required data-validation-required-message="Por favor insira seu CPF.">
                 <p class="help-block text-danger"></p>
@@ -108,7 +117,7 @@
                 <label for="pasword-confirm">Repita sua Senha *</label>
                 <input id="password-confirm"  name="password_confirmation" type="password" class="form-control" placeholder="Repita sua Senha *" required data-validation-required-message="Por favor insira sua senha novamente.">
                 <p class="help-block text-danger"></p>
-              </div>
+              </div> -->
             </div>
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">

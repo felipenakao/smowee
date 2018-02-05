@@ -40,9 +40,9 @@
           </p>
           <p>São eles:</p>
           <ul>
-            <li>Smowee Club: Em produção e validação;</li>
-            <li>Faro Fino: Definir com o Caio;</li>
-            <li>Aplicativo Smowee: Fevereiro ou Março / 2018;</li>
+            <li>Smowee Club</li>
+            <li>Faro Fino</li>
+            <li>Aplicativo Smowee</li>
           </ul>
           <p>Entre em contato conosco através do formulário e saiba mais sobre os nossos projetos e oportunidades.</p>
         </div>

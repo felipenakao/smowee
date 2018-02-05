@@ -1,148 +1,127 @@
 @extends ('clube.master')
 
 @section ('clube-content')
+
+<link rel="stylesheet"  href="/css/lightslider.css"/>
+
 <div class="row">
   <div class="col-lg-12">
-    <h2 class="section-heading">KIT DO MÊS</h2>
+    <h2 class="section-heading">KIT SALVA NOIXXX</h2>
   </div>
 </div>
+
 <div class="row clube-de-beneficios-grid">
   <div class="clube-single">
     <div class="clube-single-top">
       <div class="clube-single-gallery">
-        <link rel="stylesheet"  href="/css/lightslider.css"/>
-
         <ul id="content-slider" class="content-slider">
             <a href="#">
               <li>
-                <img src="/img/clube/kit-do-mes/kit-do-mes-01.png" />
+                <img src="/img/clube/tabacaria/01.png" />
               </li>
             </a>
-
             <a href="#">
               <li>
-                <img src="/img/clube/kit-do-mes/kit-do-mes-02.png" />
+                <img src="/img/clube/tabacaria/02.png" />
               </li>
             </a>
-
-            <a href="#">
-              <li>
-                <img src="/img/clube/kit-do-mes/kit-do-mes-01.png" />
-              </li>
-            </a>
-
-            <a href="#">
-              <li>
-                <img src="/img/clube/kit-do-mes/kit-do-mes-02.png" />
-              </li>
-            </a>
-
         </ul>
-
       </div>
-
     </div>
 
     <div class="clube-single-bottom">
       <div class="clube-single-text">
         <h3>Descrição</h3>
-        <p>
-          O Smowee em parceria com a <a href="#">Royal Puff</a>, vem com a proposta de melhorar a sua experiência com  produtos de tabacaria, entrega e maneira que você realiza a compra.
+        <p class="text-muted">O <b class="yellow">Kit Salva Noixxx</b> conta com produtos de tabacarias pensados em suprir suas necessidades mensais em acessórios, deixando você preocupado com o que realmente importa: <b>Relaxar e curtir a Brisa</b>. Nossa equipe em parceria com a <a target="_blank" href="http://www.ultra420.com.br">Ultra420</a> está sempre atenta no mercado de acessórios buscando todo mês os melhores produtos e novidades no mercado para te entregar no conforto da sua casa. </p>
+        <p class="yellow"><b class="yellow">A cada 02 meses um item surpresa será enviado junto com seu kit, e o melhor é de GRAÇA!</b></p>
+      </div>
 
-        </p>
-        </div>
-        <div class="clube-single-text"><h3>Como funcionará?</h3>
-        <p>
-          Os assinantes irão receber, na porta de casa, uma caixa discreta e recheada com acessórios que ao abrir terá a sensação de todo mês ser presenteado, além de sempre contém um item surpresa.
+      <div class="clube-single-text"><h3>Como funcionará?</h3>
+        <p>Os Smoweers interessados irão receber na porta da sua casa, ou o local que preferir, uma caixa com os principais produtos de uso diário que todo “maconhista” tem que ter, assim você nunca mais deixará de aproveitar seu momento 420 com os amigos ou sozinho.</p>
+        <p><b class="yellow">E pode ficar despreocupado que todo nosso serviço é realizado de maneira discreta e ágil.</b></p>
+        <p>Obs: Esse serviço está disponível somente para a Cidade de São Paulo, por enquanto.</p>
+      </div>
 
-        </p>
-        <p>
-          Obs: Esse serviço está disponível somente para a Cidade de São Paulo, por enquanto.
+      <div class="clube-single-text">
+        <h3>Contém:</h3>
+        <ul>
+          <li>
+            <p>
+              3 Sedas Slim Ultra420 Brown
+            </p>
+          </li>
 
-        </p></div>
+          <li>
+            <p>
+              1 pct piteira (100 unid)
+            </p>
+          </li>
 
-          <div class="clube-single-text">
-            <h3>Contém:</h3>
-            <ul>
-              <li>
-                <p>
-                    3 Sedas King Size
-                </p>
+          <li>
+            <p>
+              1 Isqueiro pequeno
+            </p>
+          </li>
+          <li>
+            <p>
+              1 Seda de Metro
+            </p>
+          </li>
 
-              </li>
-              <li>
-                <p>
-                  1 pacote de piteiras (100 unidades)
-                </p>
+          <li>
+            <p>
+              1 Cerveja Artesanal
+            </p>
+          </li>
 
-              </li>
-              <li>
-                <p>
-                  1 Item Surpresa
-                </p>
+          <li>
+            <p>
+              Adesivos
+            </p>
+          </li>
 
-              </li>
-              <li>
-                <p>
-                  1 Larica
-                </p>
+          <li>
+            <p>
+              Cupom de Desconto Loja Ultra420;
+            </p>
+          </li>
+        </ul>
 
-              </li>
-              <li>
-                <p>
-                  Adesivos
-                </p>
-
-              </li>
-            </ul>
-
-          </div>
-
-
-
+      </div>
 
       <div class="clube-single-steps">
         <h3>Passo a Passo</h3>
         <div class="clube-single-steps-list">
-<div style="background-color: #f7614a" id="number-1" class="steps-number">
-<span><img src="/img/clube/step-01.png" /></span>
-</div>
+          <div style="background-color: #f7614a" id="number-1" class="steps-number">
+            <span>
+              <img src="/img/clube/step-01.png" />
+            </span>
+          </div>
 
-<div class="steps-text">
-
-  Cadastre-se no formulário ao lado preenchendo todos os dados corretamente.
-
-</div>
+          <div class="steps-text">Faça a sua solicitação através do nosso formulário preenchendo todos os dados corretamente.</div>
         </div>
 
         <div class="clube-single-steps-list">
           <div style="background-color: #10898b" id="number-2" class="steps-number">
-          <span><img src="/img/clube/step-02.png" /></span>
+            <span>
+              <img src="/img/clube/step-02.png">
+            </span>
           </div>
 
-<div class="steps-text">
-
-  Assim que preencher tudo, clique em ENVIAR. Aguarde o e-mail com o link para a página de pagamento.
-</div>
+          <div class="steps-text">Assim que preencher, clique em ENVIAR. Depois é só aguardar o e-mail com o link de pagamento e as informações sobre planos e vantagens.</div>
         </div>
 
         <div class="clube-single-steps-list">
           <div style="background-color: #5c65c0" id="number-3" class="steps-number">
-          <span><img src="/img/clube/step-03.png" /></span>
+            <span>
+              <img src="/img/clube/step-03.png" />
+            </span>
           </div>
 
-    <div class="steps-text">
-
-      PRONTO! Assim que finalizar sua compra, aguarde o produto chegar até sua casa.
-
-    </div>
+          <div class="steps-text">PRONTO! Após escolher as vantagens e finalizar sua compra, aguarde o produto chegar até sua casa.</div>
         </div>
       </div>
     </div>
-
-
-
-
   </div>
 
   <div class="clube-de-beneficios-side">
@@ -165,21 +144,21 @@
         </div>
 
         <div class="clube-exit">
-          <button type="submit" class="btn btn-xl">Alterar Dados</button>
+          <!-- <button type="submit" class="btn btn-xl">Alterar Dados</button> -->
           <button type="submit" class="btn btn-xl">Sair</button>
         </div>
     </div>
     <div id="clube-side-product" class="clube-side-caption valor"><h3>
-      Valor:
+      <!-- Valor: -->
     </h3>
     <p class="yellow">
-      R$ 50,00
+      <!-- R$ 50,00 -->
     </p>
   </div>
 
     <div id="clube-side-product" class="clube-side-caption">
       <h3 class="section-heading ">Compre agora!</h2>
-      <p>Adquira o <span class="yellow">Kit do Mês</span> se cadastrando abaixo:</p>
+      <p>Adquira o <span class="yellow">Kit – Salva Noixxx</span> se cadastrando abaixo:</p>
       <form name="sentMessage" id="contactForm" novalidate>
         <div class="row">
           <div class="clube-de-beneficios-side-form-grid">
@@ -200,20 +179,21 @@
               <p class="help-block text-danger"></p>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Cidade *" id="cidade" required data-validation-required-message="Por favor insira sua data de nascimento.">
+              <input type="text" class="form-control" placeholder="Cidade *" id="cidade" required data-validation-required-message="Por favor insira sua cidade.">
               <p class="help-block text-danger"></p>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Data de Nascimento *" id="estado" required data-validation-required-message="Por favor insira sua data de nascimento.">
+              <input type="text" class="form-control" placeholder="Estado *" id="estado" required data-validation-required-message="Por favor insira seu estado.">
               <p class="help-block text-danger"></p>
             </div>
             <div class="form-group">
               <input type="number" class="form-control" placeholder="CPF *" id="cpf" required data-validation-required-message="Por favor insira seu CPF.">
               <p class="help-block text-danger"></p>
             </div>
-
           </div>
+
           <div class="clearfix"></div>
+
           <div class="col-lg-12 text-center">
             <div id="success"></div>
             <button type="submit" class="btn btn-xl">Cadastrar</button>
