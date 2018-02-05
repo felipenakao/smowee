@@ -74,7 +74,7 @@
           <p>
             <b>Não vai lesar e ficar de fora dessa nova marola que está vindo!</b>
           </p>
-        <form name="sentMessage" id="cadastroclube" novalidate>
+        <form name="sentMessage" id="cadastroclube" method="POST" action="{{ route('register') }}">
           {{ csrf_field() }}
           <div class="row">
             <div class="clube-de-beneficios-side-form-grid">
