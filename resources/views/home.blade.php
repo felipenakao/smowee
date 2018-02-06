@@ -169,8 +169,8 @@
             <img src="/img/clube/about/clube-about-01.jpg" class="img-responsive" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Smowee Club</h4>
-            <p class="text-muted">O Clube de Benefícios Smowee é voltado para o usuário do Mundo Cannábico, onde reunimos os melhores serviços relacionados a nossa comunidade em um só lugar. Através de parcerias selecionadas, nossa proposta é trazer um novo conceito e juntar a galera 420.</p>
+            <h4>Clube Smowee</h4>
+            <p class="text-muted">O Clube Smowee é um clube de benefícios voltado para o usuário do Mundo Cannábico, onde reunimos os melhores serviços relacionados a nossa comunidade em um só lugar. Através de parcerias selecionadas, nossa proposta é trazer um novo conceito e juntar a galera 420.</p>
           </div>
         </div>
 
