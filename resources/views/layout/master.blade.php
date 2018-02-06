@@ -39,8 +39,6 @@
       <!-- Theme CSS -->
       <link href="/css/smowee.css" rel="stylesheet">
       <link href="/css/news.css" rel="stylesheet">
-      <link href="/css/sorteio.css" rel="stylesheet">
-
 
   </head>
 

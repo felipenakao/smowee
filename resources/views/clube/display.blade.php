@@ -12,11 +12,11 @@
     <div class="clube-slider">
       <div id="clube-carousel" class="carousel slide" data-ride="carousel">
         <!-- Slides -->
-        <ol class="carousel-indicators">
+        <!-- <ol class="carousel-indicators">
           <li data-target="#clube-carousel" data-slide-to="0" class="active"></li>
           <li data-target="#clube-carousel" data-slide-to="1"></li>
           <li data-target="#clube-carousel" data-slide-to="2"></li>
-        </ol>
+        </ol> -->
         <!-- Slides -->
         <div class="carousel-inner">
           <a href="/sorteio">
@@ -26,7 +26,7 @@
           </a>
         </div>
 
-        <a class="left carousel-control" href="#clube-carousel" data-slide="prev">
+        <!-- <a class="left carousel-control" href="#clube-carousel" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
           <span class="sr-only">Anterior</span>
         </a>
@@ -34,7 +34,7 @@
         <a class="right carousel-control" href="#clube-carousel" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right"></span>
           <span class="sr-only">Próximo</span>
-        </a>
+        </a> -->
       </div>
     </div>
   </div>
