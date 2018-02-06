@@ -39,7 +39,6 @@
       <!-- Theme CSS -->
       <link href="/css/smowee.css" rel="stylesheet">
       <link href="/css/news.css" rel="stylesheet">
-      
   </head>
   <!-- Facebook Comments -->
   <div id="fb-root"></div>

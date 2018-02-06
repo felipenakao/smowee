@@ -3,7 +3,6 @@
 @font-face {
   font-family: 'Bebas Neue';
   font-style: normal;
-  font-weight: normal;
   src: local('Bebas Neue'), url('../fonts/BebasNeue.woff') format('woff');
 }
 
@@ -12,6 +11,7 @@
 body {
   margin:0;
   font-family: 'Bebas Neue';
+  letter-spacing: 2px;
 }
 
 a {
@@ -221,7 +221,7 @@ footer{
 
   .footer-grid {
     flex-direction: row;
-    max-width: 1024px;
+    max-width: 1200px;
     margin: auto;
   }
 
@@ -397,6 +397,10 @@ footer{
   line-height: 18pt;
 }
 
+.sorteio-clube h4{
+  font-size: 18pt;
+}
+
 small {
   font-weight: 100;
 }
@@ -452,8 +456,9 @@ small {
   color: white;
   text-align: center;
   margin: 15px auto 30px;
-  font-weight: 400;
-  padding: 0px 30px
+  font-weight: 300;
+  padding: 0px 30px;
+  line-height: 22pt;
 }
 
 .sorteio-clube-item {

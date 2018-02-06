@@ -80,7 +80,7 @@
                 <span class="passo-titulo">SIGA</span>
                 <br>
                 <span>o</span>
-                <a target="_blank" href="http://instagram.com/smoweeoficial">instagram da smowee</a>
+                <a target="_blank" href="https://www.instagram.com/smowee/">instagram da smowee</a>
                 <br>
                 <small>* Não será aceito perfil comercial</small>
               </div>
@@ -163,7 +163,7 @@
     </footer>
   </body>
   <!-- Plugin JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
   <script>
