@@ -80,7 +80,7 @@
                 <span class="passo-titulo">SIGA</span>
                 <br>
                 <span>o</span>
-                <a target="_blank" href="http://instagram.com/smoweeoficial">instagram da smowee</a>
+                <a target="_blank" href="http://instagram.com/smowee">instagram da smowee</a>
                 <br>
                 <small>* Não será aceito perfil comercial</small>
               </div>
